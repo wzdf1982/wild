@@ -12,8 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.mobile.min
-//= require turbolinks
+//=  require jquery.mobile.min
 //= require_tree .
 
 
@@ -39,4 +38,3 @@ var ready = function(){
 }
 
 $(document).ready(ready)
-$(document).on('page:load', ready)

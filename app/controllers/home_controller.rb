@@ -7,7 +7,7 @@ class HomeController < ApplicationController
   end
 
   def register
-    if !User.where(name: params['UserCode']).empty? || User.new(name: params['UserCode']).save
+    if !User.where(name: params['UserCode'].upcase).empty? || User.new(name: params['UserCode']).save
       session[:user] = params['UserCode']
     end
 

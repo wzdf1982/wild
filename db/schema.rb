@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130928000639) do
+ActiveRecord::Schema.define(version: 20130928235306) do
+
+  create_table "activities", force: true do |t|
+    t.string   "title"
+    t.datetime "start_time"
+    t.datetime "stop_time"
+    t.string   "room"
+    t.text     "abstract"
+    t.integer  "column_span"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "row_span"
+    t.string   "background_color"
+  end
 
   create_table "admins", force: true do |t|
     t.string   "email",                  default: "", null: false

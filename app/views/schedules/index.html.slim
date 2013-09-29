@@ -1,2 +1,47 @@
-h1 Schedules#index
-p Find me in app/views/schedules/index.html.slim
+table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%"
+  tr
+    td height="100%" valign="top"
+      table border="0" cellpadding="0" cellspacing="0" height="100%" width="600"
+        tr
+          td valign="middle"
+            table background="assets/ColorLine.png" border="0" cellpadding="0" cellspacing="0" height="4" width="100%"
+            table background="assets/bgTopBanner.png" border="0" cellpadding="0" cellspacing="0" height="55" width="100%"
+              tr
+                td align="left" valign="middle" width="35%"
+                  a.ui-btn-left data-ajax="false" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="."
+                    | Back
+                td align="center" valign="middle" width="30%"
+                  span style="color: #000000;font-size: 15px;"
+                    strong Schedule
+                td align="right" valign="middle" width="35%"
+        tr
+          td valign="middle"
+            table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+              tr
+                td
+                  table bgcolor="#ececec" border="0" cellpadding="2" cellspacing="1" width="600"
+                    - for group in @groups do
+                      tr
+                        td valign="top" width="3%"
+	                        = group.first.start_time.strftime("%H:%M")
+                        - for active in group do
+	                        td colspan=active.column_span height="100%" rowspan ="2" valign="top" width = (0.97 * (1/group.size))
+	                          table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='Agenda.asp?ID=1';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#66b9ff; box-shadow:1px 1px 3px #666; width:100%; height: 100%"
+	                            tr
+	                              td title = active.title valign="top"
+	                                span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+	                                  | Test
+	                            tr
+	                              td title = active.room valign="top"
+	                                span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+	                                  | tt
+                      tr
+                        td valign="bottom" width="3%"
+
+        tr
+          td height="100%" valign="bottom"
+            table align="center" border="0" cellpadding="0" cellspacing="0" width="90%"
+              tr
+                td
+                  table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                    tr <td style="font-size:11px; color:#666666" height="'1"">
