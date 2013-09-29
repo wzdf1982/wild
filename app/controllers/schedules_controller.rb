@@ -8,4 +8,8 @@ class SchedulesController < ApplicationController
 
     @max_column_span = Activity.all.select('column_span').max.column_span
   end
+
+  def show
+    @active = Activity.find(params[:id])
+  end
 end
