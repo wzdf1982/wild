@@ -20,7 +20,18 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
               tr
                 td
                   table bgcolor="#ececec" border="0" cellpadding="2" cellspacing="1" padding="2" width="100%"
+                    - date = ''
                     - for group in @groups do
+                      - if date != group.first.start_time.to_date
+                        - date = group.first.start_time.to_date
+                        tr
+                          td colspan= @max_column_span 
+                            table border="0" cellpadding="0" cellspacing="0" style="margin:10px 0px 10px 0px;background:#dddbdb;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:5px 10px;font-weight:bold;" width="100%"
+                              tbody
+                                tr
+                                  td width="4%"
+                                  td width="96%"
+                                    = date.strftime("%Y-%m-%d")
                       tr
                         td valign="top" width="3%"
                           = group.first.start_time.strftime("%H:%M")
