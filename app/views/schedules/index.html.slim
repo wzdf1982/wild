@@ -1,61 +1,82 @@
-table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%" width="600"
-  tr
-    td height="100%" valign="top"
-      table border="0" cellpadding="0" cellspacing="0" height="100%" width="600"
-        tr
-          td valign="middle"
-            table background="assets/ColorLine.png" border="0" cellpadding="0" cellspacing="0" height="4" width="100%"
-            table background="assets/bgTopBanner.png" border="0" cellpadding="0" cellspacing="0" height="55" width="100%"
-              tr
-                td align="left" valign="middle" width="92"
-                  a.ui-btn-left data-ajax="false" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="."
-                    | Back
-                td align="center" valign="middle" width="420"
-                  span style="color: #000000;font-size: 15px;"
-                    strong Schedule
-                td align="right" valign="middle" width="92"
-        tr
-          td valign="middle"
-            table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
-              tr
-                td
-                  table bgcolor="#ececec" border="0" cellpadding="2" cellspacing="1" padding="2" width="100%" min-width="600"
-                    - date = ''
-                    - i = 0
-                    - for group in @groups do
-                      - if date != group.first.start_time.to_date
-                        - date = group.first.start_time.to_date
-                        - i = i + 1
-                        tr
-                          td colspan= @max_column_span
-                            table border="0" cellpadding="0" cellspacing="0" style="margin:10px 0px 10px 0px;background:#dddbdb;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:5px 10px;font-weight:bold;" width="100%"
-                              tbody
+#wrapper
+  table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%" width="630"
+    tr
+      td height="100%" valign="top"
+        table border="0" cellpadding="0" cellspacing="0" height="100%" width="630"
+          tr
+            td valign="middle"
+              table background="assets/ColorLine.png" border="0" cellpadding="0" cellspacing="0" height="4" width="100%"
+              table background="assets/bgTopBanner.png" border="0" cellpadding="0" cellspacing="0" height="55" width="100%"
+                tr
+                  td align="left" valign="middle" width="35%"
+                    a.ui-btn-left data-ajax="false" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="."
+                      | Back
+                  td align="center" valign="middle" width="30%"
+                    span style="color: #000000;font-size: 15px;"
+                      strong Schedule
+                  td align="right" valign="middle" width="35%"
+          tr
+            td valign="middle"
+              table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                tr
+                  td
+                    table bgcolor="#ececec" border="0" cellpadding="2" cellspacing="1" width="630"
+                      - date = ''
+                      - i = 0
+                      - for group in @groups do
+                        - if date != group.first.start_time.to_date
+                          - date = group.first.start_time.to_date
+                          - i = i + 1
+                          tr
+                            td colspan= "#{@max_column_span + 1}"
+                              table border="0" cellpadding="0" cellspacing="0" style="margin:10px 0px 10px 0px;background:#dddbdb;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:5px 10px;font-weight:bold;" width="100%"
                                 tr
-                                  td width="4%"
-                                  td width="96%"
+                                  td width="25"
+                                  td width="572"
                                     = 'Day ' + i.to_s + '  ' + date.strftime("%Y-%m-%d")
-                      tr
-                        td valign="top" width="3%"
-                          = group.first.start_time.strftime("%H:%M")
-                        - for active in group do
-                          td colspan= active.column_span height="100%" valign="top" width = number_to_percentage(97 * (1.0 / group.size))
-                            table border="0" width="100%" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#{active.background_color};" class="activity"
-                              tr
-                                td title = active.title valign="top"
-                                  span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
-                                    = active.title
-                              - unless active.room.empty?
-                                tr
-                                  td title = active.room valign="top"
-                                    span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
-                                      = active.room
-                      tr
-                        td valign="bottom" width="3%"
-
-        tr
-          td height="100%" valign="bottom"
-            table align="center" border="0" cellpadding="0" cellspacing="0" width="90%"
-              tr
-                td
-                  table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
-                    tr <td style="font-size:11px; color:#666666" height="'1"">
+                        tr
+                          td valign="top" width="3%"
+                            = group.first.start_time.strftime("%H:%M")
+                          - for active in group do
+                            - if active.speakers.empty? && !active.room.empty?
+                              td colspan= @max_column_span height="100%" rowspan="2" valign="top" width="97%"
+                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#66b9ff; box-shadow:1px 1px 3px #666; width:100%; height: 100%"
+                                  tr
+                                    td title= active.title valign="top"
+                                      span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+                                        = active.title
+                                  tr
+                                    td title= active.room valign="top"
+                                      span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+                                        = active.room
+                            
+                            - elsif active.speakers.empty? && active.room.empty?     
+                              td colspan= @max_column_span valign="top" width="97%"
+                                table border="0" style="margin:5px 0px 5px 0px;background:#dddbdb;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:2px 1px;font-weight:bold;" width="100%"
+                                  tr bgcolor="#dddbdb"
+                                    td valign="middle"
+                                      span style="color:#FFFFFF"
+                                        = active.title
+                            - else    
+                              td height="100%" rowspan="2" valign="top" width= number_to_percentage(97 * (1.0 / group.size))
+                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#ececec; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
+                                  tr
+                                    td height="54" title= active.title valign="top"
+                                      span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+                                        = active.title[0,29]
+                                  tr
+                                    td height="100%" title= active.room valign="top"
+                                      span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+                                        = active.room
+                               
+                          tr
+                            td valign="bottom" width="3%"
+                   
+                    
+          tr
+            td height="100%" valign="bottom"
+              table align="center" border="0" cellpadding="0" cellspacing="0" width="90%"
+                tr
+                  td
+                    table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                      tr <td style="font-size:11px; color:#666666" height="'1"">&nbsp;

@@ -13,5 +13,19 @@ margin:2px 0px 2px 0px;
 display: inline-block;
 overflow: hidden;
 position: relative;
-height: 58px;
+height: 80px;
+width: 90px;
+}
+
+.no_activity { 
+  margin:5px 0px 5px 0px;
+  background:#dddbdb;
+  border-top:1px solid #d0cfcf;
+  border-bottom:1px solid #d0cfcf;
+  padding:2px 1px;
+  font-weight:bold;
+}
+
+#wrapper {
+ overflow-x:scroll;
 }
