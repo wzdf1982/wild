@@ -1,0 +1,16 @@
+td height="100%" valign="top"
+  - date = ''
+  - activities.each do |active|
+    ul data-role="listview" data-theme="d" data-divider-theme="d" class="ui-listview"
+      - if date != active.start_time
+        li data-role="list-divider" role="heading" class="ui-li ui-li-divider ui-bar-d"
+          = active.start_time.strftime("%Y-%m-%d %H:%M")
+          - date = active.start_time
+      li data-corners="false" data-shadow="false" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="d" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-d"
+        div class="ui-btn-inner ui-li"
+          div class="ui-btn-text"
+            a href= feedback_path(active) class="ui-link-inherit"
+              h3 class="ui-li-heading"
+                = active.title
+
+

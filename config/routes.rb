@@ -15,4 +15,5 @@ AgileConf::Application.routes.draw do
   end
 
   resources :schedules
+  resources :feedbacks
 end
