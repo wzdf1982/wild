@@ -1,0 +1,1535 @@
+[2013-10-02 08:41:24] INFO  WEBrick 1.3.1
+[2013-10-02 08:41:24] INFO  ruby 2.0.0 (2013-06-27) [x86_64-linux]
+[2013-10-02 08:41:24] INFO  WEBrick::HTTPServer#start: pid=21607 port=3000
+=> Booting WEBrick
+=> Rails 4.0.0 application starting in development on http://0.0.0.0:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+
+
+Started GET "/" for 140.206.241.80 at 2013-10-02 08:41:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.slim within layouts/application (86.3ms)
+Completed 200 OK in 239ms (Views: 209.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:30 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:30 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:30 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:30 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:30 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:30 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/menuInformation.png" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/menuSchedule.png" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/menuFeedback.png" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/menuQuestion.png" for 140.206.241.80 at 2013-10-02 08:41:31 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:32 +0000
+
+
+Started GET "/assets/ColorLine.png" for 140.206.241.80 at 2013-10-02 08:41:32 +0000
+
+
+Started GET "/assets/bgTopBanner.png" for 140.206.241.80 at 2013-10-02 08:41:32 +0000
+
+
+Started GET "/" for 140.206.241.80 at 2013-10-02 08:41:44 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.slim within layouts/application (4.9ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:41:45 +0000
+
+
+Started GET "/assets/menuFeedback.png" for 140.206.241.80 at 2013-10-02 08:41:46 +0000
+
+
+Started GET "/assets/menuSchedule.png" for 140.206.241.80 at 2013-10-02 08:41:46 +0000
+
+
+Started GET "/assets/menuInformation.png" for 140.206.241.80 at 2013-10-02 08:41:46 +0000
+
+
+Started GET "/assets/menuQuestion.png" for 140.206.241.80 at 2013-10-02 08:41:46 +0000
+
+
+Started GET "/assets/ColorLine.png" for 140.206.241.80 at 2013-10-02 08:41:46 +0000
+
+
+Started GET "/assets/bgTopBanner.png" for 140.206.241.80 at 2013-10-02 08:41:46 +0000
+
+
+Started GET "/logout" for 140.206.241.80 at 2013-10-02 08:46:51 +0000
+Processing by HomeController#logout as HTML
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 140.206.241.80 at 2013-10-02 08:46:52 +0000
+Processing by HomeController#login as HTML
+  Rendered home/login.html.slim within layouts/application (40.8ms)
+Completed 200 OK in 77ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:46:52 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:46:52 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:46:52 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:46:52 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:46:52 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:46:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/e3Logo.png" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started GET "/assets/TitleNew.png" for 140.206.241.80 at 2013-10-02 08:46:53 +0000
+
+
+Started POST "/register" for 140.206.241.80 at 2013-10-02 08:46:59 +0000
+Processing by HomeController#register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+y5OflfIowdx1dGEQim+yeFrhzg3SLym01NdxrqkcLM=", "UserCode"=>"EDINZHO", "Submit"=>"LOGIN"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."name" = 'EDINZHO'
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'EDINZHO' ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/
+Completed 302 Found in 50ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 140.206.241.80 at 2013-10-02 08:46:59 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.slim within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/menuSchedule.png" for 140.206.241.80 at 2013-10-02 08:47:00 +0000
+
+
+Started GET "/assets/menuInformation.png" for 140.206.241.80 at 2013-10-02 08:47:01 +0000
+
+
+Started GET "/assets/menuQuestion.png" for 140.206.241.80 at 2013-10-02 08:47:01 +0000
+
+
+Started GET "/assets/menuFeedback.png" for 140.206.241.80 at 2013-10-02 08:47:01 +0000
+
+
+Started GET "/assets/bgTopBanner.png" for 140.206.241.80 at 2013-10-02 08:47:01 +0000
+
+
+Started GET "/assets/ColorLine.png" for 140.206.241.80 at 2013-10-02 08:47:01 +0000
+
+
+Started GET "/admin" for 140.206.241.80 at 2013-10-02 08:47:09 +0000
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 401 Unauthorized in 34ms
+
+
+Started GET "/admins/sign_in" for 140.206.241.80 at 2013-10-02 08:47:10 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.0/app/views/devise/shared/_links.erb (2.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.0/app/views/devise/sessions/new.html.erb within layouts/application (47.3ms)
+Completed 200 OK in 207ms (Views: 88.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:11 +0000
+
+
+Started POST "/admins/sign_in" for 140.206.241.80 at 2013-10-02 08:47:23 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+y5OflfIowdx1dGEQim+yeFrhzg3SLym01NdxrqkcLM=", "admin"=>{"email"=>"dingjun.zhou@ericsson.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mAdmin Load (0.4ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."email" = 'dingjun.zhou@ericsson.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `current_sign_in_ip`
+  [1m[35mSQL (16.7ms)[0m  UPDATE "admins" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admins"."id" = 1  [["last_sign_in_at", Mon, 30 Sep 2013 09:20:25 UTC +00:00], ["current_sign_in_at", Wed, 02 Oct 2013 08:47:23 UTC +00:00], ["last_sign_in_ip", "61.200.23.228"], ["current_sign_in_ip", "140.206.241.80"], ["sign_in_count", 5], ["updated_at", Wed, 02 Oct 2013 08:47:23 UTC +00:00]]
+  [1m[36m (13.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/admin/
+Completed 302 Found in 354ms (ActiveRecord: 30.9ms)
+
+
+Started GET "/admin/" for 140.206.241.80 at 2013-10-02 08:47:23 +0000
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35mAdmin Load (0.4ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  [1m[35mActivity Load (0.5ms)[0m  SELECT "activities".* FROM "activities" ORDER BY activities.updated_at desc LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "admins"[0m
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" ORDER BY admins.updated_at desc LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "answers"[0m
+  [1m[35mAnswer Load (0.9ms)[0m  SELECT "answers".* FROM "answers" ORDER BY answers.updated_at desc LIMIT 1
+  [1m[36m (15.9ms)[0m  [1mSELECT COUNT(*) FROM "feedbacks"[0m
+  [1m[35mFeedback Load (0.3ms)[0m  SELECT "feedbacks".* FROM "feedbacks" ORDER BY feedbacks.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "questions"[0m
+  [1m[35mQuestion Load (0.5ms)[0m  SELECT "questions".* FROM "questions" ORDER BY questions.updated_at desc LIMIT 1
+  [1m[36m (3.5ms)[0m  [1mSELECT COUNT(*) FROM "responses"[0m
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" ORDER BY responses.updated_at desc LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" ORDER BY users.updated_at desc LIMIT 1
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (106.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (12.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/layouts/rails_admin/pjax.html.haml (7.2ms)
+Completed 200 OK in 1673ms (Views: 1229.4ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/admins/" for 140.206.241.80 at 2013-10-02 08:47:30 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"s"}
+  [1m[36mAdmin Load (8.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+[RailsAdmin] Could not load model S, assuming model is non existing. (uninitialized constant S)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY activities.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "admins"
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" ORDER BY admins.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "answers"
+  [1m[36mAnswer Load (9.0ms)[0m  [1mSELECT "answers".* FROM "answers" ORDER BY answers.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "feedbacks"
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" ORDER BY feedbacks.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "questions"
+  [1m[36mQuestion Load (0.4ms)[0m  [1mSELECT "questions".* FROM "questions" ORDER BY questions.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "responses"
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" ORDER BY responses.updated_at desc LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY users.updated_at desc LIMIT 1[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (90.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (6.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/layouts/rails_admin/pjax.html.haml (3.3ms)
+Completed 404 Not Found in 314ms (Views: 264.1ms | ActiveRecord: 20.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:31 +0000
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:32 +0000
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:33 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 140.206.241.80 at 2013-10-02 08:47:34 +0000
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:47:39 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mFeedback Load (0.3ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 12]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 9]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 8]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 7]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 6]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 5]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 4]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 3]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mFeedback Load (4.4ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 2]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 1]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (3.8ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (550.8ms)
+Completed 404 Not Found in 603ms (Views: 571.2ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/admin/user" for 140.206.241.80 at 2013-10-02 08:47:40 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"user"}
+  [1m[36mAdmin Load (2.6ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 12]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 9]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 8]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 7]]
+  [1m[36mFeedback Load (1.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 6]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 5]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 4]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 3]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 2]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (282.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/layouts/rails_admin/pjax.html.haml (9.1ms)
+Completed 200 OK in 364ms (Views: 342.8ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:41 +0000
+
+
+Started GET "/assets/rails_admin/rails_admin.css?body=1" for 140.206.241.80 at 2013-10-02 08:47:41 +0000
+
+
+Started GET "/assets/rails_admin/jquery.remotipart.fixed.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:41 +0000
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:41 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:41 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/jquery.ui.timepicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/ra.remote-form.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:42 +0000
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/rails_admin/ui.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 140.206.241.80 at 2013-10-02 08:47:43 +0000
+
+
+Started GET "/logout" for 140.206.241.80 at 2013-10-02 08:48:03 +0000
+Processing by HomeController#logout as HTML
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 140.206.241.80 at 2013-10-02 08:48:04 +0000
+Processing by HomeController#login as HTML
+  Rendered home/login.html.slim within layouts/application (7.6ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:04 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:04 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:04 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:04 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/TitleNew.png" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started GET "/assets/e3Logo.png" for 140.206.241.80 at 2013-10-02 08:48:05 +0000
+
+
+Started POST "/register" for 140.206.241.80 at 2013-10-02 08:48:10 +0000
+Processing by HomeController#register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kAnGpQ86MpkeeFCr2/qZVzaUKq4++0VPIp2HhtPd1ms=", "UserCode"=>"EDINZHO", "Submit"=>"LOGIN"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."name" = 'EDINZHO'
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'EDINZHO' ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 140.206.241.80 at 2013-10-02 08:48:10 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.slim within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:11 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/menuFeedback.png" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/menuSchedule.png" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/menuQuestion.png" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/menuInformation.png" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/bgTopBanner.png" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/assets/ColorLine.png" for 140.206.241.80 at 2013-10-02 08:48:12 +0000
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:16 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 12]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 9]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 8]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mFeedback Load (1.3ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 7]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 6]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 5]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 4]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 3]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 2]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 1]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (250.3ms)
+Completed 200 OK in 295ms (Views: 283.6ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:17 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 12]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 9]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 8]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 7]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 6]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 5]]
+  [1m[36mFeedback Load (2.9ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 4]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 3]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 2]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (357.0ms)
+Completed 200 OK in 393ms (Views: 377.2ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:20 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 12]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 9]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 8]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 7]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 6]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 5]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 4]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 3]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 2]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 1]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (214.7ms)
+Completed 200 OK in 261ms (Views: 238.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:22 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 12]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 9]]
+  [1m[36mFeedback Load (0.3ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mResponse Load (1.3ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 8]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 7]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 6]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 5]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 4]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 3]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 2]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (340.1ms)
+Completed 200 OK in 384ms (Views: 366.3ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:23 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mFeedback Load (2.4ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 12]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 9]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 8]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 7]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mFeedback Load (0.9ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 6]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mFeedback Load (1.4ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 5]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 4]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 3]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 2]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 1]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (235.8ms)
+Completed 200 OK in 372ms (Views: 351.5ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/admin/response?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:27 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"response"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" ORDER BY responses.id desc LIMIT 20 OFFSET 0
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (5)[0m
+  [1m[35mAnswer Load (0.2ms)[0m  SELECT "answers".* FROM "answers" WHERE "answers"."id" IN (34320, 34299, 34289, 34297, 34294, 34292, 34286, 34282)
+  [1m[36mQuestion Load (3.8ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" IN (7086, 7079, 7075, 7078, 7077, 7076, 7074, 7073)[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "responses"
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (210.5ms)
+Completed 200 OK in 258ms (Views: 227.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:29 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 12]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 9]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 8]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 7]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 6]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 5]]
+  [1m[36mFeedback Load (0.7ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 4]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 3]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 2]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (322.3ms)
+Completed 200 OK in 352ms (Views: 343.0ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/logout" for 140.206.241.80 at 2013-10-02 08:48:34 +0000
+Processing by HomeController#logout as HTML
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 140.206.241.80 at 2013-10-02 08:48:34 +0000
+Processing by HomeController#login as HTML
+  Rendered home/login.html.slim within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:34 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:34 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:34 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:34 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:34 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/e3Logo.png" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started GET "/assets/TitleNew.png" for 140.206.241.80 at 2013-10-02 08:48:35 +0000
+
+
+Started POST "/register" for 140.206.241.80 at 2013-10-02 08:48:43 +0000
+Processing by HomeController#register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kAnGpQ86MpkeeFCr2/qZVzaUKq4++0VPIp2HhtPd1ms=", "UserCode"=>"JIJICQ", "Submit"=>"LOGIN"}
+  [1m[35m (6.0ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."name" = 'JIJICQ'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 02 Oct 2013 08:48:43 UTC +00:00], ["name", "JIJICQ"], ["updated_at", Wed, 02 Oct 2013 08:48:43 UTC +00:00]]
+  [1m[36m (119.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'JIJICQ' ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/
+Completed 302 Found in 149ms (ActiveRecord: 126.7ms)
+
+
+Started GET "/" for 140.206.241.80 at 2013-10-02 08:48:43 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.slim within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:44 +0000
+
+
+Started GET "/assets/menuInformation.png" for 140.206.241.80 at 2013-10-02 08:48:45 +0000
+
+
+Started GET "/assets/menuFeedback.png" for 140.206.241.80 at 2013-10-02 08:48:45 +0000
+
+
+Started GET "/assets/menuSchedule.png" for 140.206.241.80 at 2013-10-02 08:48:45 +0000
+
+
+Started GET "/assets/menuQuestion.png" for 140.206.241.80 at 2013-10-02 08:48:45 +0000
+
+
+Started GET "/assets/ColorLine.png" for 140.206.241.80 at 2013-10-02 08:48:45 +0000
+
+
+Started GET "/assets/bgTopBanner.png" for 140.206.241.80 at 2013-10-02 08:48:45 +0000
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:48:49 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 13]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 13]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 12]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 9]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 8]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 7]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 6]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 5]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 4]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 3]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 2]]
+  [1m[36mFeedback Load (0.1ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (213.1ms)
+Completed 200 OK in 336ms (Views: 319.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/logout" for 140.206.241.80 at 2013-10-02 08:48:54 +0000
+Processing by HomeController#logout as HTML
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+Processing by HomeController#login as HTML
+  Rendered home/login.html.slim within layouts/application (99.3ms)
+Completed 200 OK in 121ms (Views: 120.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:55 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started GET "/assets/e3Logo.png" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started GET "/assets/TitleNew.png" for 140.206.241.80 at 2013-10-02 08:48:56 +0000
+
+
+Started POST "/register" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+Processing by HomeController#register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kAnGpQ86MpkeeFCr2/qZVzaUKq4++0VPIp2HhtPd1ms=", "UserCode"=>"EDINZHO", "Submit"=>"LOGIN"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."name" = 'EDINZHO'
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'EDINZHO' ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://zipline-32497.apne1.actionbox.io:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.slim within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/feedbacks.css?body=1" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+
+
+Started GET "/assets/home.css?body=1" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+
+
+Started GET "/assets/questions.css?body=1" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+
+
+Started GET "/assets/responses.css?body=1" for 140.206.241.80 at 2013-10-02 08:49:02 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/home.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/questions.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/infos.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/responses.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/schedules.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/menuQuestion.png" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/menuInformation.png" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/menuFeedback.png" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/menuSchedule.png" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/bgTopBanner.png" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/assets/ColorLine.png" for 140.206.241.80 at 2013-10-02 08:49:03 +0000
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:49:06 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[35mAdmin Load (0.3ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 13]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 13]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 12]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 9]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 8]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 7]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mFeedback Load (8.3ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 6]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 5]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mFeedback Load (0.2ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 4]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 3]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mFeedback Load (0.1ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 2]]
+  [1m[36mResponse Load (0.1ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mFeedback Load (2.9ms)[0m  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?  [["user_id", 1]]
+  [1m[36mResponse Load (0.2ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users"
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (298.0ms)
+Completed 200 OK in 339ms (Views: 312.1ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 140.206.241.80 at 2013-10-02 08:49:09 +0000
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mAdmin Load (0.4ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."id" = 1 ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users" ORDER BY users.id desc LIMIT 20 OFFSET 0
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 13]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 13]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 12]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 12]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 9]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 9]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 8]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 8]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 7]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 7]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 6]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 5]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 4]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35mResponse Load (0.2ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 3]]
+  [1m[36mFeedback Load (0.2ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 2]]
+  [1m[36mFeedback Load (0.3ms)[0m  [1mSELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[35mResponse Load (0.1ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."user_id" = ?  [["user_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/rails_admin-0.5.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (258.0ms)
+Completed 200 OK in 300ms (Views: 279.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 114.80.140.35 at 2013-10-02 08:57:00 +0000
+
+
+Started GET "/assets/rails_admin/jquery.pjax.js?body=1" for 114.80.140.35 at 2013-10-02 09:10:18 +0000
+
+
+Started GET "/assets/rails_admin/custom/ui.js?body=1" for 114.80.140.35 at 2013-10-02 09:11:34 +0000
+
+
+Started GET "/assets/rails_admin/ra.filtering-multiselect.js?body=1" for 114.80.140.35 at 2013-10-02 09:14:20 +0000
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 114.80.140.35 at 2013-10-02 09:14:50 +0000
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 114.80.140.35 at 2013-10-02 09:43:32 +0000
+
+
+Started GET "/assets/infos.css?body=1" for 114.80.140.35 at 2013-10-02 09:44:01 +0000
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 114.80.140.35 at 2013-10-02 09:51:22 +0000
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 114.80.140.35 at 2013-10-02 10:03:55 +0000
+
+
+Started GET "/assets/rails_admin/ra.nested-form-hooks.js?body=1" for 114.80.140.35 at 2013-10-02 10:11:15 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 114.80.140.35 at 2013-10-02 10:16:33 +0000
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 114.80.140.35 at 2013-10-02 10:18:41 +0000
+
+
+Started GET "/assets/schedules.css?body=1" for 202.104.66.138 at 2013-10-02 10:33:37 +0000
+
+
+Started GET "/assets/rails_admin/ra.filtering-select.js?body=1" for 114.80.140.35 at 2013-10-02 10:34:05 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 114.80.140.35 at 2013-10-02 10:43:04 +0000
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 114.80.140.35 at 2013-10-02 10:50:46 +0000
+
+
+Started GET "/assets/rails_admin/ra.filter-box.js?body=1" for 114.80.140.35 at 2013-10-02 11:00:41 +0000
+
+
+Started GET "/assets/rails_admin/ra.datetimepicker.js?body=1" for 114.80.140.35 at 2013-10-02 11:02:59 +0000
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 114.80.140.35 at 2013-10-02 11:25:13 +0000
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 114.80.140.35 at 2013-10-02 11:43:44 +0000
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 114.80.140.35 at 2013-10-02 12:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 114.80.140.35 at 2013-10-02 12:43:45 +0000
+
+
+Started GET "/assets/feedbacks.css?body=1" for 194.237.142.21 at 2013-10-02 12:48:28 +0000
+
+
+Started GET "/assets/jquery_nested_form.js?body=1" for 114.80.140.35 at 2013-10-02 12:51:17 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 114.80.140.35 at 2013-10-02 12:52:57 +0000
+
+
+Started GET "/assets/rails_admin/rails_admin.js?body=1" for 114.80.140.35 at 2013-10-02 12:55:50 +0000
+
+
+Started GET "/assets/rails_admin/ra.widgets.js?body=1" for 114.80.140.35 at 2013-10-02 12:56:56 +0000
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 114.80.140.35 at 2013-10-02 13:16:25 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 114.80.140.35 at 2013-10-02 13:27:18 +0000
+
+
+Started GET "/assets/rails_admin/jquery.colorpicker.js?body=1" for 114.80.140.35 at 2013-10-02 13:32:13 +0000

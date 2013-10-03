@@ -8,7 +8,7 @@ class HomeController < ApplicationController
 
   def register
     if !User.where(name: params['UserCode'].upcase).empty? || User.new(name: params['UserCode']).save
-      session[:user] = params['UserCode']
+      session[:user] = User.where(name: params['UserCode']).first.id
     end
 
     redirect_to root_url

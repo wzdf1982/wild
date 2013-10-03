@@ -43,12 +43,14 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
                               table border="0" cellpadding="5" cellspacing="5" width="100%"
                                 tr
                                   td align="right"
-                                    a data-ajax="false" data-mini="true" data-role="button" data-theme="b" href="QuestionEntry.asp?Cat=MiniSeminar&ID=153&Menu=0"
+                                    a data-ajax="false" data-mini="true" data-role="button" data-theme="b" href="#{feedback_path(@active)}"
                                       font color="#ffffff"
+                                        | Feedback
                                 tr
                                   td align="right"
-                                    a data-ajax="false" data-mini="true" data-role="button" data-theme="b" href="FeedbackEntry.asp?Cat=MiniSeminar&ID=153&Menu=0"
+                                    a data-ajax="false" data-mini="true" data-role="button" data-theme="b" href="#"
                                       font color="#c8c8c8"
+                                        | Question
                     tr
                       td colspan="2"
                         hr size="2"
@@ -60,7 +62,7 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
                               | Speaker(s)
                             td align="left" valign="middle" width="70%"
                               - @active.speakers.split("\n").each do |speaker|
-                                = speaker 
+                                = speaker
                                 br/
                           tr
                             td align="justify" colspan="2"

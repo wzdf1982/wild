@@ -1,0 +1,669 @@
+---
+record_0:
+  Title: Registration
+  Start time: 10/16/2013 9:00
+  Stop time: 10/16/2013 9:30
+  Room: ' - '
+  Abstract: "08:30-08:35\tMC opening\r\n08:35-08:50\tWelcome and Opening\r\n08:50-09:30\tCommon
+    Core Updates\r\n09:30-10:00\tMobile Broadband Operator Strategy\r\n10:00-10:30\tSeeing
+    through Couds\r\n10:30-11:00\tNetworking break\r\n11:00-12:00\tCatching the IP
+    wave in RNEA\r\n12:00-12:30\tVoLTE Technical and Business Ingredient"
+  Column span: '7'
+  Position: '1'
+  Row span: '1'
+  Background color: '#dddbdb'
+  Speakers: ' - '
+record_1:
+  Title: A Journey to Delight Customer Embrace Lean and Agile DUCI Shanghai
+  Start time: 10/16/2013 13:00
+  Stop time: ' - '
+  Room: Room 203
+  Abstract: sfsfasfdafsdf
+  Column span: '2'
+  Position: '1'
+  Row span: '2'
+  Background color: white
+  Speakers: "Tom Wu (PD OBS & Media);\r\nTrax Wei (CUTW)"
+record_2:
+  Title: Experiencing KANABN and continuously improving customer's satisfaction
+  Start time: 10/16/2013 13:00
+  Stop time: ' - '
+  Room: Room 204
+  Abstract: sdfsfsf
+  Column span: '2'
+  Position: '2'
+  Row span: '2'
+  Background color: white
+  Speakers: "Tom Wu (PD OBS & Media);\r\nTrax Wei (CUTW)"
+record_3:
+  Title: Environment Driven Development
+  Start time: 10/16/2013 13:00
+  Stop time: 10/16/2013 14:00
+  Room: Room 205
+  Abstract: "dfsdfasdf\r\nsdfsf\r\nsdfasdf\r\nsadfasf"
+  Column span: '2'
+  Position: '3'
+  Row span: '2'
+  Background color: white
+  Speakers: Weijia Lu
+record_4:
+  Title: Make Agile journey smooth by leveraging in-house developed CI framework
+  Start time: 10/16/2013 13:00
+  Stop time: ' - '
+  Room: sfsdfsf
+  Abstract: sdfasdfasdaf
+  Column span: '2'
+  Position: '4'
+  Row span: ' - '
+  Background color: white
+  Speakers: sfasfasdfa
+record_5:
+  Title: Best Practices On Gerrit Based Code Review BUSS Shanghai
+  Start time: 10/16/2013 13:00
+  Stop time: ' - '
+  Room: sdfsf
+  Abstract: sdfasdfss
+  Column span: '2'
+  Position: '5'
+  Row span: ' - '
+  Background color: white
+  Speakers: sdfafd
+record_6:
+  Title: Bitterness and Happiness in Agile Journey
+  Start time: 10/16/2013 13:00
+  Stop time: ' - '
+  Room: sdfsafs
+  Abstract: sdfasfasf
+  Column span: '2'
+  Position: '6'
+  Row span: ' - '
+  Background color: white
+  Speakers: sdfsfsf
+record_7:
+  Title: Modeling in Agile Agile
+  Start time: 10/16/2013 13:00
+  Stop time: ' - '
+  Room: sdfa
+  Abstract: sdfadf
+  Column span: '2'
+  Position: '7'
+  Row span: ' - '
+  Background color: white
+  Speakers: sdfafsd
+record_8:
+  Title: A Journey to Delight Customer Embrace Lean and Agile
+  Start time: 10/2/2013 13:00
+  Stop time: 10/2/2013 14:00
+  Room: ROOM 101
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Herry Qiao
+record_9:
+  Title: Experiencing KANABN and continuously improving customer's satisfaction
+  Start time: 10/2/2013 13:00
+  Stop time: 10/2/2013 14:00
+  Room: ROOM 102
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Tom Tan X
+record_10:
+  Title: Environment Driven Development
+  Start time: 10/2/2013 13:00
+  Stop time: 10/2/2013 14:00
+  Room: ROOM 103
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Weijia Lu
+record_11:
+  Title: Make Agile journey smooth by leveraging in-house developed CI framework
+  Start time: 10/2/2013 13:00
+  Stop time: 10/2/2013 14:00
+  Room: ROOM 104
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Ke Li
+record_12:
+  Title: Best Practices On Gerrit Based Code Review
+  Start time: 10/2/2013 13:00
+  Stop time: 10/2/2013 14:00
+  Room: ROOM 105
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Vivian Yang W
+record_13:
+  Title: Bitterness and Happiness in Agile Journey
+  Start time: 10/2/2013 13:00
+  Stop time: 10/2/2013 14:00
+  Room: ROOM 106
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Donny Chen
+record_14:
+  Title: Modeling in Agile Agile
+  Start time: 10/2/2013 13:00
+  Stop time: 10/2/2013 14:00
+  Room: ROOM 107
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Kenji Hiranabe
+record_15:
+  Title: How to be an effective PO to Make Profitability in Maitenance Phase of CDMA
+    Product?
+  Start time: 10/2/2013 14:00
+  Stop time: 10/2/2013 15:00
+  Room: ROOM 101
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Bin Hu
+record_16:
+  Title: Shall I join an Agile Team?
+  Start time: 10/2/2013 14:00
+  Stop time: 10/2/2013 15:00
+  Room: ROOM 102
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Ariel HAN
+record_17:
+  Title: Continuous Deployment - To generate real business value through Lean and
+    Agile practices
+  Start time: 10/2/2013 14:00
+  Stop time: 10/2/2013 15:00
+  Room: ROOM 103
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Deborah Chao
+record_18:
+  Title: Elegant automation test in agile
+  Start time: 10/2/2013 14:00
+  Stop time: 10/2/2013 15:00
+  Room: ROOM 104
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Lennart Allinger
+record_19:
+  Title: Art in Agile
+  Start time: 10/2/2013 14:00
+  Stop time: 10/2/2013 15:00
+  Room: ROOM 105
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Smilings Lu
+record_20:
+  Title: Applying Agile to Hardware Development
+  Start time: 10/2/2013 14:00
+  Stop time: 10/2/2013 15:00
+  Room: ROOM 106
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Clare Bao
+record_21:
+  Title: undefined
+  Start time: 10/2/2013 14:00
+  Stop time: 10/2/2013 15:00
+  Room: ROOM 107
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Neil Johnson
+record_22:
+  Title: EEGS 3.0 with Agile (1st major CDMA release to follow Agile process at release
+    level)
+  Start time: 10/2/2013 15:30
+  Stop time: 10/2/2013 16:30
+  Room: ROOM 101
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Maggie Cai
+record_23:
+  Title: A second thought on CPI Agile & CPI Process under F-model FRM
+  Start time: 10/2/2013 15:30
+  Stop time: 10/2/2013 16:30
+  Room: ROOM 102
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: 'Robert Liu & Rocky Zhang R '
+record_24:
+  Title: The power of being visible
+  Start time: 10/2/2013 15:30
+  Stop time: 10/2/2013 16:30
+  Room: ROOM 103
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Kevin Lin
+record_25:
+  Title: Continuous Integration ????it is a systematic product
+  Start time: 10/2/2013 15:30
+  Stop time: 10/2/2013 16:30
+  Room: ROOM 104
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Kecheng Wang
+record_26:
+  Title: Quality Control in Agile
+  Start time: 10/2/2013 15:30
+  Stop time: 10/2/2013 16:30
+  Room: ROOM 105
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Xiao Lei Jiang
+record_27:
+  Title: Marshmallow Challenge or Retrospective
+  Start time: 10/2/2013 15:30
+  Stop time: 10/2/2013 16:30
+  Room: ROOM 106
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Bob Jiang
+record_28:
+  Title: Retrospective
+  Start time: 10/2/2013 15:30
+  Stop time: 10/2/2013 16:30
+  Room: ROOM 107
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Linda Rising
+record_29:
+  Title: Porfolio Management in Agile
+  Start time: 10/2/2013 16:30
+  Stop time: 10/2/2013 17:30
+  Room: ROOM 101
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Jessica Pan
+record_30:
+  Title: Different cooperation models between Operative Product Owner and Scrum Master
+  Start time: 10/2/2013 16:30
+  Stop time: 10/2/2013 17:30
+  Room: ROOM 102
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Will Gao
+record_31:
+  Title: 'Agile People Management: 3 Reflective Questions '
+  Start time: 10/2/2013 16:30
+  Stop time: 10/2/2013 17:30
+  Room: ROOM 103
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Glen Wang
+record_32:
+  Title: A story of evolution -- CI journey in NDO SP & Deploy CI upon Legacy & Private
+    Systems
+  Start time: 10/2/2013 16:30
+  Stop time: 10/2/2013 17:30
+  Room: ROOM 104
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Emily Geng & Ke Roy
+record_33:
+  Title: How CBA Component (TOF) Development Benefits from Agile
+  Start time: 10/2/2013 16:30
+  Stop time: 10/2/2013 17:30
+  Room: ROOM 105
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: ' Sean Sun & Allen Zhao'
+record_34:
+  Title: Lean and Agile Clinic
+  Start time: 10/2/2013 16:30
+  Stop time: 10/2/2013 17:30
+  Room: ROOM 106
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: 'Neil Johnson '
+record_35:
+  Title: Exporing User Wish through Mindmapping
+  Start time: 10/2/2013 16:30
+  Stop time: 10/2/2013 17:30
+  Room: ROOM 107
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: 'Kenji Hiranabe '
+record_36:
+  Title: I am the technica expert, and business man!
+  Start time: 10/3/2013 10:45
+  Stop time: 10/3/2013 11:45
+  Room: ROOM 101
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Arthur Wen
+record_37:
+  Title: 'Kanban? A better choice for our team & How LSV team Adapt Agile: from Scrum
+    to Kanban'
+  Start time: 10/3/2013 10:45
+  Stop time: 10/3/2013 11:45
+  Room: ROOM 102
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Eric Dong & Sean Sun
+record_38:
+  Title: Continuous Learning
+  Start time: 10/3/2013 10:45
+  Stop time: 10/3/2013 11:45
+  Room: ROOM 103
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: ' Sharon Li & Tomix Wen'
+record_39:
+  Title: How infrastructure shortens feedback loop in SGSN-MME
+  Start time: 10/3/2013 10:45
+  Stop time: 10/3/2013 11:45
+  Room: ROOM 104
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Alvin Hu
+record_40:
+  Title: Expediting Development With An Incremental Approach To Functional Verification
+  Start time: 10/3/2013 10:45
+  Stop time: 10/3/2013 11:45
+  Room: ROOM 105
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: ' Sean Sun & Allen Zhao'
+record_41:
+  Title: Quality Management & TL9000 Compliance in Agile WoW
+  Start time: 10/3/2013 10:45
+  Stop time: 10/3/2013 11:45
+  Room: ROOM 106
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: 'Neil Johnson '
+record_42:
+  Title: Lean and Agile Clinic
+  Start time: 10/3/2013 10:45
+  Stop time: 10/3/2013 11:45
+  Room: ROOM 107
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Della Luo & Changying Sun
+record_43:
+  Title: See the forest and trees - optimize the whole through integrated view
+  Start time: 10/3/2013 15:30
+  Stop time: 10/3/2013 16:30
+  Room: ROOM 101
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Bin Hu
+record_44:
+  Title: Practice of Scrum of Scrum
+  Start time: 10/3/2013 15:30
+  Stop time: 10/3/2013 16:30
+  Room: ROOM 102
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Ariel HAN
+record_45:
+  Title: Lead technical changes during agile deployment
+  Start time: 10/3/2013 15:30
+  Stop time: 10/3/2013 16:30
+  Room: ROOM 103
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Deborah Chao
+record_46:
+  Title: 'The practice of build cloud-based CI '
+  Start time: 10/3/2013 15:30
+  Stop time: 10/3/2013 16:30
+  Room: ROOM 104
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Lennart Allinger
+record_47:
+  Title: TDD on S/W
+  Start time: 10/3/2013 15:30
+  Stop time: 10/3/2013 16:30
+  Room: ROOM 105
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Smilings Lu
+record_48:
+  Title: The amazing journey of Agile transition for a verification team
+  Start time: 10/3/2013 15:30
+  Stop time: 10/3/2013 16:30
+  Room: ROOM 106
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Clare Bao
+record_49:
+  Title: Lean and Agile Clinic
+  Start time: 10/3/2013 15:30
+  Stop time: 10/3/2013 16:30
+  Room: ROOM 107
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Neil Johnson
+record_50:
+  Title: Visualization-A transparent window to the sunshine
+  Start time: 10/3/2013 14:00
+  Stop time: 10/3/2013 15:00
+  Room: ROOM 101
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Jessica Pan
+record_51:
+  Title: Lean Flow in Product Development
+  Start time: 10/3/2013 14:00
+  Stop time: 10/3/2013 15:00
+  Room: ROOM 102
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Will Gao
+record_52:
+  Title: Visualization-A transparent window to the sunshine
+  Start time: 10/3/2013 14:00
+  Stop time: 10/3/2013 15:00
+  Room: ROOM 103
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Glen Wang
+record_53:
+  Title: Conflict Management
+  Start time: 10/3/2013 14:00
+  Stop time: 10/3/2013 15:00
+  Room: ROOM 104
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Emily Geng & Ke Roy
+record_54:
+  Title: MSDP Continuous Integration and Testing system in BUSS CoE Service Enablement
+  Start time: 10/3/2013 14:00
+  Stop time: 10/3/2013 15:00
+  Room: ROOM 105
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Sean Sun & Allen Zhao
+record_55:
+  Title: TDD on S/W
+  Start time: 10/3/2013 14:00
+  Stop time: 10/3/2013 15:00
+  Room: ROOM 106
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: Neil Johnson
+record_56:
+  Title: Practice to make team work happily with Agile/Kanban
+  Start time: 10/3/2013 14:00
+  Stop time: 10/3/2013 15:00
+  Room: ROOM 107
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: undefined
+record_57:
+  Title: Tea Breaks
+  Start time: 10/3/2013 15:00
+  Stop time: 10/3/2013 15:30
+  Room: ' - '
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: ' - '
+record_58:
+  Title: Tea Breaks
+  Start time: 10/2/2013 15:00
+  Stop time: 10/2/2013 15:30
+  Room: ' - '
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: ' - '
+record_59:
+  Title: Lunch
+  Start time: 10/2/2013 11:45
+  Stop time: 10/2/2013 13:00
+  Room: ' - '
+  Abstract: activity abstract
+  Column span: ' - '
+  Position: ' - '
+  Row span: ' - '
+  Background color: ' - '
+  Speakers: ' - '

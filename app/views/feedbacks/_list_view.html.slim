@@ -6,11 +6,15 @@ td height="100%" valign="top"
         li data-role="list-divider" role="heading" class="ui-li ui-li-divider ui-bar-d"
           = active.start_time.strftime("%Y-%m-%d %H:%M")
           - date = active.start_time
-      li data-corners="false" data-shadow="false" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="d" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-d"
-        div class="ui-btn-inner ui-li"
-          div class="ui-btn-text"
-            a href= feedback_path(active) class="ui-link-inherit"
-              h3 class="ui-li-heading"
-                = active.title
-
+      li style="padding: 0"
+        table align="center" background="assets/bgItem.png" border="0" cellpadding="0" cellspacing="0" height="50" onclick="window.location.href='#{feedback_path(active)}';" width="100%"
+          tbody
+              tr
+                td width="20"
+                td align="left"
+                  span style="font-family: Arial, Helvetica, sans-serif;font-size: 17px; color: #0354a0;"
+                    = active.title
+                td align="right"
+                  img src="assets/ArrowRight.png"
+                td width="20"
 

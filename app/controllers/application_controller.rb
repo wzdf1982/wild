@@ -5,6 +5,10 @@ class ApplicationController < ActionController::Base
 
   before_action :require_login
 
+  def current_user
+    session[:user] if session[:user]
+  end
+
   private
 
   def logged_in?
