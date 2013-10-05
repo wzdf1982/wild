@@ -12,9 +12,10 @@ td height="100%" valign="top"
               tr
                 td width="20"
                 td align="left"
-                  span style="font-family: Arial, Helvetica, sans-serif;font-size: 17px; color: #0354a0;"
+                  span style="font-family: Arial, Helvetica, sans-serif;font-size: 17px;"
                     = link_to active.title, feedback_path(active)
                 td align="right"
-                  img src="assets/ArrowRight.png"
+                    = link_to image_tag('ArrowRight.png'), feedback_path(active)
+
                 td width="20"
 
