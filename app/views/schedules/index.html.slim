@@ -48,7 +48,7 @@
                                         = active.title
                                   tr
                                     td title= active.room valign="top1" align="center"
-                                      span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+                                      span style="line-height:18px;color:#ececec;font-weight:bold;text-shadow:none;"
                                         = active.room
 
                             - elsif active.speakers.blank? && active.room.blank?
@@ -63,11 +63,11 @@
                                 table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:white; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
                                   tr
                                     td height="54" title= active.title valign="top"
-                                      span style="line-height:18px;color:#6495ed;font-weight:bold;text-shadow:none;"
+                                      span style="line-height:18px;color:#66b9ff;font-weight:bold;text-shadow:none;"
                                         = active.title[0,29]
                                   tr
                                     td height="100%" title= active.room valign="top"
-                                      span style="line-height:18px;color:#ff8c00;font-weight:bold;text-shadow:none;"
+                                      span style="line-height:18px;color:#dddbdb;font-weight:bold;text-shadow:none;"
                                         = active.room
 
                           tr
