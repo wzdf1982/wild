@@ -36,13 +36,10 @@ record_3:
   Title: Lunch
   Start time: 10/16/2013 11:45
   Stop time: 10/16/2013 13:00
-  Room: ' - '
-  Abstract: ' - '
   Column span: '7'
   Position: '1'
   Row span: '1'
   Background color: ' - '
-  Speakers: ' -'
 record_4:
   Title: A Journey to Delight Customer Embrace Lean and Agile
   Start time: 10/16/2013 13:00
@@ -203,7 +200,6 @@ record_18:
   Title: Tea Breaks
   Start time: 10/16/2013 15:00
   Stop time: 10/16/2013 15:30
-  Room: ' - '
   Abstract: activity abstract
   Column span: '7'
   Position: '1'
@@ -392,13 +388,10 @@ record_35:
   Title: Tea Break
   Start time: 10/17/2013 10:30
   Stop time: 10/17/2013 10:45
-  Room: ' - '
-  Abstract: ' - '
   Column span: '7'
   Position: '1'
   Row span: '1'
   Background color: ' - '
-  Speakers: ' -'
 record_36:
   Title: I am the technica expert, and business man!
   Start time: 10/17/2013 10:45
@@ -481,13 +474,10 @@ record_43:
   Title: Lunch
   Start time: 10/17/2013 11:45
   Stop time: 10/17/2013 13:00
-  Room: ' - '
-  Abstract: ' - '
   Column span: '7'
   Position: '1'
   Row span: '1'
   Background color: ' - '
-  Speakers: ' -'
 record_44:
   Title: See the forest and trees - optimize the whole through integrated view
   Start time: 10/17/2013 13:00
