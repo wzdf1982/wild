@@ -1,4 +1,6 @@
 class SchedulesController < ApplicationController
+   layout 'mobile'
+
   def index
     start_times = Activity.all.group(:start_time).select(:start_time)
     @groups = []
