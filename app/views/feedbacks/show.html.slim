@@ -1,22 +1,27 @@
-div data-role="page"
-  div data-role="header" data-theme="d"
-    table background="/assets/ColorLine.png" border="0" cellpadding="0" cellspacing="0" height="4" width="100%"
-    h3
-      = @activity.title
+table background="assets/ColorLine.png" border="0" cellpadding="0" cellspacing="0" height="4" width="100%"
+table background="assets/bgTopBanner.png" border="0" cellpadding="0" cellspacing="0" height="55" width="100%"
+  tr
+    td align="left" valign="middle" width="20%"
+      a.ui-btn-left data-ajax="true" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="."
+        | Back
+    td align="center" valign="middle" width="60%"
+      span style="color: #000000;font-size: 15px;"
+        = @activity.title
+    td align="right" valign="middle" width="20%"
 
-  div data-role="content" data-theme="c"
-    = form_tag '/feedbacks', :data => { :ajax => false}
-      - @activity.questions.each do |question|
-        fieldset data-role="controlgroup"
-          legend
-            = question.title
-          - question.answers.each do |ans|
-            - response = @responses[question.id]
-            - if response && response.answer_id == ans.id
-              input type="radio" name="question-#{question.id}" id="answer-#{ans.id}" value="answer-#{ans.id}" checked="true"
-            - else
-              input type="radio" name="question-#{question.id}" id="answer-#{ans.id}" value="answer-#{ans.id}"
-            label for="answer-#{ans.id}"
-              = ans.name
+div data-role="content" data-theme="c"
+  = form_tag '/feedbacks', :data => { :ajax => false}
+    - @activity.questions.each do |question|
+      fieldset data-role="controlgroup"
+        legend
+          = question.title
+        - question.answers.each do |ans|
+          - response = @responses[question.id]
+          - if response && response.answer_id == ans.id
+            input type="radio" name="question-#{question.id}" id="answer-#{ans.id}" value="answer-#{ans.id}" checked="true"
+          - else
+            input type="radio" name="question-#{question.id}" id="answer-#{ans.id}" value="answer-#{ans.id}"
+          label for="answer-#{ans.id}"
+            = ans.name
 
-      input type="submit" value="Submit" class="ui-btn-hidden" data-theme="b" data-mini="true"
+    input type="submit" value="Submit" class="ui-btn-hidden" data-theme="b" data-mini="true"

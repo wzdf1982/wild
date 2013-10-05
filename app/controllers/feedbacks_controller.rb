@@ -1,9 +1,9 @@
 class FeedbacksController < ApplicationController
   before_action :require_login
-  
+
   layout 'mobile'
   def index
-    @activities = Activity.where(" speakers != '' ").order("start_time asc, position asc")
+    @activities = Activity.where(" column_span = 2" ).order("start_time asc, position asc")
   end
 
   def show
