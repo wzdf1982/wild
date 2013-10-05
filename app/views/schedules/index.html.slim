@@ -38,15 +38,16 @@
                           td valign="top" width="3%"
                             = group.first.start_time.strftime("%H:%M")
                           - for active in group do
-                            - if active.speakers.blank? && !active.room.blank?
+                            - if active.column_span == @max_column_span && !active.speakers.blank?
                               td colspan= @max_column_span height="100%" rowspan="2" valign="top" width="97%"
-                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#66b9ff; box-shadow:1px 1px 3px #666; width:100%; height: 100%"
+                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#66b9ff;box-shadow:1px 1px 3px #666; width:100%; height: 100%"
+
                                   tr
-                                    td title= active.title valign="top"
-                                      span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
+                                    td title= active.title valign="top" align="center"
+                                      span style="line-height:18px;color:#ffffff;font-weight:bold;text-shadow:none;"
                                         = active.title
                                   tr
-                                    td title= active.room valign="top"
+                                    td title= active.room valign="top1" align="center"
                                       span style="line-height:18px;color:#c8c8c8;font-weight:bold;text-shadow:none;"
                                         = active.room
 
@@ -59,7 +60,7 @@
                                         = active.title
                             - else
                               td height="100%" rowspan="2" valign="top" width= number_to_percentage(97 * (1.0 / group.size))
-                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#fffaf0; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
+                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:white; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
                                   tr
                                     td height="54" title= active.title valign="top"
                                       span style="line-height:18px;color:#6495ed;font-weight:bold;text-shadow:none;"
