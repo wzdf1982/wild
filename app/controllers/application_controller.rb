@@ -7,6 +7,11 @@ class ApplicationController < ActionController::Base
     session[:user] if session[:user]
   end
 
+  def user_name
+    User.find(current_user).name
+  end
+  helper_method :user_name
+
   private
 
   def logged_in?
