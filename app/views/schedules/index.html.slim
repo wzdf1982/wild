@@ -60,11 +60,11 @@
                                         = active.title
                             - else
                               td height="100%" rowspan="2" valign="top" width= number_to_percentage(97 * (1.0 / group.size))
-                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:white; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
+                                table border="0" cellpadding="2" cellspacing="1" style="background:white; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
                                   tr
                                     td height="54" title= active.title valign="top"
                                       span style="line-height:18px;color:#66b9ff;font-weight:bold;text-shadow:none;"
-                                        = active.title[0,29]
+                                        = link_to active.title[0,29], schedule_path(active)
                                   tr
                                     td height="100%" title= active.room valign="top"
                                       span style="line-height:18px;color:#dddbdb;font-weight:bold;text-shadow:none;"

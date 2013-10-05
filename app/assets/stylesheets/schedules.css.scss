@@ -17,7 +17,7 @@ height: 80px;
 width: 90px;
 }
 
-.no_activity { 
+.no_activity {
   margin:5px 0px 5px 0px;
   background:#dddbdb;
   border-top:1px solid #d0cfcf;
@@ -28,4 +28,12 @@ width: 90px;
 
 #wrapper {
  overflow-x:scroll;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:visited {
+ 
 }
