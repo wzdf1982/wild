@@ -35,3 +35,20 @@ form {
  width: 100%;
  height: 100%;
 }
+
+#content {
+  background: #ececec;
+  position: relative;
+}
+
+#copyright {
+  background: #ececec;
+  position: relative;
+  overflow: hidden;
+  top: 30px;
+}
+
+#copyright img {
+  float: right;
+}
+
