@@ -46,6 +46,8 @@ form {
   position: relative;
   overflow: hidden;
   top: 30px;
+  width: 90%;
+  margin: 0 auto 0 auto;
 }
 
 #copyright img {
