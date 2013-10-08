@@ -54,3 +54,11 @@ form {
   float: right;
 }
 
+#colorLine {
+ background: url(<%= asset_data_uri 'colorLine.png' %>)
+}
+
+#bgTopBanner {
+ background: url(<%= asset_data_uri 'bgTopBanner.png' %>)
+}
+
