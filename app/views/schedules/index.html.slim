@@ -23,6 +23,8 @@
                     table bgcolor="#ececec" border="0" cellpadding="2" cellspacing="1" width="630"
                       - date = ''
                       - i = 0
+                      - flag = 0
+                      - categories = ['Product Portfolio and Program Management', 'Scrum and Kanban in Context', 'Coaching and Leadership', 'Continuous Integration and Deployment', 'Software Craftsmanship', 'Have Fun with Lean and Agile!', 'Special Sessions']
                       - for group in @groups do
                         - if date != group.first.start_time.to_date
                           - date = group.first.start_time.to_date
@@ -34,6 +36,12 @@
                                   td width="25"
                                   td width="572"
                                     = 'Day ' + i.to_s + '  ' + date.strftime("%Y-%m-%d")
+                        - if flag != i && group.first.column_span == 2
+                          - flag = i
+                          tr
+                            = render partial: 'category', locals: { categories: categories, group: group }
+                                                                 
+
                         tr
                           td valign="top" width="3%"
                             = group.first.start_time.strftime("%H:%M")
