@@ -16,15 +16,9 @@ namespace :agile do
   task :create_feedback => :environment do
 
     QUESTIONS = [
-      'Question 1. xxxxxxxxxxxxxxxxxxx.',
-      'Question 2. xxxxxxxxxxxxxxxxxxx.',
-      'Question 3. xxxxxxxxxxxxxxxxxxx.'
-    ]
-
-    ANSWERS = [
-      'terrible',
-      'satisfy',
-      'excellent'
+      '1. What’s your key learning from this session?',
+      '2. What advice do you have to the speaker?',
+      '3. Other comments?'
     ]
 
     activities = Activity.where("speakers != ''")
@@ -32,7 +26,6 @@ namespace :agile do
     activities.each do |activity|
       QUESTIONS.each do |question|
         q = Question.new(title: question)
-        ANSWERS.each { |answer| q.answers.build(name: answer)  }
         activity.questions << q
       end
     end
@@ -42,6 +35,5 @@ namespace :agile do
   task :drop_feedback => :environment do
     Answer.delete_all
     Question.delete_all
-    Response.delete_all
   end
 end

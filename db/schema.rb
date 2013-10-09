@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131001152527) do
+ActiveRecord::Schema.define(version: 20131009123211) do
 
   create_table "activities", force: true do |t|
     t.string   "title"
@@ -52,6 +52,9 @@ ActiveRecord::Schema.define(version: 20131001152527) do
     t.integer  "question_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "content"
+    t.integer  "user_id"
+    t.integer  "activity_id"
   end
 
   create_table "feedbacks", force: true do |t|

@@ -13,15 +13,11 @@ div data-role="content" data-theme="c"
   = form_tag '/feedbacks', :data => { :ajax => false}
     - @activity.questions.each do |question|
       fieldset data-role="controlgroup"
-        legend
+        label for= "answers[#{question.id}]"
           = question.title
-        - question.answers.each do |ans|
-          - response = @responses[question.id]
-          - if response && response.answer_id == ans.id
-            input type="radio" name="question-#{question.id}" id="answer-#{ans.id}" value="answer-#{ans.id}" checked="true"
-          - else
-            input type="radio" name="question-#{question.id}" id="answer-#{ans.id}" value="answer-#{ans.id}"
-          label for="answer-#{ans.id}"
-            = ans.name
-
+        - answer = @answers[question.id]
+        - if answer
+          = text_area_tag "answers[#{question.id}]", answer[:content]
+        - else
+          = text_area_tag "answers[#{question.id}]"
     input type="submit" value="Submit" class="ui-btn-hidden" data-theme="b" data-mini="true"

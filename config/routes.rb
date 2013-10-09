@@ -1,7 +1,4 @@
 AgileConf::Application.routes.draw do
-  get "responses/create"
-  get "responses/index"
-  get "responses/new"
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
