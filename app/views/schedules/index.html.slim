@@ -26,6 +26,8 @@
                       - flag = 0
                       - categories = ['Product Portfolio and Program Management', 'Scrum and Kanban in Context', 'Coaching and Leadership', 'Continuous Integration and Deployment', 'Software Craftsmanship', 'Have Fun with Lean and Agile!', 'Special Sessions']
                       - for group in @groups do
+                        - category_colors = ['89BA17', 'F08A00', '007B78', '00A9D4', 'E32119', 'FABB00', '8F3F7B']
+                        - colors = ['89BA17', 'F08A00', '007B78', '00A9D4', 'E32119', 'FABB00', '8F3F7B']                   
                         - if date != group.first.start_time.to_date
                           - date = group.first.start_time.to_date
                           - i = i + 1
@@ -39,9 +41,7 @@
                         - if flag != i && group.first.column_span == 2
                           - flag = i
                           tr
-                            = render partial: 'category', locals: { categories: categories, group: group }
-                                                                 
-
+                            = render partial: 'category', locals: { categories: categories, group: group, colors: category_colors }
                         tr
                           td valign="top" width="3%"
                             = group.first.start_time.strftime("%H:%M")
@@ -61,22 +61,19 @@
 
                             - elsif active.speakers.blank? && active.room.blank?
                               td colspan= @max_column_span valign="top" width="97%"
-                                table border="0" style="margin:5px 0px 5px 0px;background:#dddbdb;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:2px 1px;font-weight:bold;" width="100%"
-                                  tr bgcolor="#dddbdb"
+                                table border="0" style="margin:5px 0px 5px 0px;background:#7F7F7F;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:2px 1px;font-weight:bold;" width="100%"
+                                  tr bgcolor="#7F7F7F"
                                     td valign="middle"
                                       span style="color:#FFFFFF"
                                         = active.title
                             - else
                               td height="100%" rowspan="2" valign="top" width= number_to_percentage(97 * (1.0 / group.size))
-                                table border="0" cellpadding="2" cellspacing="1" style="background:white; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
+                                table border="0" cellpadding="2" cellspacing="1" style="background:##{colors.pop}; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
                                   tr
                                     td height="54" title= active.title valign="top"
-                                      span style="line-height:18px;font-weight:bold;text-shadow:none;"
-                                        = link_to active.title[0,29], schedule_path(active)
-                                  tr
-                                    td height="100%" title= active.room valign="top"
-                                      span style="line-height:18px;color:#dddbdb;font-weight:bold;text-shadow:none;"
-                                        = active.room
+                                      span style="line-height:12px;text-shadow:none;font-size:10px;"
+                                        = link_to active.title, schedule_path(active), :class => 'activity_link'
+
 
                           tr
                             td valign="bottom" width="3%"

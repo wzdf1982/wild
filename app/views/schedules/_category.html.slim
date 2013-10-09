@@ -1,8 +1,9 @@
 td valign="top" width="3%"
 - for category in categories do
+  - color = colors.pop
   td height="100%" rowspan="1" valign="top" width= number_to_percentage(97 * (1.0 / group.size))
-    table border="0" cellpadding="2" cellspacing="1" style="background:#9966cc; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
+    table border="0" cellpadding="2" cellspacing="1" style="background: white; border: 1px solid ##{color}; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
       tr
         td height="54" title= category valign="top"
-          span style="line-height:18px;font-weight:bold;text-shadow:none;color:white;"
+          span style="line-height:18px;text-shadow:none;color:##{color};font-style:italic;font-family: Helvetica, Arial;"
             = category
