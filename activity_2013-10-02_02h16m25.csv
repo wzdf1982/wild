@@ -1,62 +1,498 @@
 Title,Start time,Stop time,Room,Abstract,Column span,Position,Row span,Background color,Speakers
-Closing,10/17/2013 16:40,10/17/2013 17:30,Ballroom B,activity abstract,7,1,2, - ,"Peter Lundin, Lars Frank, Jane Tan, PDU IP OS, ."
-Drinking Lean from the Source,10/17/2013 15:30,10/17/2013 16:40,Ballroom B,activity abstract,7,1,2, - ,Kenji Hiranabe
-Tea Breaks,10/17/2013 15:00,10/17/2013 15:30, - , - ,7,1,1, - , - 
-Practice to make team work happily with Agile/Kanban,10/17/2013 14:00,10/17/2013 15:00,ROOM 107,activity abstract,2,7,2, - ,undefined
-TDD on S/W,10/17/2013 14:00,10/17/2013 15:00,ROOM 106,activity abstract,2,6,2, - ,Neil Johnson
-MSDP Continuous Integration and Testing system in BUSS CoE Service Enablement,10/17/2013 14:00,10/17/2013 15:00,ROOM 105,activity abstract,2,5,2, - ,Sean Sun & Allen Zhao
-Conflict Management,10/17/2013 14:00,10/17/2013 15:00,ROOM 104,activity abstract,2,4,2, - ,Emily Geng & Ke Roy
-Visualization-A transparent window to the sunshine,10/17/2013 14:00,10/17/2013 15:00,ROOM 103,activity abstract,2,3,2, - ,Glen Wang
-Lean Flow in Product Development,10/17/2013 14:00,10/17/2013 15:00,ROOM 102,activity abstract,2,2,2, - ,Will Gao
-Visualization-A transparent window to the sunshine,10/17/2013 14:00,10/17/2013 15:00,ROOM 101,activity abstract,2,1,2, - ,Jessica Pan
-Lean and Agile Clinic,10/17/2013 13:00,10/17/2013 14:00,ROOM 107,activity abstract,2,7,2, - ,Neil Johnson
-The amazing journey of Agile transition for a verification team,10/17/2013 13:00,10/17/2013 14:00,ROOM 106,activity abstract,2,6,2, - ,Clare Bao
-TDD on S/W,10/17/2013 13:00,10/17/2013 14:00,ROOM 105,activity abstract,2,5,2, - ,Smilings Lu
-The practice of build cloud-based CI ,10/17/2013 13:00,10/17/2013 14:00,ROOM 104,activity abstract,2,4,2, - ,Lennart Allinger
-Lead technical changes during agile deployment,10/17/2013 13:00,10/17/2013 14:00,ROOM 103,activity abstract,2,3,2, - ,Deborah Chao
-Practice of Scrum of Scrum,10/17/2013 13:00,10/17/2013 14:00,ROOM 102,activity abstract,2,2,2, - ,Ariel HAN
-See the forest and trees - optimize the whole through integrated view,10/17/2013 13:00,10/17/2013 14:00,ROOM 101,activity abstract,2,1,2, - ,Bin Hu
-Lunch,10/17/2013 11:45,10/17/2013 13:00, - , - ,7,1,1, - , - 
-Lean and Agile Clinic,10/17/2013 10:45,10/17/2013 11:45,ROOM 107,activity abstract,2,7,2, - ,Della Luo & Changying Sun
-Quality Management & TL9000 Compliance in Agile WoW,10/17/2013 10:45,10/17/2013 11:45,ROOM 106,activity abstract,2,6,2, - ,Neil Johnson
-Expediting Development With An Incremental Approach To Functional Verification,10/17/2013 10:45,10/17/2013 11:45,ROOM 105,activity abstract,2,5,2, - , Sean Sun & Allen Zhao
-How infrastructure shortens feedback loop in SGSN-MME,10/17/2013 10:45,10/17/2013 11:45,ROOM 104,activity abstract,2,4,2, - ,Alvin Hu
-Continuous Learning,10/17/2013 10:45,10/17/2013 11:45,ROOM 103,activity abstract,2,3,2, - , Sharon Li & Tomix Wen
-Kanban? A better choice for our team & How LSV team Adapt Agile: from Scrum to Kanban,10/17/2013 10:45,10/17/2013 11:45,ROOM 102,activity abstract,2,2,2, - ,Eric Dong & Sean Sun
-"I am the technica expert, and business man!",10/17/2013 10:45,10/17/2013 11:45,ROOM 101,activity abstract,2,1,2, - ,Arthur Wen
-Tea Break,10/17/2013 10:30,10/17/2013 10:45, - , - ,7,1,1, - , - 
-From Efficiency to Innovation,10/17/2013 9:30,10/17/2013 10:30,Ballroom B, - ,7,1,2, - ,Dieter Kaufhold
-Open Space Topic Collection,10/17/2013 9:00,10/17/2013 9:30, - , - ,7,1,1, - , -
-Exporing User Wish through Mindmapping,10/16/2013 16:30,10/16/2013 17:30,ROOM 107,activity abstract,2,7,2, - ,Kenji Hiranabe
-Lean and Agile Clinic,10/16/2013 16:30,10/16/2013 17:30,ROOM 106,activity abstract,2,6,2, - ,Neil Johnson
-How CBA Component (TOF) Development Benefits from Agile,10/16/2013 16:30,10/16/2013 17:30,ROOM 105,activity abstract,2,5,2, - , Sean Sun & Allen Zhao
-A story of evolution -- CI journey in NDO SP & Deploy CI upon Legacy & Private Systems,10/16/2013 16:30,10/16/2013 17:30,ROOM 104,activity abstract,2,4,2, - ,Emily Geng & Ke Roy
-Agile People Management: 3 Reflective Questions ,10/16/2013 16:30,10/16/2013 17:30,ROOM 103,activity abstract,2,3,2, - ,Glen Wang
-Different cooperation models between Operative Product Owner and Scrum Master,10/16/2013 16:30,10/16/2013 17:30,ROOM 102,activity abstract,2,2,2, - ,Will Gao
-Porfolio Management in Agile,10/16/2013 16:30,10/16/2013 17:30,ROOM 101,activity abstract,2,1,2, - ,Jessica Pan
-Retrospective,10/16/2013 15:30,10/16/2013 16:30,ROOM 107,activity abstract,2,7,2, - ,Linda Rising
-Marshmallow Challenge or Retrospective,10/16/2013 15:30,10/16/2013 16:30,ROOM 106,activity abstract,2,6,2, - ,Bob Jiang
-Quality Control in Agile,10/16/2013 15:30,10/16/2013 16:30,ROOM 105,activity abstract,2,5,2, - ,Xiao Lei Jiang
-Continuous Integration ?it is a systematic product,10/16/2013 15:30,10/16/2013 16:30,ROOM 104,activity abstract,2,4,2, - ,Kecheng Wang
-The power of being visible,10/16/2013 15:30,10/16/2013 16:30,ROOM 103,activity abstract,2,3,2, - ,Kevin Lin
-A second thought on CPI Agile & CPI Process under F-model FRM,10/16/2013 15:30,10/16/2013 16:30,ROOM 102,activity abstract,2,2,2, - ,Robert Liu & Rocky Zhang R
-EEGS 3.0 with Agile (1st major CDMA release to follow Agile process at release level),10/16/2013 15:30,10/16/2013 16:30,ROOM 101,activity abstract,2,1,2, - ,Maggie Cai
-Tea Breaks,10/16/2013 15:00,10/16/2013 15:30, - , - ,7,1,1, - , - 
-Applying Agile to Hardware Development,10/16/2013 14:00,10/16/2013 15:00,ROOM 107,activity abstract,2,7,2, - ,Clare Bao
-Art in Agile,10/16/2013 14:00,10/16/2013 15:00,ROOM 106,activity abstract,2,6,2, - ,Smilings Lu
-Elegant automation test in agile,10/16/2013 14:00,10/16/2013 15:00,ROOM 105,activity abstract,2,5,2, - ,Lennart Allinger
-Continuous Deployment - To generate real business value through Lean and Agile practices,10/16/2013 14:00,10/16/2013 15:00,ROOM 104,activity abstract,2,4,2, - ,Deborah Chao
-Shall I join an Agile Team?,10/16/2013 14:00,10/16/2013 15:00,ROOM 103,activity abstract,2,3,2, - ,Ariel HAN
-Make agile adaption to our project,10/16/2013 14:00,10/16/2013 14:00,ROOM 102,activity abstract,2,2,2, - ,Bin Hu
-How to be an effective PO to Make Profitability in Maitenance Phase of CDMA Product?,10/16/2013 14:00,10/16/2013 14:00,ROOM 101,activity abstract,2,1,2, - ,Bin Hu
-Modeling in Agile Agile,10/16/2013 13:00,10/16/2013 14:00,ROOM 107,activity abstract,2,7,2, - ,Kenji Hiranabe
-Bitterness and Happiness in Agile Journey,10/16/2013 13:00,10/16/2013 14:00,ROOM 106,activity abstract,2,6,2, - ,Donny Chen
-Best Practices On Gerrit Based Code Review,10/16/2013 13:00,10/16/2013 14:00,ROOM 105,activity abstract,2,5,2, - ,Vivian Yang W
-Make Agile journey smooth by leveraging in-house developed CI framework,10/16/2013 13:00,10/16/2013 14:00,ROOM 104,activity abstract,2,4,2, - ,Ke Li
-Environment Driven Development,10/16/2013 13:00,10/16/2013 14:00,ROOM 103,activity abstract,2,3,2, - ,Weijia Lu
-Experiencing KANABN and continuously improving customer's satisfaction,10/16/2013 13:00,10/16/2013 14:00,ROOM 102,activity abstract,2,2,2, - ,Tom Tan X
-A Journey to Delight Customer Embrace Lean and Agile,10/16/2013 13:00,10/16/2013 14:00,ROOM 101,activity abstract,2,1,2, - ,Herry Qiao
-Lunch,10/16/2013 11:45,10/16/2013 13:00, - , - ,7,1,1, - , - 
-Fearless Change,10/16/2013 10:15,10/16/2013 11:45,Ballroom B, - ,7,1,2, - ,Linda Rising
-Opening,10/16/2013 9:30,10/16/2013 10:15,Ballroom B, - ,7,1,2, - , Peter Lundin and Lars Frank
 Registration,10/16/2013 9:00,10/16/2013 9:30, - ,"08:30-08:35	MC opening",7,1,1,#dddbdb, -
+Opening,10/16/2013 9:30,10/16/2013 10:15,Ballroom B, - ,7,1,2, - ,Peter Lundin and Lars Frank
+Fearless Change,10/16/2013 10:15,10/16/2013 11:45,Ballroom B, - ,7,1,2, - ,Linda Rising
+Lunch,10/16/2013 11:45,10/16/2013 13:00, - , - ,7,1,1, - , - 
+A Journey to Delight Customer Embrace Lean and Agile,10/16/2013 13:00,10/16/2013 14:00,Conference Room 7,"One of Lean and Agile principles is to defer commitment as much as we can, but early commitment is highly demanded in a contract bind project from our customer. Is this conflict ? How shall we deal with it ? you might have similar questions as us while you start the Lean & Agile journey: 
+
+How to transit to Lean & Agile WoW in a timing critical customer program ? 
+How should portfolio set up to satisfy customer needs in Lean & Agile environment ? 
+What value we can bring to customer via Lean & Agile, only deliver faster ? 
+How to satisfy customer needs meantime to keep team motivated and grow up continuously?
+
+
+We will share you the learning journey during past 4 year we were through, started from scratches to a matured Lean/Agile portfolio which will cover:
+
+Lean & Agile portfolio model set up 
+Role set up in new WoW 
+Process adaptation 
+Customer engagement to embrace the market
+Focus on customer satisfaction meantime to keep team motivated  through pulling system 
+Forum to amplify learning 
+
+
+Let us go learning together !
+One of Lean and Agile principles is to defer commitment as much as we can, but early commitment is highly demanded in a contract bind project from our customer. Is this conflict ? How shall we deal with it ? you might have similar questions as us while you start the Lean & Agile journey: 
+
+How to transit to Lean & Agile WoW in a timing critical customer program ? 
+How should portfolio set up to satisfy customer needs in Lean & Agile environment ? 
+What value we can bring to customer via Lean & Agile, only deliver faster ? 
+How to satisfy customer needs meantime to keep team motivated and grow up continuously?
+
+
+We will share you the learning journey during past 4 year we were through, started from scratches to a matured Lean/Agile portfolio which will cover:
+
+Lean & Agile portfolio model set up 
+Role set up in new WoW 
+Process adaptation 
+Customer engagement to embrace the market
+Focus on customer satisfaction meantime to keep team motivated  through pulling system 
+Forum to amplify learning 
+
+
+Let us go learning together !
+One of Lean and Agile principles is to defer commitment as much as we can, but early commitment is highly demanded in a contract bind project from our customer. Is this conflict ? How shall we deal with it ? you might have similar questions as us while you start the Lean & Agile journey: 
+
+How to transit to Lean & Agile WoW in a timing critical customer program ? 
+How should portfolio set up to satisfy customer needs in Lean & Agile environment ? 
+What value we can bring to customer via Lean & Agile, only deliver faster ? 
+How to satisfy customer needs meantime to keep team motivated and grow up continuously?
+
+
+We will share you the learning journey during past 4 year we were through, started from scratches to a matured Lean/Agile portfolio which will cover:
+
+Lean & Agile portfolio model set up 
+Role set up in new WoW 
+Process adaptation 
+Customer engagement to embrace the market
+Focus on customer satisfaction meantime to keep team motivated  through pulling system 
+Forum to amplify learning 
+
+
+Let us go learning together !
+",2,1,2, - ,Herry Qiao
+Experiencing KANABN and continuously improving customer's satisfaction,10/16/2013 13:00,10/16/2013 14:00,Conference Room 6,"DUCI Beijing CDMA OAM PLM team started Agile journey in 2 years, now KANBAN has become essential to instruct PLM??s daily working more effectively and efficiently, furthermore, it is key to benefit the team growth and improve customer's satisfaction continuously. 
+
+According to PLM daily working??s characteristics, Agile/KNABAN process is the exact process which can improve the performance.  In this session, these items will be introduced and summarized.
+1         How to establish PLM KANBAN and fully visualize the CSR work flow, the KANBAN role definition and KANBAN board design.
+2.            Some PLM KANBAN practice.",2,2,2, - ,Tom Tan X
+Environment Driven Development,10/16/2013 13:00,10/16/2013 14:00,Conference Room 4,"The Agile Manifesto has made a big impact on software development around the world in a matter of 10 years. Granted, were not done yet. But weve made significant progress. However, it seems the Arctic Ocean will have melted before we see traditional management being replaced with a new paradigm.-- David Bornstein, How to change the world [David, 2007] 
+
+We change our traditional management to Lean and Agile leadership by changing the environment which is called Environment Driven Development. Through the presentation, we will tell you the theory combined with our practices during this 4 years deployment. Instead of changing the people themselves, how change our peoples behavior through changing the environment systematically, including the hard environment, soft environment and development environment. 
+
+We will also share the result we got and the lessons we learnt by changing the environment. You will hear a lot of interesting practical stories happened in this period of environment change; you can also hear the voices from the team members feedback.
+",2,3,2, - ,Weijia Lu
+Make Agile journey smooth by leveraging in-house developed CI framework,10/16/2013 13:00,10/16/2013 14:00,Conference Room 3,"This presentation will explain how we in NDO Smart Packet by leveraging our CI Framework gradually improve design and test efficiency and how our PM/LM use the data presented on CI FW for a better management of the project & team.
+As a product development responsible organization, we need to have very short feedback loop to secure productivity, quality and flexibility. 
+Before we have our CI FW, our XFTs had to separately trigger some development activities (typically for SW upgrade and regression test) manually and wait till the previous step to complete then trigger the next step.  This way we think we didnt utilize the time and our HW in an efficient way. 
+Furthermore, to do the Agile transformation we dont want the top-down directive mode, instead we want our XFTs to take initiatives to find out the approach for improvement and become self-organized. Then we think a CI FW is needed to facilitate the team.
+The NDO SP CI FW is an end-to-end responsible and easy-to-use framework which helps get each link in the SW engineering chain (SW build -> static code analysis -> UT -> SW upgrade -> regression -> coverage report -> execution result notification) connected. And also with the consolidated and easy-to-reach result summary, engineers can do trouble shooting easily. As a consequence, teams working efficiency is improved a lot. With the job queuing function, the idle time between test jobs is further reduced and  the HW utilization ratio are greatly improved.
+In Agile environment, transparency is important in the sense that it makes progress & dependency & impediments visible, so that it makes communication between teams or even between team and PM/LM more effective and efficient. The visualized information can also function as a push force for teams to continuously strive for an even better result. The abundant subjective data (e.g. result summary of each step, trend for each step) presented on CI FW works facilitate teams to reflect on in which area they are doing good and in which area they are not, then proactive actions can be taken immediately.
+With the visualized and consolidated information on out CI FW about each team??s work, together with the real time TR statistics info provided by our TR dashboard, it ",2,4,2, - ,Ke Li
+Best Practices On Gerrit Based Code Review,10/16/2013 13:00,10/16/2013 14:00,VIP 2,"Since more and more colleague changing from clearcase to git/gerrit, and gerrit based code review is the one of the best way to enhance our code quality. 
+At the beginning we always encounter some difficulties and strive to find the better way to increase our efficiency and really hope the tool could help us in daily work. 
+How to use the tools in smart way? How about the strategy? which is the best approach? which solution to choose for different business needs?  
+So in my presentation I will introduce:
+firstly, why code review? will cover basic concept and types of code review, and give a brief introduction about structure and fundamental of git, gerrit and Jenkins, also let you know how gerrit do the code reivew
+Secondly, some good experience on how deploy gerrit, there are approach you could choose by business needs, these good activity comes from different site, some are task based code review, some are feature based code review etc. it??s very flexible and could customized by project. And give some reason behind why you select the strategy and what??s the benefit.
+",2,5,2, - ,Vivian Yang W
+Bitterness and Happiness in Agile Journey,10/16/2013 13:00,10/16/2013 14:00,VIP 1,"This presentation delivers my REST solution, along with various feelings and stories in my Agile journey, for Release Manager and team working with RM.
+What did we face?
+CDMA RAN R&D started moving into Agile since 2011: Hundreds of engineers, cross-site teams, multi nodal teams
+CDMA RAN setup an enterprise model for Agile
+Agile transformation in an organization working in waterfall model for years with proven achievement
+Practical difference between waterfall and agile in my view
+Role
+Planning
+Delivery
+Process
+Continuous improvement
+Bitterness and Happiness I experienced
+A curve of my feeling in the journey of Agile: ups and downs
+Excited: I have a chance to make the world different
+Confused: Where am I in the new model? What should we do to be Agile?
+Struggling: Am I/are we running real/correct Agile? VS Can I deliver the product on time with quality? Which side should I stand on? 
+Anxiety: Risks, issues, deadline in new WoW
+Happy for me: I??m helper and is helping team to deliver the value to customer.
+Happy for all: we get features done in Agile: shorter leading time, good quality and less/similar person*month
+My solution to be a happy Release Manager in Agile life: REST
+Result or",2,6,2, - ,Donny Chen
+Modeling in Agile Agile,10/16/2013 13:00,10/16/2013 14:00,Ballroom B,activity abstract,2,7,2, - ,Kenji Hiranabe
+How to be an effective PO to Make Profitability in Maitenance Phase of CDMA Product?,10/16/2013 14:00,10/16/2013 14:00,Conference Room 7,"This Session will cover how to be effective PO in CDMA Maintenance phase. Experience will be shared on how to meet Customer needs in cost effective way, and in same time, how to explore new opportunity to be profitable. 
+ 
+? CDMA Core PO Agile WoW 
+? Cost Effective way on Backlog definition, Corrective Content Management and etc.
+? Explore New Opportunity on SW, HW and Tools.
+? Summary
+",2,1,2, - ,Bin Hu
+Make agile adaption to our project,10/16/2013 14:00,10/16/2013 14:00,Conference Room 6,"Our team is working for the CMCC fast track feature development and lab test support.
+Our project condition:
+1. Receive many TR/Issues from lab test everyday and the number couldn't be estimated;
+2. Too many urgent and high priority features are inserted which break the previous plan;
+3. Multi features/TR/Issues on one's hand and are switched frequently. 
+4. The features could be started or cancelled in a very short time. 
+To adapt agile to our project, we:
+1. Shorten our sprint to 2 weeks to avoid suddenly coming features which couldn't wait for the next sprint.
+2. Involve feature pre-study of next sprint to current sprint to do a earlier forecase and requirement understanding.
+3. Build up team competence as deepen their own design area and boarden to others. Let feature relative members share the key and short information to make others better involved in those not 'self relatived' tasks.\
+4. Combine Kanban and Scrum togther. 
+How do we decide putting one task into Kanban or Scrum?
+- We have both workpakage PO and TR PO, working toghter for the task assignment and priority decision.
+- Tasks with high priority, easy to estimate and hard to be removed during 1 sprint will be added in Scrum.
+- Tasks as TRs, Issues, feature verification support, workshop, pre-study ect will be added in Kanban.
+How does PO balance the Scrum and Kanban work?
+- 2mhr security time for Kanban, could be added in planning meeting according to tasks' priority.
+- If we commit more on Kanban, then we commit less on Scrum and vice versa.
+How do we run the daily standup meeting?
+- One board, two diagram (burn-down chart for scrum, task effort chart for kanban)
+- Update Scrum and Kanban tasks status, check our speed and decide what to do today. If faster on Scrum, someone could be involved more in Kanban.
+- All done in 15min, list all block issues and make group discussion after the meeting.
+ 
+Why do we put sharing tasks in Kanban?
+- In Scrum, sharing is too easy to be removed by inserted tasks, so we didn't put it into scrum because it always left at the end...
+- In Kanban, when someone has no ongoing task, he could put the sharing tasks into Kanban immediately.
+- In Kanban, new sharing task could be created immediately when we fix some issues or finish some pre-study to avoid forgetting it.
+ 
+How do we check the result on the sprint end?
+- For Scrum,  we will check how many commited UserStories have pass.
+- For Kanban, we will check how many TR/Issues/Sharing we finished. Pick out the tasks stay in Kanban for a long time for lesson learned.
+",2,2,2, - ,Ariel HAN
+Shall I join an Agile Team?,10/16/2013 14:00,10/16/2013 15:00,Conference Room 4,"Ericsson??s decision on the agile way of development impose the following requirements on the workforce: Team based scrum way of working, late decisions with possibilities for frequent changes and empowered teams/employees. However what does this mean for the workforce, what should I as a developer in agile team be, and how can I as a manager recruit good developers for the agile team? 
+From this presentation, you will get the chance to know: 
+- What??s the change after we introduce Lean/Agile 
+- What??s the characteristic to be a good developer
+- How to recruit good agile developers 
+",2,3,2, - ,Ralph Zhu & Frank Yang
+Continuous Deployment - To generate real business value through Lean and Agile practices,10/16/2013 14:00,10/16/2013 15:00,Conference Room 3,"PDU Packet Core has six years?? experience from Lean and Agile with improved feature velocity, quality and increased market share as result. 
+
+Now we move on towards Continuous Deployment. In 2015 PDU Packet Core will deliver new features and corrections from one track directly into customer networks. The software will be automatically deployed into live operation. This is a vision backed up by firm plans that will use Lean and Agile practices to change the way we do business by speeding up end-to-end feature delivery, fasting feedback and improving return on investments (ROI).  
+
+Which are the main obstacles? How do we intend to overcome those? How far have we come on this journey? Are customers willing to accept the new business model?
+",2,4,2, - ,Lennart Allinger
+Elegant automation test in agile,10/16/2013 14:00,10/16/2013 15:00,VIP 2,"Automation test is the key to successful agile development, which frees the team to deliver high-quality code frequently. Automated build, deployment and test scripts ensure reliability as well as allow the team to do its best work at all times. 
+ 
+While in the real word, there're always some actual barriers: 
+--The code tends to change frequently during development, how can automated tests catch up with it?
+-- The GUI automation test always cost a lot of effort, how can we change it from dark ages to successfully automation in an agile environment?
+-- End-to-end tests are particularly tricky to automate, how can we implement it elegantly?
+-- The team has hundreds, even thousands of automated test cases to maintain, if we fail to easily making the changes to existing test, the big suited of automated test cases can turn into headache. How can we avoid this?
+-- Writing automation test for legacy code with few or no tests is a daunting task, how can we complete them while at the same time working for new code?
+-- When iteration doesn??t proceed smoothly and the team failed to complete the tasks planned, automation test will always be the task don't have time to finish, how can we avoid it?
+ 
+How can we overcome these barriers? How can automation test let the team maximize its velocity while maintaining a high standard?
+In this presentation, we would share some practical experience on:
+-- How to apply agile values, principles and practices to develop automation test strategy in agile development
+-- How to develop an elegant automation framework to support the team's effective automated tests
+",2,5,2, - ,Smilings Lu
+Art in Agile,10/16/2013 14:00,10/16/2013 15:00,VIP 1,"Art is a method of non-verbal communication tool, through artistic activities to provide a platform for people can freely convey his self-conscious and the subconscious, 
+to become the most like a psychological analysis, the most affinity interactive way. 
+
+In Agile WoW, it highly focus on interactions between people. Therefore, communication becomes more and more important. Art is a way to communicate more transparently,
+deeply and funnily. During four years journey of Agile, we practiced many art activities in our ceremonies as: 
+-Literature 
+-Aesthetics 
+-Filmology 
+-Architecture 
+In this presentation, we will share our good practices all about Art! From these artistic activities, we can hear voice from team member??s heart and communicate deeply in the soul. 
+Moreover, these artistic activities are quite novel and interesting. Let??s say that ??Lean and Agile is not only a theory, we can also fill in them with a lot of fun!??
+",2,6,2, - ,Clare Bao
+Applying Agile to Hardware Development,10/16/2013 14:00,10/16/2013 15:00,Ballroom B,activity abstract,2,7,2, - ,Neil Johnson
+Tea Breaks,10/16/2013 15:00,10/16/2013 15:30, - , - ,7,1,1, - , - 
+EEGS 3.0 with Agile (1st major CDMA release to follow Agile process at release level),10/16/2013 15:30,10/16/2013 16:30,Conference Room 7,"? Way to handle a big program
+o One XFT allowed to cover multiple features,
+o Co-locate resource as much as possible,
+o PV within XFT,
+o Multi-level Collaboration,
+o Various PO roles, and 
+o OPO forum.
+? Cooperation between PDU and PL
+o Partial requirements passed from APO (PL) to OPO (PDU) for earlier design start,
+o PDU and PL propose features and work together to prioritize them, and
+o PDU and PL sync up at release level and feature level
+? Continuous Integration (CI)
+o Various CI activities (Sanity, Feature CI, CPR and Regression),
+o Two levels of CI (Nodal, Release),
+o Measure User story % covered in CI, and
+o CI improved quality
+? Align release and feature
+o Release milestone assessment checks feature status
+? TG1 requires 50% feature G1, 
+? TG2 requires 70% feature G1.5, 
+? TG3 requires 80% feature all sprints (except for FA) completion, and 
+? FC requires 100% feature G2.
+? Metrics for program progress
+o Use Hansoft to store requirements, User Stories, Sprints, Milestones and etc., and
+Developed excel tool to generate metrics based on Hansoft raw data.
+",2,1,2, - ,Maggie Cai
+A second thought on CPI Agile & CPI Process under F-model FRM,10/16/2013 15:30,10/16/2013 16:30,Conference Room 6,"As Agile is getting more and more popular nowadays, it reaches every aspect of product development, which requires a corresponding transformation of CPI. Combining and leveraging two PDU CPI transformation journeys, an end-to-end view is provided including at least but not limited to below aspects:
+1) A call for CPI Agile
+2) CPI Agile at a glance
+3) Transforming to CPI Agile, smiles and tears
+4) Learning lessons all the time
+5) Challenges ahead
+",2,2,2, - ,Robert Liu & Rocky Zhang R
+The power of being visible,10/16/2013 15:30,10/16/2013 16:30,Conference Room 4,"No matter you are running traditional team or scrum team, to motivate team member is always a big challenge of lean managers/Scrum masters. Despite what we usually do to encouraging people taking challenge, is there other way around to build a team that is always asking What We Can Change? Yes, one of the approach that you can try is making things visible. Including achievement/lesson learned/project status/responsibility.. Everything that can be visible, make them being visible as much as possible.
+
+From this presentation, we will have a deep dive on two typical scenarios on traditional team operation; newly formed scrum team. Then we can see how team member feel great by advertising/visualizing their achievement. How we can increase the trust between team members by talking/posting about achievement. How we handle failures. And some suggestion you should be careful when you want to go with this approach.
+",2,3,2, - ,Kevin Lin
+Continuous Integration -it is a systematic product,10/16/2013 15:30,10/16/2013 16:30,Conference Room 3,"Continuous Integration Machine -- a systematically developed product
+
+PDU WCDMA RBS CI has 1.5 years practice from lean and Agile to be able give the fast feedback towards XFT and contribute the SW quality statement towards the SW releasing to market.
+
+As the journey of CII Agile practice, there was no list of functionality that the WCDMA RBS CI machine should have, there were no real detailed requirements, and no pre-studies existed on how to automate certain test cases that had never been automated. Really we had next to nothing except our own ideas and vision. The software practice of CI was something new to us, so we did not have someone to base our machine development on and learn from. 
+
+What is continuous integration for us? How do we develop the continuous integration machine? How make our customers (XFT and track management) would have confidence in using and would trust our machine? And do we need and how make a CI machine evaluation plan?
+In the presentation I will cover the following:
+- What we think continuous integration is, it is a systematically developed product
+- How we make the continuous integration machine and the status of continuous integration of PDU WCDMA RBS
+o Roadmap, execution WOW
+o CI product KPI (stability, effectiveness, automation ratio, coverage??)
+o Doing continuous improvement through monitoring KPIs, FST, stockholders?? requirements
+- Competencies and way of working
+",2,4,2, - ,Kecheng Wang
+Quality Control in Agile,10/16/2013 15:30,10/16/2013 16:30,VIP 2,"Quality control in Agile in BUSS Shanghai 
+Agile is implemented long time ago in BUSS shanghai. What we care about is not only the WoW, but the product quality and efficiency. Better quality control is always our focus. Several good practice to share here. 
+Content: 
+1. Short Quality feedback loop 
+?  All products in BUSS Shanghai share common CI strategy/guide make our quality insurance work visualized in time. Examples of product adaption for different situation, we continuously learn from others's strong points to offset one's weakness and share environment setup work to be more efficient. 
+?  Useful tools integrated with CI work to control each phase quality. Such as Gerit for code review; Sonar for better monitor and control UT coverage; Heatmap, track FT failed cases as input of later test anatomy and case improvement; Jacoco, another angle of test coverage; Zabbix, performance ST report of system usage. 
+
+2. Quality feedback loop by FST (Fault Slip Through), which bring deeper analysis on why and how to improve. 
+?  Through analysis->feedback->deploy, each party of the product insurance (requirement owner, technical writer, designer, tester) keep improving our quality in each area. 
+
+Learning of those practice: 
+?  The first step is make product quality visualization timely, different time loop for different purpose. Not only visible but also stable and automized framework make us focus on product quality itself. 
+?  CI means not only Continuous Integration but also Continuous Improvement. During product development, we use variable kinds of feedback loop to make us take effort on the right direction and right way.
+
+Agile is implemented long time ago in BUSS shanghai. What we care about is not only the WoW, but the product quality and efficiency. Better quality control is always our focus. Several good practice to share here. 
+Content: 
+1. Short Quality feedback loop 
+?  All products in BUSS Shanghai share common CI strategy/guide make our quality insurance work visualized in time. Examples of product adaption for different situation, we continuously learn from others's strong points to offset one's weakness and share environment setup work to be more efficient. 
+?  Useful tools integrated with CI work to control each phase quality. Such as Gerit for code review; Sonar for better monitor and control UT coverage; Heatmap, track FT failed cases as input of later test anatomy and case improvement; Jacoco, another angle of test coverage; Zabbix, performance ST report of system usage. 
+
+2. Quality feedback loop by FST (Fault Slip Through), which bring deeper analysis on why and how to improve. 
+?  Through analysis->feedback->deploy, each party of the product insurance (requirement owner, technical writer, designer, tester) keep improving our quality in each area. 
+
+Learning of those practice: 
+?  The first step is make product quality visualization timely, different time loop for different purpose. Not only visible but also stable and automized framework make us focus on product quality itself. 
+?  CI means not only Continuous Integration but also Continuous Improvement. During product development, we use variable kinds of feedback loop to make us take effort on the right direction and right way.
+
+Agile is implemented long time ago in BUSS shanghai. What we care about is not only the WoW, but the product quality and efficiency. Better quality control is always our focus. Several good practice to share here. 
+Content: 
+1. Short Quality feedback loop 
+?  All products in BUSS Shanghai share common CI strategy/guide make our quality insurance work visualized in time. Examples of product adaption for different situation, we continuously learn from others's strong points to offset one's weakness and share environment setup work to be more efficient. 
+?  Useful tools integrated with CI work to control each phase quality. Such as Gerit for code review; Sonar for better monitor and control UT coverage; Heatmap, track FT failed cases as input of later test anatomy and case improvement; Jacoco, another angle of test coverage; Zabbix, performance ST report of system usage. 
+
+2. Quality feedback loop by FST (Fault Slip Through), which bring deeper analysis on why and how to improve. 
+?  Through analysis->feedback->deploy, each party of the product insurance (requirement owner, technical writer, designer, tester) keep improving our quality in each area. 
+
+Learning of those practice: 
+?  The first step is make product quality visualization timely, different time loop for different purpose. Not only visible but also stable and automized framework make us focus on product quality itself. 
+?  CI means not only Continuous Integration but also Continuous Improvement. During product development, we use variable kinds of feedback loop to make us take effort on the right direction and right way.
+",2,5,2, - ,Johan Bengtsson & Lily Zhang
+Marshmallow Challenge or Retrospective,10/16/2013 15:30,10/16/2013 16:30,VIP 1,activity abstract,2,6,2, - ,Bob Jiang
+The Power of Retrospective,10/16/2013 15:30,10/16/2013 16:30,Ballroom B,activity abstract,2,7,2, - ,Linda Rising
+Porfolio Management in Agile,10/16/2013 16:30,10/16/2013 17:30,Conference Room 7,"Portfolio Management in Agile environment is an interesting and challenging topic. Many factors impact the final decisions:  capacity, competence, strategy, schedule, cost, flexibility, stability, etc., in some extend, it's ""the art of balance"".
+ 
+When a feature is not big enough therefore it doesn't need the whole XFT, how to handle the idle resources? Normally the demands to resource are up and down through the whole feature lifecycle, how to keep the team stable while the resource can still be utilized efficiently? When product line and release PM require a feature commitment at the early stage of a feature, how to balance the flexibility and the commitment? These are the challenges I face everyday. 
+ 
+I would like to use this presentation to share the practice in PDU NMS, and how we handle above challenges in our daily work. The high-level agenda will include: 
+- capability management 
+- assignment handling and scenario planning 
+- fit feature into a release frame 
+- A useful tool for portfolio management 
+",2,1,2, - ,Jessica Pan
+Different cooperation models between Operative Product Owner and Scrum Master,10/16/2013 16:30,10/16/2013 17:30,Conference Room 6,"The cooperation between Operative Product Owner (OPO) and Scrum Master (ScM) is one of the most important factor in agile teams. Since we have large scale product development in PDU WMR, we need more practical cooperation model rather than simply copy from Scrum theory. In this session I would like to share the experiences about several different ""cooperation models"" between OPO and ScM in Nanjing ENC. And have some discussion on pros and cons. Some data will be collected from XFTs in ENC in the form of poll. 
+
+Contents: 
+- Why things are different here? 
+- Different background of OPO and ScM (PM, team leader, technical expert, junior engineer, etc. ) 
+- Data collected from XFTs 
+- Different cooperation models of OPO and ScM 
+    - half PM vs. technical expert 
+    - half PM vs. team leader (or facilitator) 
+    - technical expert vs. technical expert 
+    - technical expert vs. team leader 
+    - technical expert vs. full time ScM 
+    - Idea model in agile theory 
+- Comparison, pros and cons in respect of: 
+    - cross competence level 
+    - team's robustness and dependency 
+    - workload balance 
+    - efficiency 
+    - motivation on team members 
+    - etc. 
+- Discussion and future thinking
+",2,2,2, - ,Will Gao
+Agile People Management: 3 Reflective Questions ,10/16/2013 16:30,10/16/2013 17:30,Conference Room 4,"This speech is based on Glen Wang??s articles on Scrum Alliance http://www.scrumalliance.org/community/articles?author=gwang16
+These articles are about the integration of Scrum and the Unity of Knowing & Doing.
+Outline:
+? The introduction of the Unity of Knowing & Doing philosophy.
+? Six simple models to explain the agile management with the Unity of Knowing & Doing.
+? Conclusion, recap and takeaways.
+Conclusion:
+? Self-management: know your purpose, focus to do and be always confident.
+Manage yourself, and then be able to influence others, and change the world.
+?
+",2,3,2, - ,Glen Wang
+A story of evolution -- CI journey in NDO SP & Deploy CI upon Legacy & Private Systems,10/16/2013 16:30,10/16/2013 17:30,Conference Room 3,"Stories of CI Evolution Journey
+
+This is a joint presentation from DUIB China R&D Ops and DUCI GZ.
+
+As we always say, Agile transformation is a journey. It is also a journey to setup a Continuous Integration framework for a project from scratch. 
+
+In DUIB China NDO SP, we started our CI journey in year 2011. When we look back, there are lots of exciting achievements along the road.  DUIB China CI maturity model evaluates CI deployment from 5 dimensions which are building, deploying, testing, reporting and culture. It's a frame of reference for us to self-inspect on ""where we are"" and ""where to go"". Based on the measurement in the model, NDO SP has finished a giant leap from ""BASE"" level to ""INTERMEDIATE"" level in most of the dimensions. In the presentation, we will share our essential train of thought and good practices to our audience.
+
+In GUCI GZ, we are deploying CI upon a legacy system ?C GSM-N, which has served TELCO over 40 years. During our way to CI, private system in GSM-N is the biggest impediment. After a bout one year??s adventure, now we have achieved LLV building and LLV/LSV verification in our CI platform. Here we??d like to share our experiences on dealing with legacy and private systems, hope it can help teams who are facing same problems.
+",2,4,2, - ,Emily Geng & Ke Roy
+How CBA Component (TOF) Development Benefits from Agile,10/16/2013 16:30,10/16/2013 17:30,VIP 2,activity abstract,2,5,2, - , Sean Sun & Allen Zhao
+Lean and Agile Clinic,10/16/2013 16:30,10/16/2013 17:30,VIP 1,activity abstract,2,6,2, - ,Neil Johnson
+Exporing User Wish through Mindmapping,10/16/2013 16:30,10/16/2013 17:30,Ballroom B,activity abstract,2,7,2, - ,Kenji Hiranabe
+Open Space Topic Collection,10/17/2013 9:00,10/17/2013 9:30, - , - ,7,1,1, - , -
+From Efficiency to Innovation,10/17/2013 9:30,10/17/2013 10:30,Ballroom B, - ,7,1,2, - ,Dieter Kaufhold
+Tea Break,10/17/2013 10:30,10/17/2013 10:45, - , - ,7,1,1, - , - 
+"I am the technica expert, and business man!",10/17/2013 10:45,10/17/2013 11:45,Conference Room 7,"Presentation: Technical person but also businessman
+
+PDU people/the engineer are usually considered as technical person, who are not that close to the market and mainly focus on doing things right. But we UPG team make some changes here. UPG is a very young node in UDM family, which is the enabler for data monetization/big data. Considering survival and grow up in this competitive market, it??s extremely important for UPG R&D team to enhance market responsiveness by close collaborating with customers/region and shorten E2E feedback loop. This presentation will show how UPG R&D team are active on customer engagement and pre-sales support to upsell UPG as businessman, which also benefits the UPG agile development for requirement clarification, prioritization and business value understanding to do the right thing.
+",2,1,2, - ,Arthur Wen
+Kanban- A better choice for our team & How LSV team Adapt Agile: from Scrum to Kanban,10/17/2013 10:45,10/17/2013 11:45,Conference Room 6,"At the beginning of agile journey, we may often face a same problem. ""Are we going to use Scrum or Kanban?"" For the pure XFTs, it is easy for them to choose. But for
+some teams who play a different role within a R&D organization, it is not easy. LSV team in NDO IPOS and Infrastructure team in NDO SP are two typical examples.
+They both chose Scrum at the start. They had almost everything needed in a Scrum setup, like Scrum master, planning meeting, retrospective meeting and demo ect.
+
+But after running for several sprints, they both met obstacles. The high priority tasks kept coming in now and then. The sprint plan was interrupted. They can not 
+finish all the planned tasks to meet the schedule.
+
+Then they started to think about change. And they turned to Kanban. Without time box limited, they can easily handle the incoming urgent tasks and prioritize the backlog
+more freely. They focused more on the work flow. Team members work more closely and the quality is secured as well.
+",2,2,2, - ,Eric Dong & Sean Sun
+Continuous Learning,10/17/2013 10:45,10/17/2013 11:45,Conference Room 4,"Lean & Agile principle emphasized learning importance. But how to keep this learning mindset not only refreshing but also able to last for long time under Lean & Agile environment? 
+
+In this presentation, we??d like to share the real practice in CBC Mobile Core Shanghai. Through the whole presentation, we will try to answer the below questions: 
+? How to setup continuous learning culture? 
+? How to encourage team member to learn, practice & share? 
+? How to balance continuous learning effort with ongoing assignment? 
+? What is the challenge to keep the learning atmosphere in a sustainable way? 
+
+We??ll talk about this topic from 3 difference angles and 1 foundation that connected them through. It??ll include both methodology and our real stories. If you want to know more, welcome to join our session! 
+",2,3,2, - , Sharon Li & Tomix Wen
+How infrastructure shortens feedback loop in SGSN-MME,10/17/2013 10:45,10/17/2013 11:45,Conference Room 3,"In SGSN-MME product, we have around 8000 TTCN test cases and 35000 GTT (a function test tool for SGSN-MME) test cases for function test, normally each test case needs more than 10 seconds to execute. Nowadays we can finish one TTCN regression within 15 minutes and one GTT regression within 1 hour on average. But back to 2009, the figures to finish one TTCN regression and GTT regression were 20 hours and 8 hours. 
+
+My presentation introduces how our infrastructure department helps reduce this regression time and shorten the feedback loop from days to minutes in the past 5 years.  In the presentation, I will show what we have done within infrastructure area, how we use and deploy distributed system, virtualization technology and selective regression method to our regression testing. Distributed system and virtualization technology let us have the capacity to execute more regressions, and selective regression method provides a smart way to reduce regression scope and improve the efficiency. All of these tools and technologies have been integrated in our integration process to support our product??s CI deployment. 
+",2,4,2, - ,Alvin Hu
+Expediting Development With An Incremental Approach To Functional Verification,10/17/2013 10:45,10/17/2013 11:45,VIP 2,activity abstract,2,5,2, - ,Neil Johnson
+Quality Management & TL9000 Compliance in Agile WoW,10/17/2013 10:45,10/17/2013 11:45,VIP 1,"For DUCI PDU CDMA R&D, when we move from waterfall development model to agile WoW, our previous TL9000 quality management system becomes partly obsolete though it was quite excellent in managing the products quality in waterfall model before. During this transformation, the team gains obvious benefits from Agile WoW such as quick delivery, flexibility, productivity, but people also start to concern that in Agile WoW the processes and documents may be easily sacrificed, hence the quality might be depressed. Especially our major NA customers have a requirement for the suppliers to be TL9000 certified.
+Just like Agile manifesto stresses, ??while we value working software and individual interactions more, there is still value in processes and documents??.  Hence to better leverage the both, we adjusted the old quality management system in a lean approach and defined our Agile WoW with compliancy to TL9000 requirements during our Agile transformation. This presentation will talk about how we run agile in a way that fulfills TL9000 requirements on: 
+? Simplify processes to avoid overhead on processes/documents; 
+? Clarify a minimum set of documen",2,6,2, - ,Della Luo & Changying Sun
+Lean and Agile Clinic,10/17/2013 10:45,10/17/2013 11:45,Ballroom B,activity abstract,2,7,2, - ,Linda Rising
+Lunch,10/17/2013 11:45,10/17/2013 13:00, - , - ,7,1,1, - , - 
+See the forest and trees - optimize the whole through integrated view,10/17/2013 13:00,10/17/2013 14:00,Conference Room 7,"Despite progress that has been made in recent years in Market Customization Program (MCP), further improvements are needed to reduce time-to-market and increase added value to customers. 
+MCP Efficiency Program - a voluntary program established mid-2012, targeting to evolve the Mobile Core customization flow -, by visualizing & evaluating the flow from: 
+? Process perspective, 
+? Outcome perspective,  
+? Identify and analyze deviations, 
+AND finally locate improvement opportunities! 
+
+We are excited to share with you: 
+? How to organize and run a cross-organization improvement program (from customer order to product delivery, i.e., End to End) based on Lean & Agile principles! 
+? How to effectively use the simple data mining, and the Value Stream Mapping method to examine the whole flow! 
+? Several easy analysis methods to detect bottlenecks in the chain! 
+? How to break the organization boundary to generate improvement ideas quickly for different areas/phases! 
+? The secret how to combine project management practices with Lean principle to systematically OPTIMIZE THE WHOLE! 
+
+CBC MCP Product Owner Team
+",2,1,2, - ,Lian Chen
+Practice of Scrum of Scrum,10/17/2013 13:00,10/17/2013 14:00,Conference Room 6,"How to use Agile practices on large projects? The solution is ??Scrum of Scrums??. 
+
+There is an important project, WNMS7.0, for AT&T in Beijing BNET DUCI CDMA OAM SOLUTION team in 2013. The expected size of this project is about 11M SLOC, 50-60 developer/testers. So we use this concept ??Scrum of Scrums?? f",2,2,2, - ,Xiaoyan Wang
+Lead technical changes during agile deployment,10/17/2013 13:00,10/17/2013 14:00,Conference Room 4,"Agile is widely deployed into the company, and mostly the practice of the agile method will be launched first, like iteration, stand-up meeting, story point. While the technical practice which support the agile software development is used to be ignored in the beginning, this will create the barrier for the success agile deployment.
+
+And also even the technical practice is considered, how to deploy it is also quite challenge, since it differs a lot in different company with different culture.
+
+This presentation will show my experience on how to lead the technical changes  for software development in the company, it will be based on 3 real cases (refactoring, from clearcase to git and specification by example)
+",2,3,2, - ,Larry Cai
+The practice of build cloud-based CI ,10/17/2013 13:00,10/17/2013 14:00,Conference Room 3,"People all know that a successful Lean and Agile deployment can't leave continuous integration and deployment, unfortunately how to build a smart and efficient CI system has always been a difficult issue. Considering the multi- nodes deployment ,multi-model deployment, a large number of package management, short time feedback loop. How to make our CI system smart? In this presentation, we will show you two real cases from shanghai BDC and UDM products. How we use the private cloud , binary repository and other technological means to make CI efficient and smart.
+focuses on below points:
+- Common CI  trick issues and analysis
+- Good CI efficiency practices
+o Configuration management for CI 
+o Automatic everything
+o Binary repository service
+o Cloud based infrastructure
+                  - We are on the way
+",2,4,2, - ,Yong Luo & Dingjun Zhou
+TDD on S/W,10/17/2013 13:00,10/17/2013 14:00,VIP 2,"Test-driven development (TDD is a method of software development in which unit testing is repeatedly done on source code. The concept is to ""get something working now and perfect it later."" TDD can produce applications of high quality in less time than is possible with older methods. Proper implementation of TDD requires the developers and testers to accurately anticipate how the application and its features will be used in the real world. Because tests are conducted from the very beginning of the design cycle, time and money spent in debugging at later stages is minimized. 
+
+In this workshop, firstly we will introduce TDD??s concept and values. Then we would invite you to experience how to use TDD - a small hands-on programming game with TDD method. After your participation, I believe you will definitely know the importance of TDD in programming. Of course, you would probably find out some challenges to use TDD. Do not worry about it. We will guide you to brainstorm how to overcome the limitations in our TDD Journey. 
+
+We believe that there must be certain proper ways to start our TDD journey in our development. We can continue to improve the quality daily and daily via TDD.
+",2,5,2, - ,Jiangbiao Deng & Lin Cheng
+The amazing journey of Agile transition for a verification team,10/17/2013 13:00,10/17/2013 14:00,VIP 1,"GAPUP team handles the APZ upgrade test business in AXE.
+A typical verification team with legacy WoW. 
+In 2 years agile transition, 2 POs and 4 ATFs rotated and most team members changed. 
+Guess what? Now GAPUP is one of the most mature teams in EI CBC with great team spirit and evolving agile WoW. 
+
+Rome wasn't built in one day. 
+Let??s share this amazing journey with you including our struggles and experience.
+
+Competence: 
+-              GAPUP certificate: Ramps up newcomer??s competence and increases team??s flexibility.
+A 4 weeks buildup plan includes WoW, OJT and group review for newcomer.
+-              Win-win collaboration.
+Workshops with stakeholders to find mutual interests and smooth the total work flow.
+
+Quality:
+-              Review checklist. 
+GAPUP team design, test and release Upgrade/Implementation Instruction for certain APZ upgrade path.
+Review checklist is introduced for effective and qualified UI/II review. 
+-              UI Templates. 
+GAPUP UI/II usually contains 90% stable + 10% changeable ",2,6,2, - ,Vincent Zhang Z
+Lean and Agile Clinic,10/17/2013 13:00,10/17/2013 14:00,Ballroom B,activity abstract,2,7,2, - ,Linda Rising
+Lean Flow in Product Development,10/17/2013 14:00,10/17/2013 15:00,Conference Room 6,"Two fallacies in product development: 
+? High utilization of resources will improve performance 
+   Does it take into full account the intrinsic variability of development work? 
+   Does it understand how queues affect economic performance? 
+? The sooner the project is started, the sooner it will be finished 
+   Does it lead companies to start more projects than they can vigorously pursue. 
+   The slower a project progresses, what is the chance for project to stay? 
+
+PDU WMR conclusion 
+- What should we do about Flow? 
+- How should we treat Cost of Delay? 
+- How to manage queues? 
+- What does Flow and Queuing theory help us to increase productivity and feature delivery? 
+
+PDU WMR Practice in Flow product development: 
+- WCDMA has doubled its delivery (number of feature), comfortably release on time. The momentum of productivity increasing is still strong. 
+- Reducing TR dramatically on both Main and PLM track after 18 month Agile transformation. We are reducing PLM team each year. 
+- WCDMA is aiming for delivering SW each Sprint to SP instead few release each year in 2014. 
+",2,2,2, - ,Chester Xi
+Visualization-A transparent window to the sunshine,10/17/2013 14:00,10/17/2013 15:00,Conference Room 4,"Visualization-A transparent window to the sunshine
+Visualization is always an important part in agile which has many benefits to the team. Besides the traditional transparency methods, I will share some more visualization methods that we used in our agile practice.
+1. Visual board??physical visual board and E board (Hansoft).
+2. Retro Footprint?? a way to visualize the retro result and team level measurement.
+3. TV lives??a vivid and diverse way showing our team??s condition.
+4. Open door?? an open atmosphere to welcome any stakeholders.
+5. Big speaker??exper",2,3,2, - ,Bingfeng Liu
+Conflict Management,10/17/2013 14:00,10/17/2013 15:00,Conference Room 3,"When you enjoy the great landscape during exploration of Lean & Agile, you could also have some frustration and negative sense at same time.
+Conflicts and how to deal with conflicts, could be one of most widely controversial concerns.
+In this presentation, Speaker will try to answer the essence of Conflict Management in Agile, and his proposition.
+                Meanwhile, you could find some interesting answer in different angles for below questions. 
+? What are the conflicts?
+? Are conflicts positive or negative to Agile?
+? What particular kinds of conflict (with real cases) are in Agile? 
+? How to handle the conflicts in Agile?
+? What are conflict management strategies?
+",2,4,2, - ,Roy Huang
+Continuous Integration and Testing system in MSDP,10/17/2013 14:00,10/17/2013 15:00,VIP 2,"MSDP Continuous Integration and Testing system in BUSS CoE Service Enablement
+A full Multiservice Delivery Platform (MSDP) package is integrated by 300+ components/modules, which are developed by ~100 engineers. In order to make everything integrated in time and keep the product quality always visualized, Continuous Integration (CI) is well developed and managed in MSDP to ensure everything goes smoothly and refreshed frequently. 
+
+CI setup in MSDP includes the functionalities to automatically and continuously do: 
+- Timely component building, unit testing and code reviewing ; 
+- Hourly product package integrating, deploying and system testing; 
+- Nightly formal package delivering; 
+- Daily performance testing; 
+- Weekly duration testing; 
+
+Smart, clear and well organized CI systems are the key to make above jobs working smoothly, especially when the branch and job numbers are big (6 CI systems in MSDP and 100+ jobs in each CI system).  High efficient CI setup, good quality control and useful Jenkins plugins make MSDP CI in an efficient way.
+
+From environment setting, product building, deploying, testing and reporting perspective, MSDP CI is mostly in Advanced level. Let??s improve together!
+",2,5,2, - ,Miao Zhu
+TDD on S/W,10/17/2013 14:00,10/17/2013 15:00,VIP 1,"Test-driven development (TDD is a method of software development in which unit testing is repeatedly done on source code. The concept is to ""get something working now and perfect it later."" TDD can produce applications of high quality in less time than is possible with older methods. Proper implementation of TDD requires the developers and testers to accurately anticipate how the application and its features will be used in the real world. Because tests are conducted from the very beginning of the design cycle, time and money spent in debugging at later stages is minimized. ",2,6,2, - ,Jiangbiao Deng & Lin Cheng
+Practice to make team work happily with Agile/Kanban,10/17/2013 14:00,10/17/2013 15:00,Ballroom B,"At the beginning of our agile evolution, almost all of our team members had negative attitude. To be, or not to be, that is a question. Many teams might have the similar past. But now we are all happy with Agile & Kanban. Do you want to know why? 
+In this presentation, I will show how we solved the problems happened in the evolution. There is no any agile theoretical propaganda, but several real stories.
+",2,7,2, - ,Aaron Yu
+Lean and Agile Clinic,10/17/2013 14:00,10/17/2013 15:00,Ballroom B,activity abstract,2,7,2, - ,Neil Johnson
+Tea Breaks,10/17/2013 15:00,10/17/2013 15:30, - , - ,7,1,1, - , - 
+Drinking Lean from the Source,10/17/2013 15:30,10/17/2013 16:40,Ballroom B,activity abstract,7,1,2, - ,Kenji Hiranabe
+Closing,10/17/2013 16:40,10/17/2013 17:30,Ballroom B,activity abstract,7,1,2, - ,"Peter Lundin, Lars Frank, Jane Tan, PDU IP OS, ."
