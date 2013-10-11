@@ -35,14 +35,8 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
                                     strong = @active.title
                                 tr
                                   td align="left"
-                                    = @active.start_time.strftime("%Y-%m-%d %H:%M") + @active.stop_time.strftime("-%H:%M")
-                                tr
-                                  td align="left"
-                                    - if @active.room
-                                      - @active.room.split("\n").each do |room|
-                                        = room
-                                        br/
-                                        br/
+                                    = @active.start_time.strftime("%Y-%m-%d %H:%M") + @active.stop_time.strftime("-%H:%M")                                    
+
 
                             td valign="top" width="30%"
                               table border="0" cellpadding="5" cellspacing="5" width="100%"
@@ -51,6 +45,19 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
                                     a data-ajax="true" data-mini="true" data-role="button" data-theme="b" href="#{feedback_path(@active)}"
                                       font color="#ffffff"
                                         | Feedback
+                                        
+                                                                
+                    tr
+                      td valign="top" width="100%"
+                        table border="0" cellpadding="5" cellspacing="5" width="90%"
+                          tr
+                            td align="left"
+                              - if @active.room
+                                - @active.room.split("\n").each do |room|
+                                  = room.sub('Room of', 'Venue in')
+                                  br/
+                                  br/                                      
+                                        
                     tr
                       td colspan="2"
                         hr size="2"
