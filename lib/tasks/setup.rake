@@ -4,9 +4,12 @@ namespace :agile do
     Activity.delete_all
     activities = YAML.load_file("#{Rails.root}/config/activity.yml")
     activities.each do |key, activity|
+      room = ''
       activity.delete_if { |k,v| v == " - " }
+      activity = Hash[activity.map { |k, v| [k =~ /^Room/ ?  'room' : k, k =~ /^Room/ && v != nil ? room = room + k + ': ' + v + "\n"  : v ] }]
       activity = Hash[activity.map { |k, v| [k.underscore.sub(" ", "_").to_sym, v =~ /^\d+$/ ?  v.try(:to_i) : v] }]
       activity = Hash[activity.map { |k, v| [ k, k.to_s =~ /time$/ ?  DateTime.strptime( v, "%m/%d/%Y %H:%M") : v] }]
+
       puts activity.inspect
       Activity.create(activity)
     end

@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131009123211) do
+ActiveRecord::Schema.define(version: 20131011084227) do
 
   create_table "activities", force: true do |t|
     t.string   "title"
     t.datetime "start_time"
     t.datetime "stop_time"
-    t.string   "room"
+    t.text     "room",                 limit: 255
     t.text     "abstract"
     t.integer  "column_span"
     t.integer  "position"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20131009123211) do
     t.integer  "row_span"
     t.string   "background_color"
     t.text     "speakers"
+    t.text     "speaker_introduction"
   end
 
   create_table "admins", force: true do |t|
