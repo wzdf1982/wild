@@ -11,6 +11,10 @@ AgileConf::Application.routes.draw do
   resources :infos do
     collection do
       get 'overview'
+      get 'registration'
+      get 'security'      
+      get 'venue'    
+      get 'contact'      
     end
   end
 
