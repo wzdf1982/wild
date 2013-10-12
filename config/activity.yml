@@ -21,8 +21,17 @@ record_1:
   Start time: 10/16/2013 9:30
   Stop time: 10/16/2013 10:15
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
-  Abstract: ' - '
+  Speaker Introduction: |-
+    Peter Lundin, Head of R&D NEA
+    Lars Frank, Head of System Management, BU Network
+  Abstract: " Peter will open up our Lean and Agile Conference with an exciting speech
+    on R&D NEA overview and outlook, specially focusing on our R&D NEA Lean and Agile
+    initiatives, synergies, and fantastic results. \n\nYou will also find out what
+    top three items to ensure a great Lean and Agile transformation are, and where
+    we are with each one of them in R&D NEA.\n\n\nLars, as the driver of BU Network
+    Lean and Agile Program, will speak about the latest on the Lean and Agile program
+    at BU Network. \n\nWith great passion on Lean and Agile, he will also share with
+    us his own reflection along the Lean and Agile transformation journey.\n"
   Column span: '7'
   Position: '1'
   Row span: '2'
@@ -38,8 +47,17 @@ record_2:
   Start time: 10/16/2013 10:15
   Stop time: 10/16/2013 11:45
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
-  Abstract: ' - '
+  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
+    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
+    and numerous articles and is an internationally known presenter on topics related
+    to patterns, retrospectives, influence strategies, agile development, and the
+    change process."
+  Abstract: " In this session, pattern and change management expert Linda will be
+    speaking about how to make use of flexible patterns to lead Fearless Change. \n\nFind
+    out details on patterns, patterns that draw on the experiences of hundreds of
+    leaders. The patterns offer powerful insight into change-agent behavior, organizational
+    culture, and the roles of every participant. Best of all, they're easy to use-and
+    they work!\n\nJoin this session to get inspired, and get tips on introducing changes!"
   Column span: '7'
   Position: '1'
   Row span: '2'
@@ -274,7 +292,15 @@ record_10:
   Start time: 10/16/2013 13:00
   Stop time: 10/16/2013 14:00
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
+  Speaker Introduction: "Kenji Hiranabe is an Agile software development practitioner
+    and consultant in Japan. He thinks of software development as a form of co-operative
+    communication game, and is always searching for better ways to make it more productive,
+    collaborative, and fun. \n\n2008 Gordon Pask Award Recipient for contributions
+    to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of
+    the books including \"Multi-Paradigm Design\", \"C# Primer\", \"Lean Software
+    Development\", \"XP Installed\", \"Agile Project Management\". Also a developer
+    of \"JUDE\" a UML editor software integrated with Mind Mapping, and \"TRICHORD,\"
+    a Kanban-based Agile project information sharing tool. "
   Abstract: Now that Agile methods have become mainstream in software development,
     working code (and automated tests) are being considered as the most important
     team artifacts. Is modeling not needed any more? Is UML dead? I think that's not
@@ -502,7 +528,11 @@ record_17:
   Start time: 10/16/2013 14:00
   Stop time: 10/16/2013 15:00
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
+  Speaker Introduction: "Neil Johnson has been working in ASIC and FPGA development
+    for more than 10 years. \n\nHe currently holds the position of Principal Consultant
+    at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC
+    and FPGA development. \n\nNeil is also co-moderator for AgileSoC.com, a site dedicated
+    to the introduction of Agile development methods to the world of hardware development."
   Abstract: Agile software development methods have been adapted to and applied in
     a number of other areas. ASIC/FPGA development, however, with its big bang development
     and delivery model is an area where agile is strangely absent. Based on the four
@@ -771,7 +801,11 @@ record_25:
   Start time: 10/16/2013 15:30
   Stop time: 10/16/2013 16:30
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
+  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
+    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
+    and numerous articles and is an internationally known presenter on topics related
+    to patterns, retrospectives, influence strategies, agile development, and the
+    change process."
   Abstract: "Project Retrospectives are an important part of any software development
     process. \n\nThe Principles Behind the Agile Manifesto state that, \"At regular
     intervals, the team reflects on how to become more effective, then tunes and adjusts
@@ -959,11 +993,17 @@ record_30:
   Room of Nanjing: F4 Open area
   Room of Seoul: MB A106
 record_31:
-  Title: Lean and Agile Clinic HW Development
+  Title: |-
+    Lean and Agile Clinic
+    HW Development
   Start time: 10/16/2013 16:30
   Stop time: 10/16/2013 17:30
   Room of Beijing: VIP Room 2
-  Speaker Introduction: 
+  Speaker Introduction: "Neil Johnson has been working in ASIC and FPGA development
+    for more than 10 years. \n\nHe currently holds the position of Principal Consultant
+    at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC
+    and FPGA development. \n\nNeil is also co-moderator for AgileSoC.com, a site dedicated
+    to the introduction of Agile development methods to the world of hardware development."
   Abstract: Come in with your question. Speak to experts and get inspired with some
     current good practices and practical advices on your challenges
   Column span: '2'
@@ -981,7 +1021,15 @@ record_32:
   Start time: 10/16/2013 16:30
   Stop time: 10/16/2013 17:30
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
+  Speaker Introduction: "Kenji Hiranabe is an Agile software development practitioner
+    and consultant in Japan. He thinks of software development as a form of co-operative
+    communication game, and is always searching for better ways to make it more productive,
+    collaborative, and fun. \n\n2008 Gordon Pask Award Recipient for contributions
+    to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of
+    the books including \"Multi-Paradigm Design\", \"C# Primer\", \"Lean Software
+    Development\", \"XP Installed\", \"Agile Project Management\". Also a developer
+    of \"JUDE\" a UML editor software integrated with Mind Mapping, and \"TRICHORD,\"
+    a Kanban-based Agile project information sharing tool. "
   Abstract: |
     Gathering requirements and writing good user stories are always challenging. There are no standard processes or notations available to help gather them from the users. Without strong interpersonal communication and facilitation skills, the process can fail, leading towards lack of understanding of what the users really wish. In this talk, I try to show a path to overcome these obstacles by mindmapping.
     Through the simplicity and serenity of mind mapping, we will explore the ??User Wish?? - a vague shape of requirements before they are formalized. And turn them into user stories or use cases.  This session includes a demonstration of the user interview using mindmapping techniques.
@@ -1045,7 +1093,7 @@ record_35:
   Room of Guangzhou BNET: 
   Room of Guangzhou BUSS: 
   Room of Nanjing: 
-  Room of Seoul: ' '
+  Room of Seoul: 
 record_36:
   Title: Technical People and Businessmen!
   Start time: 10/17/2013 10:45
@@ -1227,7 +1275,16 @@ record_42:
   Start time: 10/17/2013 10:45
   Stop time: 10/17/2013 11:45
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
+  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
+    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
+    and numerous articles and is an internationally known presenter on topics related
+    to patterns, retrospectives, influence strategies, agile development, and the
+    change process.\nEvelyn Tian is the Lean and Agile Coach Lead for APAC within
+    Ericsson. She has been coaching organizations, management teams, development teams
+    and individuals throughout the journey.\n\nShe is Certified Master Coach, specialized
+    in behavior based coaching, and draw pleasure from helping others and companies
+    continuously improve, and generating positive energy.\n\nShe is a member of IEEE
+    Software Advisory Board, a licensed trainer for Management 3.0 and a CSP."
   Abstract: Come in with your question. Speak to experts and get inspired with some
     current good practices and practical advices on your challenges
   Column span: '2'
@@ -1298,10 +1355,10 @@ record_45:
   Room of Beijing: Meeting Room 5
   Speaker Introduction: Senior Software Engineer. The release technical leader for
     WNMS OAM7.
-  Abstract: "How to use Agile practices on large projects? The solution is ??Scrum
-    of Scrums??. \n\nThere is an important project, WNMS7.0, for AT&T in Beijing BNET
+  Abstract: "How to use Agile practices on large projects? The solution is 'Scrum
+    of Scrums'. \n\nThere is an important project, WNMS7.0, for AT&T in Beijing BNET
     DUCI CDMA OAM SOLUTION team in 2013. The expected size of this project is about
-    11M SLOC, 50-60 developer/testers. So we use this concept ??Scrum of Scrums??
+    11M SLOC, 50-60 developer/testers. So we use this concept 'Scrum of Scrums'
     f"
   Column span: '2'
   Position: '2'
@@ -1342,7 +1399,7 @@ record_47:
   Room of Beijing: Meeting Room 3
   Speaker Introduction: "From BUSS BoLTE, Shanghai\n- Long time focus on product  Continuous
     Integration & Delivery area\n- A OpenStack hacker\n- A team scrum master \nEmail:yongluo2013@gmail.com\nName
-    : Dingjun Zhou(??????)\nFrom UDM UPG Shanghai\n- Before driving the MSC CI\n-
+    : Dingjun Zhou\nFrom UDM UPG Shanghai\n- Before driving the MSC CI\n-
     Current being the UPG CI driver \n- Ruby fans\nEmail:dingjun.zhou@ericsson.com\n"
   Abstract: "People all know that a successful Lean and Agile deployment can't leave
     continuous integration and deployment, unfortunately how to build a smart and
@@ -1370,7 +1427,16 @@ record_48:
   Start time: 10/17/2013 13:00
   Stop time: 10/17/2013 14:00
   Room of Beijing: Meeting Room 7
-  Speaker Introduction: 
+  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
+    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
+    and numerous articles and is an internationally known presenter on topics related
+    to patterns, retrospectives, influence strategies, agile development, and the
+    change process.\n\n\n\nEvelyn Tian is the Lean and Agile Coach Lead for APAC within
+    Ericsson. She has been coaching organizations, management teams, development teams
+    and individuals throughout the journey.\n\nShe is Certified Master Coach, specialized
+    in behavior based coaching, and draw pleasure from helping others and companies
+    continuously improve, and generating positive energy.\n\nShe is a member of IEEE
+    Software Advisory Board, a licensed trainer for Management 3.0 and a CSP."
   Abstract: "Test-driven development (TDD is a method of software development in which
     unit testing is repeatedly done on source code. The concept is to \"get something
     working now and perfect it later.\" TDD can produce applications of high quality
@@ -1611,7 +1677,11 @@ record_57:
   Start time: 10/17/2013 14:00
   Stop time: 10/17/2013 15:00
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
+  Speaker Introduction: "Neil Johnson has been working in ASIC and FPGA development
+    for more than 10 years. \n\nHe currently holds the position of Principal Consultant
+    at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC
+    and FPGA development. \n\nNeil is also co-moderator for AgileSoC.com, a site dedicated
+    to the introduction of Agile development methods to the world of hardware development."
   Abstract: Come in with your question. Speak to experts and get inspired with some
     current good practices and practical advices on your challenges
   Column span: '2'
@@ -1646,7 +1716,15 @@ record_59:
   Start time: 10/17/2013 15:30
   Stop time: 10/17/2013 16:40
   Room of Beijing: Ballroom B
-  Speaker Introduction: 
+  Speaker Introduction: "Kenji Hiranabe is an Agile software development practitioner
+    and consultant in Japan. He thinks of software development as a form of co-operative
+    communication game, and is always searching for better ways to make it more productive,
+    collaborative, and fun. \n\n2008 Gordon Pask Award Recipient for contributions
+    to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of
+    the books including \"Multi-Paradigm Design\", \"C# Primer\", \"Lean Software
+    Development\", \"XP Installed\", \"Agile Project Management\". Also a developer
+    of \"JUDE\" a UML editor software integrated with Mind Mapping, and \"TRICHORD,\"
+    a Kanban-based Agile project information sharing tool. \n"
   Abstract: "Agile concepts are connected to Lean concepts by Mary and Tom Poppendieck
     via the three Lean Software Development books, but to see the original concepts
     from the source(TPS) makes your understanding much clearer and more executable.
@@ -1672,7 +1750,7 @@ record_60:
   Stop time: 10/17/2013 17:30
   Room of Beijing: Ballroom B
   Speaker Introduction: 
-  Abstract: activity abstract
+  Abstract: 
   Column span: '7'
   Position: '1'
   Row span: '2'

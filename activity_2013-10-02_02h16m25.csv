@@ -1,7 +1,22 @@
 Title,Start time,Stop time,Room of Beijing,Speaker Introduction,Abstract,Column span,Position,Row span,Background color,Speakers,Room of Shanghai,Room of Guangzhou BNET,Room of Guangzhou BUSS,Room of Nanjing,Room of Seoul
 Conference Registration (in Beijing),10/16/2013 9:00,10/16/2013 9:30, - ,, - ,7,1,1,#dddbdb, -,,,,,
-Opening,10/16/2013 9:30,10/16/2013 10:15,Ballroom B,, - ,7,1,2, - ,Peter Lundin and Lars Frank,"A3F Innovation Room, A4F Innovation Room, A4F Galaxy","F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)","5F Galaxy, 6F Venus","F4 Persedetial 1, F4 Presedetnail 2",MB Grand Ballroom
-Fearless Change: Patterns for Introducing New Ideas,10/16/2013 10:15,10/16/2013 11:45,Ballroom B,, - ,7,1,2, - ,Linda Rising,"A3F Innovation Room, A4F Innovation Room, A4F Galaxy","F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)","5F Galaxy, 6F Venus","F4 Persedetial 1, F4 Presedetnail 2",MB Grand Ballroom
+Opening,10/16/2013 9:30,10/16/2013 10:15,Ballroom B,"Peter Lundin, Head of R&D NEA
+Lars Frank, Head of System Management, BU Network"," Peter will open up our Lean and Agile Conference with an exciting speech on R&D NEA overview and outlook, specially focusing on our R&D NEA Lean and Agile initiatives, synergies, and fantastic results. 
+
+You will also find out what top three items to ensure a great Lean and Agile transformation are, and where we are with each one of them in R&D NEA.
+
+
+Lars, as the driver of BU Network Lean and Agile Program, will speak about the latest on the Lean and Agile program at BU Network. 
+
+With great passion on Lean and Agile, he will also share with us his own reflection along the Lean and Agile transformation journey.
+",7,1,2, - ,Peter Lundin and Lars Frank,"A3F Innovation Room, A4F Innovation Room, A4F Galaxy","F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)","5F Galaxy, 6F Venus","F4 Persedetial 1, F4 Presedetnail 2",MB Grand Ballroom
+Fearless Change: Patterns for Introducing New Ideas,10/16/2013 10:15,10/16/2013 11:45,Ballroom B,"Linda Rising is a well-known and well-respected independent consultant who lives in Nashville, Tennessee. 
+
+She has authored four books and numerous articles and is an internationally known presenter on topics related to patterns, retrospectives, influence strategies, agile development, and the change process."," In this session, pattern and change management expert Linda will be speaking about how to make use of flexible patterns to lead Fearless Change. 
+
+Find out details on patterns, patterns that draw on the experiences of hundreds of leaders. The patterns offer powerful insight into change-agent behavior, organizational culture, and the roles of every participant. Best of all, they're easy to use-and they work!
+
+Join this session to get inspired, and get tips on introducing changes!",7,1,2, - ,Linda Rising,"A3F Innovation Room, A4F Innovation Room, A4F Galaxy","F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)","5F Galaxy, 6F Venus","F4 Persedetial 1, F4 Presedetnail 2",MB Grand Ballroom
 Lunch,10/16/2013 11:45,10/16/2013 13:00, - ,, - ,7,1,1, - , - ,,,,,
 A Journey to Delight Customer and Embrace Lean and Agile,10/16/2013 13:00,10/16/2013 14:00,VIP Room 1,"Dazhou and Herry are from DUCI Shanghai MCP. They have 4 years Lean and Agile experience in MCP program as MCP portfolio manager and line manager. They will bring us their MCP Agile transition journey from 2010 to delight customer, delight team and embrace Lean and Agile.","One of Lean and Agile principles is to defer commitment as much as we can, but early commitment is highly demanded in a contract bind project from our customer. Is this conflict ? How shall we deal with it ? you might have similar questions as us while you start the Lean & Agile journey: 
 
@@ -69,7 +84,9 @@ Happy for me: I??m helper and is helping team to deliver the value to customer.
 Happy for all: we get features done in Agile: shorter leading time, good quality and less/similar person*month
 My solution to be a happy Release Manager in Agile life: REST
 Result or",2,6,2, - ,Donny Chen,A3F Leo(A317),F16 Nanjing,5F Earth,F3 Qin,MB A103
-Modeling in the Agile Age,10/16/2013 13:00,10/16/2013 14:00,Ballroom B,,"Now that Agile methods have become mainstream in software development, working code (and automated tests) are being considered as the most important team artifacts. Is modeling not needed any more? Is UML dead? I think that's not true. In this article, I'll explore the spaces where modeling fits and plays an important role in this Agile age, especially when development scales to multiple teams and a shared understanding of the system's ""Big Picture"" becomes essential.",2,7,2, - ,Kenji Hiranabe,A3F Innovation Room,F15 Wuhan(Live),5F Galaxy,F4 Presedetnail 2,MB Grand Ballroom
+Modeling in the Agile Age,10/16/2013 13:00,10/16/2013 14:00,Ballroom B,"Kenji Hiranabe is an Agile software development practitioner and consultant in Japan. He thinks of software development as a form of co-operative communication game, and is always searching for better ways to make it more productive, collaborative, and fun. 
+
+2008 Gordon Pask Award Recipient for contributions to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of the books including ""Multi-Paradigm Design"", ""C# Primer"", ""Lean Software Development"", ""XP Installed"", ""Agile Project Management"". Also a developer of ""JUDE"" a UML editor software integrated with Mind Mapping, and ""TRICHORD,"" a Kanban-based Agile project information sharing tool. ","Now that Agile methods have become mainstream in software development, working code (and automated tests) are being considered as the most important team artifacts. Is modeling not needed any more? Is UML dead? I think that's not true. In this article, I'll explore the spaces where modeling fits and plays an important role in this Agile age, especially when development scales to multiple teams and a shared understanding of the system's ""Big Picture"" becomes essential.",2,7,2, - ,Kenji Hiranabe,A3F Innovation Room,F15 Wuhan(Live),5F Galaxy,F4 Presedetnail 2,MB Grand Ballroom
 How to be an Effective PO to Make Profitability in Maintenance Phase of CDMA Product,10/16/2013 14:00,10/16/2013 14:00,VIP Room 1,"Bin Hu , BNET DUCI PDU CDMA Core Advanced Project Manager, I have been working in CDMA Business since 2003, with more than 5 years?? experience in project management and 2 years Product Owner experience. ","This Session will cover how to be effective PO in CDMA Maintenance phase. Experience will be shared on how to meet Customer needs in cost effective way, and in same time, how to explore new opportunity to be profitable. 
  
 ? CDMA Core PO Agile WoW 
@@ -153,7 +170,11 @@ In this session I will speak about:
 ? Personal Retrospective
 ? Tips/Suggestions for Better Retrospective
 ? Today??s Retrospective",2,6,2, - ,Bob Jiang,A3F Leo(A317),F16 Nanjing,5F Earth,F3 Qin,MB A103
-Applying Agile to Hardware Development. We Are Not That Different After All!,10/16/2013 14:00,10/16/2013 15:00,Ballroom B,,"Agile software development methods have been adapted to and applied in a number of other areas. ASIC/FPGA development, however, with its big bang development and delivery model is an area where agile is strangely absent. Based on the four values of the Agile Manifesto, this talk presents an overview for how agile methods can be applied in hardware development.",2,7,2, - ,Neil Johnson,A3F Innovation Room,F15 Wuhan(Live),5F Galaxy,F4 Presedetnail 2,MB Grand Ballroom
+Applying Agile to Hardware Development. We Are Not That Different After All!,10/16/2013 14:00,10/16/2013 15:00,Ballroom B,"Neil Johnson has been working in ASIC and FPGA development for more than 10 years. 
+
+He currently holds the position of Principal Consultant at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC and FPGA development. 
+
+Neil is also co-moderator for AgileSoC.com, a site dedicated to the introduction of Agile development methods to the world of hardware development.","Agile software development methods have been adapted to and applied in a number of other areas. ASIC/FPGA development, however, with its big bang development and delivery model is an area where agile is strangely absent. Based on the four values of the Agile Manifesto, this talk presents an overview for how agile methods can be applied in hardware development.",2,7,2, - ,Neil Johnson,A3F Innovation Room,F15 Wuhan(Live),5F Galaxy,F4 Presedetnail 2,MB Grand Ballroom
 Tea Break,10/16/2013 15:00,10/16/2013 15:30, - ,, - ,7,1,1, - , - ,,,,,
 EEGS 3.0 with Agile (1st Major CDMA Release to Follow Agile Process at Release Level),10/16/2013 15:30,10/16/2013 16:30,VIP Room 1,"Maggie Cai has been working as a release manager in BNET PDU CDMA Radio Access since 2008. She has worked on the release management of CDMA 1x releases 16/17/18/19 and CDMA EEGS releases 1.1/2.0/3.0.  She is experienced on project management, process (both Agile and Waterfall), quality, and metrics."," Ways to handle a big program
 o One XFT allowed to cover multiple features,
@@ -261,7 +282,9 @@ deeply and funnily. During four years journey of Agile, we practiced many art ac
 In this presentation, we will share our good practices all about Art! From these artistic activities, we can hear voice from team member??s heart and communicate deeply in the soul. 
 Moreover, these artistic activities are quite novel and interesting. Let??s say that ??Lean and Agile is not only a theory, we can also fill in them with a lot of fun!??
 ",2,6,2, - ,Clare Bao,A3F Leo(A317),F16 Nanjing,5F Earth,F3 Qin,MB A103
-The Power of Retrospective,10/16/2013 15:30,10/16/2013 16:30,Ballroom B,,"Project Retrospectives are an important part of any software development process. 
+The Power of Retrospective,10/16/2013 15:30,10/16/2013 16:30,Ballroom B,"Linda Rising is a well-known and well-respected independent consultant who lives in Nashville, Tennessee. 
+
+She has authored four books and numerous articles and is an internationally known presenter on topics related to patterns, retrospectives, influence strategies, agile development, and the change process.","Project Retrospectives are an important part of any software development process. 
 
 The Principles Behind the Agile Manifesto state that, ""At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly."" 
 
@@ -350,8 +373,15 @@ b. End-to-end team responsibility
 c. XFT team was encouraged to do role rotation to enable team competence build-up 
 d. Adjusted Code review effort reserved during sprint cycle to improve the code review quality. 
 e. High UT cove",2,5,2, - , Sean Sun & Allen Zhao,A4F Innovation Room,F16 Hangzhou,6F Venus,F4 Open area,MB A106
-Lean and Agile Clinic HW Development,10/16/2013 16:30,10/16/2013 17:30,VIP Room 2,,Come in with your question. Speak to experts and get inspired with some current good practices and practical advices on your challenges,2,6,2, - ,Neil Johnson,A3F Leo(A317),F16 Nanjing,5F Earth,F3 Qin,MB A103
-Exploring User Wish through Mindmapping,10/16/2013 16:30,10/16/2013 17:30,Ballroom B,,"Gathering requirements and writing good user stories are always challenging. There are no standard processes or notations available to help gather them from the users. Without strong interpersonal communication and facilitation skills, the process can fail, leading towards lack of understanding of what the users really wish. In this talk, I try to show a path to overcome these obstacles by mindmapping.
+"Lean and Agile Clinic
+HW Development",10/16/2013 16:30,10/16/2013 17:30,VIP Room 2,"Neil Johnson has been working in ASIC and FPGA development for more than 10 years. 
+
+He currently holds the position of Principal Consultant at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC and FPGA development. 
+
+Neil is also co-moderator for AgileSoC.com, a site dedicated to the introduction of Agile development methods to the world of hardware development.",Come in with your question. Speak to experts and get inspired with some current good practices and practical advices on your challenges,2,6,2, - ,Neil Johnson,A3F Leo(A317),F16 Nanjing,5F Earth,F3 Qin,MB A103
+Exploring User Wish through Mindmapping,10/16/2013 16:30,10/16/2013 17:30,Ballroom B,"Kenji Hiranabe is an Agile software development practitioner and consultant in Japan. He thinks of software development as a form of co-operative communication game, and is always searching for better ways to make it more productive, collaborative, and fun. 
+
+2008 Gordon Pask Award Recipient for contributions to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of the books including ""Multi-Paradigm Design"", ""C# Primer"", ""Lean Software Development"", ""XP Installed"", ""Agile Project Management"". Also a developer of ""JUDE"" a UML editor software integrated with Mind Mapping, and ""TRICHORD,"" a Kanban-based Agile project information sharing tool. ","Gathering requirements and writing good user stories are always challenging. There are no standard processes or notations available to help gather them from the users. Without strong interpersonal communication and facilitation skills, the process can fail, leading towards lack of understanding of what the users really wish. In this talk, I try to show a path to overcome these obstacles by mindmapping.
 Through the simplicity and serenity of mind mapping, we will explore the ??User Wish?? - a vague shape of requirements before they are formalized. And turn them into user stories or use cases.  This session includes a demonstration of the user interview using mindmapping techniques.
 ",2,7,2, - ,Kenji Hiranabe,A3F Innovation Room,F15 Wuhan(Live),5F Galaxy,F4 Presedetnail 2,NB 302
 Recap of Day 1,10/17/2013 9:00,10/17/2013 9:30, - ,, - ,7,1,1, - , -,,,,,
@@ -401,7 +431,14 @@ CDMA OAM Product Integration/Verification manager before 2013.
 Just like Agile manifesto stresses, ??while we value working software and individual interactions more, there is still value in processes and documents??.  Hence to better leverage the both, we adjusted the old quality management system in a lean approach and defined our Agile WoW with compliancy to TL9000 requirements during our Agile transformation. This presentation will talk about how we run agile in a way that fulfills TL9000 requirements on: 
 ? Simplify processes to avoid overhead on processes/documents; 
 ? Clarify a minimum set of document",2,6,2, - ,Della Luo & Changying Sun,A3F Leo(A317),F16 Nanjing,5F Earth,F3 Qin,MB A103
-Lean and Agile Clinic,10/17/2013 10:45,10/17/2013 11:45,Ballroom B,,Come in with your question. Speak to experts and get inspired with some current good practices and practical advices on your challenges,2,7,2, - ,Linda Rising & Evelyn Tian,N/A,N/A,N/A,N/A,N/A
+Lean and Agile Clinic,10/17/2013 10:45,10/17/2013 11:45,Ballroom B,"Linda Rising is a well-known and well-respected independent consultant who lives in Nashville, Tennessee. 
+
+She has authored four books and numerous articles and is an internationally known presenter on topics related to patterns, retrospectives, influence strategies, agile development, and the change process.
+Evelyn Tian is the Lean and Agile Coach Lead for APAC within Ericsson. She has been coaching organizations, management teams, development teams and individuals throughout the journey.
+
+She is Certified Master Coach, specialized in behavior based coaching, and draw pleasure from helping others and companies continuously improve, and generating positive energy.
+
+She is a member of IEEE Software Advisory Board, a licensed trainer for Management 3.0 and a CSP.",Come in with your question. Speak to experts and get inspired with some current good practices and practical advices on your challenges,2,7,2, - ,Linda Rising & Evelyn Tian,N/A,N/A,N/A,N/A,N/A
 Lunch,10/17/2013 11:45,10/17/2013 13:00, - ,, - ,7,1,1, - , - ,,,,,
 See the Forest and Trees - Optimize the Whole through Integrated View,10/17/2013 13:00,10/17/2013 14:00,VIP Room 1,"I am Lian Chen, from DUCI Shanghai project office.
 From the middle of 2012, a group of project managers volunteered to establish an efficiency program aiming to improve the efficiency of our own area. Till now, we've learned a lot and surprisingly achieved a lot. Here I am honored to share with you our practical experiences how to approach the dream of being really efficient and owning the best customer perception.
@@ -452,7 +489,17 @@ o Binary repository service
 o Cloud based infrastructure
                   - We are on the way
 ",2,4,2, - ,Yong Luo & Dingjun Zhou,A4F Galaxy(A413),F17 Kunming,5F Mars,F2 Wudang,MB A105
-TDD on S/W,10/17/2013 13:00,10/17/2013 14:00,Meeting Room 7,,"Test-driven development (TDD is a method of software development in which unit testing is repeatedly done on source code. The concept is to ""get something working now and perfect it later."" TDD can produce applications of high quality in less time than is possible with older methods. Proper implementation of TDD requires the developers and testers to accurately anticipate how the application and its features will be used in the real world. Because tests are conducted from the very beginning of the design cycle, time and money spent in debugging at later stages is minimized. 
+TDD on S/W,10/17/2013 13:00,10/17/2013 14:00,Meeting Room 7,"Linda Rising is a well-known and well-respected independent consultant who lives in Nashville, Tennessee. 
+
+She has authored four books and numerous articles and is an internationally known presenter on topics related to patterns, retrospectives, influence strategies, agile development, and the change process.
+
+
+
+Evelyn Tian is the Lean and Agile Coach Lead for APAC within Ericsson. She has been coaching organizations, management teams, development teams and individuals throughout the journey.
+
+She is Certified Master Coach, specialized in behavior based coaching, and draw pleasure from helping others and companies continuously improve, and generating positive energy.
+
+She is a member of IEEE Software Advisory Board, a licensed trainer for Management 3.0 and a CSP.","Test-driven development (TDD is a method of software development in which unit testing is repeatedly done on source code. The concept is to ""get something working now and perfect it later."" TDD can produce applications of high quality in less time than is possible with older methods. Proper implementation of TDD requires the developers and testers to accurately anticipate how the application and its features will be used in the real world. Because tests are conducted from the very beginning of the design cycle, time and money spent in debugging at later stages is minimized. 
 
 In this workshop, firstly we will introduce TDD??s concept and values. Then we would invite you to experience how to use TDD - a small hands-on programming game with TDD method. After your participation, I believe you will definitely know the importance of TDD in programming. Of course, you would probably find out some challenges to use TDD. Do not worry about it. We will guide you to brainstorm how to overcome the limitations in our TDD Journey. 
 
@@ -526,12 +573,19 @@ Lin Cheng, agile coach in DUCI.SH EI organization. I have worked in Ericsson for
 Practice to Make Team Work Happily with Agile/Kanban,10/17/2013 14:00,10/17/2013 15:00,Ballroom B,"I am Aaron Yu from CBC Test Tools Rnd Center for nearly 6 years, currently work as the KANBAN master of the maintenance team.","At the beginning of our agile evolution, almost all of our team members had negative attitude. To be, or not to be, that is a question. Many teams might have the similar past. But now we are all happy with Agile & Kanban. Do you want to know why? 
 In this presentation, I will show how we solved the problems happened in the evolution. There is no any agile theoretical propaganda, but several real stories.
 ",2,7,2, - ,Aaron Yu,A3F Leo(A317),F16 Nanjing,5F Earth,F3 Qin,MB A103
-Lean and Agile Clinic HW Development,10/17/2013 14:00,10/17/2013 15:00,Ballroom B,,Come in with your question. Speak to experts and get inspired with some current good practices and practical advices on your challenges,2,7,2, - ,Neil Johnson,N/A,N/A,N/A,N/A,N/A
+Lean and Agile Clinic HW Development,10/17/2013 14:00,10/17/2013 15:00,Ballroom B,"Neil Johnson has been working in ASIC and FPGA development for more than 10 years. 
+
+He currently holds the position of Principal Consultant at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC and FPGA development. 
+
+Neil is also co-moderator for AgileSoC.com, a site dedicated to the introduction of Agile development methods to the world of hardware development.",Come in with your question. Speak to experts and get inspired with some current good practices and practical advices on your challenges,2,7,2, - ,Neil Johnson,N/A,N/A,N/A,N/A,N/A
 Tea Breaks,10/17/2013 15:00,10/17/2013 15:30, - ,, - ,7,1,1, - , - ,,,,,
-Drinking Lean from the Source,10/17/2013 15:30,10/17/2013 16:40,Ballroom B,,"Agile concepts are connected to Lean concepts by Mary and Tom Poppendieck via the three Lean Software Development books, but to see the original concepts from the source(TPS) makes your understanding much clearer and more executable. And, you'll experience a lot of Aha moments through this session.
+Drinking Lean from the Source,10/17/2013 15:30,10/17/2013 16:40,Ballroom B,"Kenji Hiranabe is an Agile software development practitioner and consultant in Japan. He thinks of software development as a form of co-operative communication game, and is always searching for better ways to make it more productive, collaborative, and fun. 
+
+2008 Gordon Pask Award Recipient for contributions to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of the books including ""Multi-Paradigm Design"", ""C# Primer"", ""Lean Software Development"", ""XP Installed"", ""Agile Project Management"". Also a developer of ""JUDE"" a UML editor software integrated with Mind Mapping, and ""TRICHORD,"" a Kanban-based Agile project information sharing tool. 
+","Agile concepts are connected to Lean concepts by Mary and Tom Poppendieck via the three Lean Software Development books, but to see the original concepts from the source(TPS) makes your understanding much clearer and more executable. And, you'll experience a lot of Aha moments through this session.
 
 I'll share the roots of Lean concepts including Kaizen (Continuous Improvement), Gemba (Go See), Muda-Dori (Waste Elimination), WIP limitation, Pull production system, and ??People?? as the center of the process via a Japanese video showing a factory reconstruction to Lean.
 
 >2, One session on mindmap (45 minutes session, could you also send me a 
 >description for the catalog?)",7,1,2, - ,Kenji Hiranabe,"A3F Innovation Room, A4F Innovation Room, A4F Galaxy","F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)","5F Galaxy, 6F Venus","F4 Persedetial 1, F4 Presedetnail 2",MB Grand Ballroom
-Closing,10/17/2013 16:40,10/17/2013 17:30,Ballroom B,,activity abstract,7,1,2, - ,Peter Lundin,"A3F Innovation Room, A4F Innovation Room, A4F Galaxy","F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)","5F Galaxy, 6F Venus","F4 Persedetial 1, F4 Presedetnail 2",MB Grand Ballroom
+Closing,10/17/2013 16:40,10/17/2013 17:30,Ballroom B,,,7,1,2, - ,Peter Lundin,"A3F Innovation Room, A4F Innovation Room, A4F Galaxy","F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)","5F Galaxy, 6F Venus","F4 Persedetial 1, F4 Presedetnail 2",MB Grand Ballroom
