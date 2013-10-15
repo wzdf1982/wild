@@ -1,7 +1,7 @@
 class SchedulesController < ApplicationController
    layout 'mobile'
-   before_action :require_login
-  
+   caches_page :index, :show
+
   def index
     start_times = Activity.all.group(:start_time).select(:start_time)
     @groups = []

@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   before_action :require_login, except: [:login, :register]
 
   layout 'mobile'
+  caches_page :login
   
   def index
   end
