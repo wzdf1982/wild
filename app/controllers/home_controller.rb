@@ -3,17 +3,12 @@ class HomeController < ApplicationController
   before_action :require_login, except: [:login, :register]
 
   layout 'mobile'
-  caches_page :login
-  
-  def index
-  end
-
-  def login
-  end
 
   def register
-    if !User.where(name: params['UserCode'].upcase).empty? || User.new(name: params['UserCode'].upcase).save
-      session[:user] = User.where(name: params['UserCode'].upcase).first.id
+    user = User.find_or_initialize_by(name: params[:UserCode].upcase)
+
+    if user.save
+      session[:user] = user.id 
     end
 
     redirect_to root_url

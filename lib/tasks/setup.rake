@@ -39,4 +39,14 @@ namespace :agile do
     Answer.delete_all
     Question.delete_all
   end
+
+  desc 'export answers'
+  task :export_answers => :environment do
+     File.open("#{Rails.root}/tmp/result.csv", 'w') do |f|
+
+       Answer.all.each do |answer|
+         f.write("%s,%s,%s\n" % [answer.question.activity.title, answer.question.title, answer.content]) 
+      end
+     end
+  end
 end
