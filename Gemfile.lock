@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/norman/friendly_id.git
+  revision: 2764077e3af32a88114d68c75e20ef738e4fa829
+  branch: master
+  specs:
+    friendly_id (5.0.0)
+      activerecord (~> 4.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -166,8 +174,8 @@ DEPENDENCIES
   actionpack-page_caching
   coffee-rails (~> 4.0.0)
   devise
+  friendly_id!
   jbuilder (~> 1.2)
-  jquery-rails
   mysql2
   rails (= 4.0.0)
   rails_admin

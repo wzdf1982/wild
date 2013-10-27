@@ -8,13 +8,15 @@ AgileConf::Application.routes.draw do
   post 'register' => 'home#register'
   get 'logout' => 'home#logout'
 
+  resources :informations, only: [:index, :show]
+
   resources :infos do
     collection do
       get 'overview'
       get 'registration'
-      get 'security'      
-      get 'venue'    
-      get 'contact'      
+      get 'security'
+      get 'venue'
+      get 'contact'
     end
   end
 

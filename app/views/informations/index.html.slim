@@ -1,0 +1,6 @@
+
+= render 'header'
+- for info in @informations
+  div id="infor_item"
+    div id="infor_title"
+      = link_to info.title, info, remote: true
