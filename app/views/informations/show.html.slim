@@ -1,2 +1,16 @@
-h1 Information#show
-p Find me in app/views/information/show.html.slim
+div id="header"
+  = render partial: 'header', locals: {title: @information.title, home: true}
+
+div id="content"
+
+div id="markdown" style="display:none"
+  = @information.content
+
+
+javascript:
+  var converter = new Showdown.converter();
+  var contents = $('#markdown').html();
+
+
+  var converted = converter.makeHtml(contents);
+  $('#content').html(converted);

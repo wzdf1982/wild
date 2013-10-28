@@ -5,3 +5,14 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+INFOS = [
+  {'Programe Overview' =>  'test'},
+  {'Programe Overview' =>  'test'},
+  {'Programe Overview' =>  'test'}
+]
+
+INFOS.each do |info|
+  title, content = info.shift
+  Information.create(title: title, content: content)
+end

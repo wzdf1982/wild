@@ -1,6 +1,10 @@
+div id='header'
+  = render partial: 'header', locals: {title: 'Information', home: false}
 
-= render 'header'
-- for info in @informations
-  div id="infor_item"
-    div id="infor_title"
-      = link_to info.title, info, remote: true
+ul id="info_items"
+  - for info in @informations
+    li class="info_item"
+      div class="info_title"
+        = link_to info.title, info, remote: true
+        span class="arrow-right"
+          = image_tag "ArrowRight.png"
