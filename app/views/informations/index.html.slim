@@ -1,5 +1,5 @@
 div id='header'
-  = render partial: 'header', locals: {title: 'Information', home: false}
+  = render partial: 'shared/header', locals: {title: 'Information', home: false}
 
 ul id="info_items"
   - for info in @informations

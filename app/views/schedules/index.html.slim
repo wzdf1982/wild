@@ -1,89 +1,40 @@
-#wrapper
-  table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%" width="630"
-    tr
-      td height="100%" valign="top"
-        table border="0" cellpadding="0" cellspacing="0" height="100%" width="630"
-          tr
-            td valign="middle"
-              table id="color_line" border="0" cellpadding="0" cellspacing="0" height="4" width="100%"
-              table id="bg_top_banner" border="0" cellpadding="0" cellspacing="0" height="55" width="100%"
-                tr
-                  td align="left" valign="middle" width="35%"
-                    a.ui-btn-left data-ajax="true" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="."
-                      | Back
-                  td align="center" valign="middle" width="30%"
-                    span style="color: #000000;font-size: 15px;"
-                      strong Schedule
-                  td align="right" valign="middle" width="35%"
-          tr
-            td valign="middle"
-              table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
-                tr
-                  td
-                    table bgcolor="#ececec" border="0" cellpadding="2" cellspacing="1" width="630"
-                      - date = ''
-                      - i = 0
-                      - flag = 0
-                      - categories = ['Product Portfolio and Program Management', 'Scrum and Kanban in Context', 'Coaching and Leadership', 'Continuous Integration and Deployment', 'Software Craftsmanship', 'Have Fun with Lean and Agile!', 'Special Sessions']
-                      - for group in @groups do
-                        - category_colors = ['89BA17', 'F08A00', '007B78', '00A9D4', 'E32119', 'FABB00', '8F3F7B']
-                        - colors = ['89BA17', 'F08A00', '007B78', '00A9D4', 'E32119', 'FABB00', '8F3F7B']                   
-                        - if date != group.first.start_time.to_date
-                          - date = group.first.start_time.to_date
-                          - i = i + 1
-                          tr
-                            td colspan= "#{@max_column_span + 1}"
-                              table border="0" cellpadding="0" cellspacing="0" style="margin:10px 0px 10px 0px;background:#dddbdb;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:5px 10px;font-weight:bold;" width="100%"
-                                tr
-                                  td width="25"
-                                  td width="572"
-                                    = 'Day ' + i.to_s + '  ' + date.strftime("%Y-%m-%d")
-                        - if flag != i && group.first.column_span == 2
-                          - flag = i
-                          tr
-                            = render partial: 'category', locals: { categories: categories, group: group, colors: category_colors }
-                        tr
-                          td valign="top" width="3%"
-                            = group.first.start_time.strftime("%H:%M")
-                          - for active in group do
-                            - if active.column_span == @max_column_span && !active.speakers.blank?
-                              td colspan= @max_column_span height="100%" rowspan="2" valign="top" width="97%"
-                                table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(active)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="background:#66b9ff;box-shadow:1px 1px 3px #666; width:100%; height: 100%"
+div id='header'
+  = render partial: 'shared/header', locals: {title: 'Schedule', home: false}
 
-                                  tr
-                                    td title= active.title valign="top" align="center"
-                                      span style="line-height:18px;color:#ffffff;font-weight:bold;text-shadow:none;"
-                                        = active.title
-                                  tr
-                                    td title= active.room valign="top1" align="center"
-                                      span style="line-height:18px;color:#ececec;font-weight:bold;text-shadow:none;"
-                                        
-                                        
+table id='schedules'
+  - date, i = '', 0
 
-                            - elsif active.speakers.blank? && active.room.blank?
-                              td colspan= @max_column_span valign="top" width="97%"
-                                table border="0" style="margin:5px 0px 5px 0px;background:#7F7F7F;border-top:1px solid #d0cfcf;border-bottom:1px solid #d0cfcf;padding:2px 1px;font-weight:bold;" width="100%"
-                                  tr bgcolor="#7F7F7F"
-                                    td valign="middle"
-                                      span style="color:#FFFFFF"
-                                        = active.title
-                            - else
-                              td height="100%" rowspan="2" valign="top" width= number_to_percentage(97 * (1.0 / group.size))
-                                table border="0" cellpadding="2" cellspacing="1" style="background:##{colors.pop}; border: 1px solid #d0d1d1; width:90px; height:80px; display:inline-block; overflow:hidden; position:relative;"
-                                  tr
-                                    td height="54" title= active.title valign="top"
-                                      span style="line-height:12px;text-shadow:none;font-size:10px;"
-                                        = link_to active.title, schedule_path(active), :class => 'activity_link'
+  - for group in @groups do
+    - if date != group.first.start_time.to_date
+      - date = group.first.start_time.to_date
+      - i = i + 1
+
+      tr class="days"
+        td colspan= "#{@max_column_span + 1}"
+          span
+            = 'Day ' + i.to_s + '  ' + date.strftime("%Y-%m-%d")
+
+    tr class='activity'
+      th
+        = group.first.start_time.strftime("%H:%M")
+      - for active in group do
+        - if active.column_span == @max_column_span
+          - if !active.speakers.blank?
+            td colspan= @max_column_span
+              div class="keynote"
+                span
+                  = link_to active.title, schedule_path(active), :class => 'activity_link'
+                span
+                  = link_to active.speakers, schedule_path(active), :class => 'activity_link'
 
 
-                          tr
-                            td valign="bottom" width="3%"
+          - elsif active.speakers.blank? && active.room.blank?
+            td colspan= @max_column_span
+              div class="break"
+                span
+                  = active.title
+        - else
+          td
+            div class="track"
+              = link_to active.title, schedule_path(active), :class => 'activity_link'
 
-
-          tr
-            td height="100%" valign="bottom"
-              table align="center" border="0" cellpadding="0" cellspacing="0" width="90%"
-                tr
-                  td
-                    table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
-                      tr <td style="font-size:11px; color:#666666" height="'1"">&nbsp;

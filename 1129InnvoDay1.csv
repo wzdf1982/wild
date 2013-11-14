@@ -1,0 +1,76 @@
+Title,Start time,Stop time,Room,Abstract,Column span,Position,Created at,Updated at,Row span,Background color,Speakers,Speaker introduction
+Opening Speech,11/29/2013 9:30,11/29/2013 9:45,D1F Conference Room ,-,3,,,,,,Yuan Sheng,
+Keynote,11/29/2013 9:45,11/29/2013 10:15,D1F Conference Room ,-,3,,,,,,-,
+Seminar,11/29/2013 10:15,11/29/2013 10:30,,,3,,,,,,,
+SW Defined Network,11/29/2013 10:30,11/29/2013 11:15,A3F Gemini (18),"Basic Functionality
+-SDN Service Chaining
+Benefits to Customer
+-Better usage of VAS, Value Added Services using dynamic chaining
+-SDN providing dynamic network connectivity for EPC services in cloud",1,,,,,,Lasse Olsson & Richard Wang,
+Ericsson Cloud System and Management,11/29/2013 11:15,11/29/2013 12:00,A3F Gemini (18),-,1,,,,,,Haibin Chu & Xuejun Li,
+VoLTE/SRVCC,11/29/2013 10:30,11/29/2013 11:15,A3F Taurus (18),,1,,,,,,Karen Zhen& Xiao Li & Eva Li,
+UDM/UPG,11/29/2013 11:15,11/29/2013 12:00,A3F Taurus (18),,1,,,,,,Arthur Wen,
+Heterogeneous Network,11/29/2013 10:30,11/29/2013 11:15,A4F Galaxy (38),,1,,,,,,Paul??s team,
+WiFi Integration,11/29/2013 11:15,11/29/2013 12:00,A4F Galaxy (38),,1,,,,,,Judy Gan & Peter Chen,
+Lunch Break,11/29/2013 12:00,11/29/2013 13:00,-,,3,,,,,,,
+Demo,11/29/2013 13:00,11/29/2013 13:00,,,3,,,,,,,
+Ericsson LTE Broadcasting,11/29/2013 13:15,11/29/2013 14:00,E3F Tai Mountain (20),Ericsson LTE Broadcast enables new revenue models for premium media content offering exceptional user experience while efficiently utilizing available LTE spectrum and operators?? network resources??,3,,,,,,Shaheer Jamal & Benjamin Li,
+VoLTE on TD-LTE,11/29/2013 13:00,11/29/2013 13:20,Wild-Center,,3,,,,,,,
+LTE/Wifi integration by Real Time traffic steering,11/29/2013 13:20,11/29/2013 13:40,Wild-Center,,3,,,,,,,
+WiFi/3gpp integration by ANDSF,11/29/2013 13:40,11/29/2013 14:00,Wild-Center,,3,,,,,,,
+Smart MBB,11/29/2013 14:00,11/29/2013 14:20,Wild-Center,,3,,,,,,,
+TDD/FDD interworking,11/29/2013 14:20,11/29/2013 14:40,Wild-Center,,3,,,,,,,
+NLOS Microwave @ 23 GHz  ,11/29/2013 14:40,11/29/2013 15:00,Wild-Center,,3,,,,,,,
+Multi Screen TV Portal,11/29/2013 15:00,11/29/2013 15:20,Wild-Center,"Basic Functionality
+-Easy access to content
+-A unified television environment
+-One stop shop
+-A complete ecosystem
+-A streamlined consumer experience
+Benefits to Customer
+-One Solution: Any content, any network, any device, value-added services
+-Enhance the viewing experience through the 2nd screen without disturbing the main TV experience
+-Drive operator revenue and improved user experience through mobile broadband: -Optimize video delivery over LTE
+If any special needs to implement/deploy the function
+-This is a lightweight and standalone demo version of a complete End 2 End solution",3,,,,,,Dongyong Du,
+Game On Demand,11/29/2013 15:20,11/29/2013 15:40,Wild-Center,,3,,,,,,Shaheer Jamal,
+Info on demand & eye ball tracking,11/29/2013 15:20,11/29/2013 16:00,Wild-Center,"Basic Functionality
+-Enables consumers to obtain additional information about the visual elements presented on the screen via a rich set of meta-data presented in a user-friendly way. -Enable consumers to share and discover similar visual elements in other content, or to purchase merchandising products related to those visual elements.
+Benefits to Customer
+-Encourage media consumption thru discovery and sharing of similar content.
+-Additional revenue channels in terms of content discovery, advertisement and cross selling of goods and content.
+-Increasing advertising values by providing hard data on consumer??s interested visual elements
+-Increase advertising values by pin-point of consumer attention (eye-tracker extension required)
+If any special needs to implement/deploy the function
+-About 2m distance from the eye-tracker for optimal operation of eye-tracker extension.",3,,,,,,,
+Customer Care and Connected Car (UPG),11/29/2013 16:00,11/29/2013 16:20,Wild-Center,,3,,,,,,Arthur Wen,
+HD video conference across multi-terminals via MBB(LTE/HSPA) ,11/29/2013 16:20,11/29/2013 16:40,Wild-Center,,3,,,,,,James Zhang,
+WiFi indoor Positioning,11/29/2013 14:00,11/29/2013 14:20,E4F Coffee Area,"Basic Functionality
+-Provide WiFi based indoor positioning functionality. Client side (end-user) can request own location information in indoor environment on-demand, while server side (operator) can record these location information. 
+Benefits to Customer
+-Service enabler of LBS solution in indoor environment, complementary to the outdoor positioning system.
+-Providing value added service to end-user, and other vertical chain (e.g. Mall, Airport, Office) based on the location data.
+If any special needs to implement/deploy the function
+-WiFi Access Point Information. (Optimized WiFi APs deployment for positioning)
+-Collect and maintain the WiFi fingerprinting data in the target area to enhance accuracy.",3,,,,,,Edison Shu,
+M2M music band/weibo interaction/parking ,11/29/2013 14:30,11/29/2013 15:00,E4F Coffee Area,,3,,,,,,Clare Bao,
+Signalling Optimization in EPC,11/29/2013 15:00,11/29/2013 15:30,A3F Gemini (18),"Basic Functionality
+-Service based Paging
+-UE Signaling Control of misbehaving terminals 
+Benefits to Customer
+-Save up to 85% paging messages, capacity which can be used for other purposes.
+-Distinguish and handle ??bad signaling?? and prioritize ??good?? signaling.
+-How much network load protection that can be provided by EPC, including EPC itself and also eNB
+If any special needs to implement/deploy the function
+-Existing functionality in the SGSN-MME",3,,,,,,Robert Qu & Lasse Olsson ,
+Geo Redundancy in MME pool,11/29/2013 15:30,11/29/2013 16:00,A3F Gemini (18),"Basic Functionality
+-Is the functionality where UE information is replicated and ??stored else where?? in a pool environment
+-Allows an outage of one or many MMEs without major service impact on end users. 
+Benefits to Customer
+-Virtually no service impact on end users in outage scenarios and assures extremely high availability of service to business partners.
+-Secures operational income and avoids negative market perception.
+ -Use of sub-RANs saves transmission costs, since an eNodeB can select a nearby located MME. 
+If any special needs to implement/deploy the function
+-SGW shall support NTSR(Network Triggered Service Restoration) or keep bearer resource for a period of time when connected MME is not available
+-PGW shall keep bearer resource for a period of time when connected SGW is not available",3,,,,,,Amy Li & Wei Zhang,
+Ericsson Cloud Management,11/29/2013 16:00,11/29/2013 16:20,A3F Gemini (18),,3,,,,,,Howard Wang,

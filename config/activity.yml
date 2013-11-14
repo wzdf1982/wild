@@ -1,1754 +1,443 @@
 ---
 record_0:
-  Title: Conference Registration (in Beijing)
-  Start time: 10/16/2013 9:00
-  Stop time: 10/16/2013 9:30
-  Room of Beijing: ' - '
-  Speaker Introduction:
-  Abstract: ' - '
-  Column span: '7'
-  Position: '1'
-  Row span: '1'
-  Background color: '#dddbdb'
-  Speakers: ' -'
-  Room of Shanghai:
-  Room of Guangzhou BNET:
-  Room of Guangzhou BUSS:
-  Room of Nanjing:
-  Room of Seoul:
+  Title: Opening Speech
+  Start time: 11/29/2013 9:30
+  Stop time: 11/29/2013 9:45
+  Room: 'D1F Conference Room '
+  Abstract: '-'
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Yuan Sheng
+  Speaker introduction: 
 record_1:
-  Title: Opening
-  Start time: 10/16/2013 9:30
-  Stop time: 10/16/2013 10:15
-  Room of Beijing: Ballroom B
-  Speaker Introduction: |-
-    Peter Lundin
-    Head of R&D North East Asia
-    Proud organizer and sponsor of  Lean and Agile Conference
-    Lars Frank\n
-    Head of System Management, BU Network
-    BNET Lean and Agile Program Driver
-  Abstract: " Peter will open up our Lean and Agile Conference with an exciting speech
-    on R&D NEA overview and outlook, specially focusing on our R&D NEA Lean and Agile
-    initiatives, synergies, and fantastic results. \n\nYou will also find out what
-    top three items to ensure a great Lean and Agile transformation are, and where
-    we are with each one of them in R&D NEA.\n\n\nLars, as the driver of BU Network
-    Lean and Agile Program, will speak about the latest on the Lean and Agile program
-    at BU Network. \n\nWith great passion on Lean and Agile, he will also share with
-    us his own reflection along the Lean and Agile transformation journey.\n"
-  Column span: '7'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Peter Lundin and Lars Frank
-  Room of Shanghai: A3F Innovation Room, A4F Innovation Room, A4F Galaxy
-  Room of Guangzhou BNET: F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy, 6F Venus
-  Room of Nanjing: F4 Persedetial 1, F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
+  Title: Keynote
+  Start time: 11/29/2013 9:45
+  Stop time: 11/29/2013 10:15
+  Room: 'D1F Conference Room '
+  Abstract: '-'
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: '-'
+  Speaker introduction: 
 record_2:
-  Title: 'Fearless Change: Patterns for Introducing New Ideas'
-  Start time: 10/16/2013 10:15
-  Stop time: 10/16/2013 11:45
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
-    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
-    and numerous articles and is an internationally known presenter on topics related
-    to patterns, retrospectives, influence strategies, agile development, and the
-    change process."
-  Abstract: 'We attend conferences or read books and articles discover new ideas--like
-    agile development--that we want to bring into our organizations--but we often
-    struggle when trying to implement those changes. Unfortunately, those introducing
-    change are not always welcomed with open arms. Linda Rising offers proven change
-    management strategies to help you become a more successful agent of change in
-    your organization. Learn how to plant effective seeds of change, and what forces
-    in your organization drive or block change. In addition to using these approaches
-    to change your organization, you can use them to become a more effective person--these
-    strategies or patterns are useful in many different settings. Linda shows how
-    these lessons from her book, Fearless Change: Patterns for Introducing New Ideas,
-    can help you succeed in introducing agile or any other good idea. '
-  Column span: '7'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Linda Rising
-  Room of Shanghai: A3F Innovation Room, A4F Innovation Room, A4F Galaxy
-  Room of Guangzhou BNET: F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy, 6F Venus
-  Room of Nanjing: F4 Persedetial 1, F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
+  Title: Seminar
+  Start time: 11/29/2013 10:15
+  Stop time: 11/29/2013 10:30
+  Room: 
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
 record_3:
-  Title: Lunch
-  Start time: 10/16/2013 11:45
-  Stop time: 10/16/2013 13:00
-  Room of Beijing: ' - '
-  Speaker Introduction:
-  Abstract: ' - '
-  Column span: '7'
-  Position: '1'
-  Row span: '1'
-  Background color: ' - '
-  Speakers: ' - '
-  Room of Shanghai:
-  Room of Guangzhou BNET:
-  Room of Guangzhou BUSS:
-  Room of Nanjing:
-  Room of Seoul:
+  Title: SW Defined Network
+  Start time: 11/29/2013 10:30
+  Stop time: 11/29/2013 11:15
+  Room: A3F Gemini (18)
+  Abstract: |-
+    Basic Functionality
+    -SDN Service Chaining
+    Benefits to Customer
+    -Better usage of VAS, Value Added Services using dynamic chaining
+    -SDN providing dynamic network connectivity for EPC services in cloud
+  Column span: '1'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Lasse Olsson & Richard Wang
+  Speaker introduction: 
 record_4:
-  Title: A Journey to Delight Customer and Embrace Lean and Agile
-  Start time: 10/16/2013 13:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: VIP Room 1
-  Speaker Introduction: Dazhou and Herry are from DUCI Shanghai MCP. They have 4 years
-    Lean and Agile experience in MCP program as MCP portfolio manager and line manager.
-    They will bring us their MCP Agile transition journey from 2010 to delight customer,
-    delight team and embrace Lean and Agile.
-  Abstract: |-
-    One of Lean and Agile principles is to defer commitment as much as we can, but early commitment is highly demanded in a contract bind project from our customer. Is this a conflict? How shall we deal with it? You might have similar questions as we do while you start the Lean & Agile journey:  How to transit to Lean & Agile WoW in a timing-critical customer program?  How should portfolio be set up to satisfy customer needs in Lean & Agile environment?  What values can we bring to customers via Lean & Agile, only a faster delivery?  How to satisfy customer needs while keep team motivated and growing continuously?
-
-    We will share with you the learning journey we went through in the past 4 years, starting from scratches to a mature Lean/Agile portfolio.
-  Column span: '2'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Herry Qiao
-  Room of Shanghai: A4F(A419)
-  Room of Guangzhou BNET: F16 Shenzhen
-  Room of Guangzhou BUSS: 6F Neptune
-  Room of Nanjing: 'F3 Yan '
-  Room of Seoul: MB A101
+  Title: Ericsson Cloud System and Management
+  Start time: 11/29/2013 11:15
+  Stop time: 11/29/2013 12:00
+  Room: A3F Gemini (18)
+  Abstract: '-'
+  Column span: '1'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Haibin Chu & Xuejun Li
+  Speaker introduction: 
 record_5:
-  Title: 'KANBAN Practice of PLM Team '
-  Start time: 10/16/2013 13:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: Meeting Room 5
-  Speaker Introduction: Being as a PLM engineer and KANBAN prime from DUCI Beijing
-    CNM PLM team, I am enjoying Agile/KANBAN and growing up with the team.
-  Abstract: "DUCI Beijing CDMA OAM PLM team started Agile journey 2 years ago, now
-    KANBAN has become essential to instruct PLM's daily working more effectively and
-    efficiently. Furthermore, it is key to benefit the team growth and improve customer's
-    satisfaction continuously. \n\nAccording to PLM daily working's characteristics,
-    Agile/KANBAN process is the exact process which can improve the performance.  In
-    this session, these items will be introduced and summarized.\n1  How to establish
-    PLM KANBAN and fully visualize the CSR work flow, the KANBAN role definition and
-    KANBAN board design.\n2. Some PLM KANBAN practice."
-  Column span: '2'
-  Position: '2'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Tom Tan X
-  Room of Shanghai: A3F Gemini(A315)
-  Room of Guangzhou BNET: F17 Chengdu
-  Room of Guangzhou BUSS: 6F Mercury
-  Room of Nanjing: F2 Shaolin
-  Room of Seoul: NB Grand conference
+  Title: VoLTE/SRVCC
+  Start time: 11/29/2013 10:30
+  Stop time: 11/29/2013 11:15
+  Room: A3F Taurus (18)
+  Abstract: 
+  Column span: '1'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Karen Zhen& Xiao Li & Eva Li
+  Speaker introduction: 
 record_6:
-  Title: Environment Driven Development
-  Start time: 10/16/2013 13:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: Meeting Room 6
-  Speaker Introduction: 'I am Weijia Lu from MC MCP SH. Currently, I am an agile coach.
-    I have been in Agile Journey for 4 years and acted as the role of team member,
-    scrum master and agile coach. '
-  Abstract: "The Agile Manifesto has made a big impact on software development around
-    the world in a matter of 10 years. Granted, we're not done yet. But we've made
-    significant progress. However, it seems the Arctic Ocean will have melted before
-    we see traditional management being replaced with a new paradigm.'-- David Bornstein,
-    How to change the world [David, 2007] \n\nWe change our traditional management
-    to Lean and Agile leadership by changing the environment which is called Environment
-    Driven Development. Through the presentation, we will tell you the theory combined
-    with our practices during this 4 years' deployment. Instead of changing the people
-    themselves, how change our people's behavior through changing the environment
-    systematically, including the hard environment, soft environment and development
-    environment. \n\nWe will also share the result we got and the lessons we learnt
-    by changing the environment. You will hear a lot of interesting practical stories
-    happened in this period of environment change; you can also hear the voices from
-    the team members feedback."
-  Column span: '2'
-  Position: '3'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Weijia Lu
-  Room of Shanghai: E10F Taiwan Island
-  Room of Guangzhou BNET: F17 Xian
-  Room of Guangzhou BUSS: 6F Uranus
-  Room of Nanjing: F4 Persedetial 1
-  Room of Seoul: NB 203
-record_7:
-  Title: Make Agile Journey Smooth by Leveraging In-house Developed CI Framework
-  Start time: 10/16/2013 13:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: Meeting Room 3
-  Speaker Introduction: manager of Infrastructure team, NDO SP, PDU IP System, DUIB
-  Abstract: "This presentation will explain how we in NDO Smart Packet by leveraging
-    our CI Framework gradually improve design and test efficiency and how our PM/LM
-    use the data presented on CI FW for a better management of the project & team.\nAs
-    a product development responsible organization, we need to have very short feedback
-    loop to secure productivity, quality and flexibility. \nBefore we have our CI
-    FW, our XFTs had to separately trigger some development activities (typically
-    for SW upgrade and regression test) manually and wait till the previous step to
-    complete then trigger the next step.  This way we think we didn't utilize the
-    time and our HW in an efficient way. \nFurthermore, to do the Agile transformation
-    we don't want the top-down directive mode, instead we want our XFTs to take initiatives
-    to find out the approach for improvement and become self-organized. Then we think
-    a CI FW is needed to facilitate the team.\nThe NDO SP CI FW is an end-to-end responsible
-    and easy-to-use framework which helps get each link in the SW engineering chain
-    (SW build -> static code analysis -> UT -> SW upgrade -> regression -> coverage
-    report -> execution result notification) connected. And also with the consolidated
-    and easy-to-reach result summary, engineers can do trouble shooting easily. As
-    a consequence, team's working efficiency is improved a lot. With the job queuing
-    function, the idle time between test jobs is further reduced and  the HW utilization
-    ratio are greatly improved.\nIn Agile environment, transparency is important in
-    the sense that it makes progress & dependency & impediments visible, so that it
-    makes communication between teams or even between team and PM/LM more effective
-    and efficient. The visualized information can also function as a push force for
-    teams to continuously strive for an even better result. The abundant subjective
-    data (e.g. result summary of each step, trend for each step) presented on CI FW
-    works facilitate teams to reflect on in which area they are doing good and in
-    which area they are not, then proactive actions can be taken immediately.\nWith
-    the visualized and consolidated information on out CI FW about each team's work,
-    together with the real time TR statistics info provided by our TR dashboard, it
-    makes it easier for PM/LM to have a good understanding about current quality status
-    and quality risks of our product.\nWithout proper tools?? support, our Agile transformation
-    wouldn't get to current lever so smoothly. \nWant to hear more detail or even
-    some real cases about how we gradually address our problems one by one along the
-    journey to Agile by leveraging our CI framework? Come to our presentation."
-  Column span: '2'
-  Position: '4'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Ke Li
-  Room of Shanghai: A4F Galaxy(A413)
-  Room of Guangzhou BNET: F17 Kunming
-  Room of Guangzhou BUSS: 5F Mars
-  Room of Nanjing: F2 Wudang
-  Room of Seoul: MB A105
-record_8:
-  Title: Best Practices On Gerrit Based Code Review
-  Start time: 10/16/2013 13:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: Meeting Room 7
-  Speaker Introduction: Vivian, join Ericsson from 2008, working as CM(configuration
-    management) including product/project CM and software CM for 5 years. Also as
-    BUSS SH CM discipline driver, I hosted several workshop internal, like git workshop
-    & CI workshop with Guangzhou ,Beijing and Shanghai which across organizations.
-    I'm focus on git/gerrit and Jenkins more than 3 years. And love them so much!
-  Abstract: "Since more and more colleague changing from clearcase to git/gerrit,
-    and gerrit based code review is the one of the best way to enhance our code quality.
-    \nAt the beginning we always encounter some difficulties and strive to find the
-    better way to increase our efficiency and really hope the tool could help us in
-    daily work. \nHow to use the tools in smart way? How about the strategy? Which
-    is the best approach? Which solution to choose for different business needs?  \nSo
-    in my presentation I will introduce:\nfirstly, why code review? will cover basic
-    concept and types of code review, and give a brief introduction about structure
-    and fundamental of git, gerrit and Jenkins, also let you know how gerrit do the
-    code review\nSecondly, some good experience on how deploy gerrit, there are approach
-    you could choose by business needs, these good activity comes from different site,
-    some are task based code review, some are feature based code review etc. it's
-    very flexible and could customized by project. And give some reason behind why
-    you select the strategy and what's the benefit.\n"
-  Column span: '2'
-  Position: '5'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Vivian Yang W
-  Room of Shanghai: A4F Innovation Room
-  Room of Guangzhou BNET: F16 Hangzhou
-  Room of Guangzhou BUSS: 6F Venus
-  Room of Nanjing: F4 Open area
-  Room of Seoul: MB A106
-record_9:
-  Title: Bitterness and Happiness in Agile Journey
-  Start time: 10/16/2013 13:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: VIP Room 2
-  Speaker Introduction: "I have been through nine releases of CDMA products for more
-    than ten years and worked as various roles in R&D. \nI'm a Release Manager and
-    have been engaged in CDMA RAN Agile transformation from beginning (Y2011).\nI
-    define myself as one in practical faction\n"
-  Abstract: "This presentation delivers my REST solution, along with various feelings
-    and stories in my Agile journey, for Release Manager and team working with RM.\nWhat
-    did we face?\nCDMA RAN R&D started moving into Agile since 2011: Hundreds of engineers,
-    cross-site teams, multi nodal teams\nCDMA RAN setup an enterprise model for Agile\nAgile
-    transformation in an organization working in waterfall model for years with proven
-    achievement\nPractical difference between waterfall and agile in my view\nRole\nPlanning\nDelivery\nProcess\nContinuous
-    improvement\nBitterness and Happiness I experienced\nA curve of my feeling in
-    the journey of Agile: ups and downs\nExcited: I have a chance to make the world
-    different\nConfused: Where am I in the new model? What should we do to be Agile?\nStruggling:
-    Am I/are we running real/correct Agile? VS Can I deliver the product on time with
-    quality? Which side should I stand on? \nAnxiety: Risks, issues, deadline in new
-    WoW\nHappy for me: I'm helper and is helping team to deliver the value to customer.\nHappy
-    for all: we get features done in Agile: shorter leading time, good quality and
-    less/similar person*month\nMy solution to be a happy Release Manager in Agile
-    life: REST\nResult oriented\nEmpathy\nSupportive\nTrust\nBe REST, then you can
-    take a rest! "
-  Column span: '2'
-  Position: '6'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Donny Chen
-  Room of Shanghai: A3F Leo(A317)
-  Room of Guangzhou BNET: F16 Nanjing
-  Room of Guangzhou BUSS: 5F Earth
-  Room of Nanjing: F3 Qin
-  Room of Seoul: MB A103
-record_10:
-  Title: Modeling in the Agile Age
-  Start time: 10/16/2013 13:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Kenji Hiranabe is an Agile software development practitioner
-    and consultant in Japan. He thinks of software development as a form of co-operative
-    communication game, and is always searching for better ways to make it more productive,
-    collaborative, and fun. \n\n2008 Gordon Pask Award Recipient for contributions
-    to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of
-    the books including \"Multi-Paradigm Design\", \"C# Primer\", \"Lean Software
-    Development\", \"XP Installed\", \"Agile Project Management\". Also a developer
-    of \"JUDE\" a UML editor software integrated with Mind Mapping, and \"TRICHORD,\"
-    a Kanban-based Agile project information sharing tool. "
-  Abstract: Now that Agile methods have become mainstream in software development,
-    working code (and automated tests) are being considered as the most important
-    team artifacts. Is modeling not needed any more? Is UML dead? I think that's not
-    true. In this article, I'll explore the spaces where modeling fits and plays an
-    important role in this Agile age, especially when development scales to multiple
-    teams and a shared understanding of the system's "Big Picture" becomes essential.
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Kenji Hiranabe
-  Room of Shanghai: A3F Innovation Room
-  Room of Guangzhou BNET: F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy
-  Room of Nanjing: F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
-record_11:
-  Title: How to be an Effective PO to Make Profitability in Maintenance Phase of CDMA
-    Product
-  Start time: 10/16/2013 14:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: VIP Room 1
-  Speaker Introduction: 'Bin Hu , BNET DUCI PDU CDMA Core Advanced Project Manager,
-    I have been working in CDMA Business since 2003, with more than 5 years'' experience
-    in project management and 2 years Product Owner experience. '
-  Abstract: "This Session will cover how to be effective PO in CDMA Maintenance phase.
-    Experience will be shared on how to meet Customer needs in a cost-effective way,
-    and in the same time, how to explore new opportunity to be profitable. \n-CDMA
-    Core PO Agile WoW    -Cost Effective way on Backlog definition, Corrective Content
-    Management, etc. -Explore New Opportunity on SW, HW and Tools. -Summary\n"
-  Column span: '2'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Bin Hu X
-  Room of Shanghai: A4F(A419)
-  Room of Guangzhou BNET: F16 Shenzhen
-  Room of Guangzhou BUSS: 6F Neptune
-  Room of Nanjing: 'F3 Yan '
-  Room of Seoul: MB A101
-record_12:
-  Title: Our Agile Transformation Journey
-  Start time: 10/16/2013 14:00
-  Stop time: 10/16/2013 14:00
-  Room of Beijing: Meeting Room 5
-  Speaker Introduction: I'm Ariel HAN, from Beijing CBC/XEL department. I'm a software
-    engineer and the Scrum master of one team.
-  Abstract: "Our team is working for the CMCC fast track feature development and lab
-    test support.\nOur project condition:\n1. Receive many TR/Issues from lab test
-    everyday and the number couldn't be estimated;\n2. Too many urgent and high priority
-    features are inserted which break the previous plan;\n3. Multi features/TR/Issues
-    on one's hand and are switched frequently. \n4. The features could be started
-    or cancelled in a very short time. \nTo adapt agile to our project, we:\n1. Shorten
-    our sprint to 2 weeks to avoid suddenly coming features which couldn't wait for
-    the next sprint.\n2. Involve feature pre-study of next sprint to current sprint
-    to do a earlier forecast and requirement understanding.\n3. Build up team competence
-    as deepen their own design area and broaden to others. Let feature relative members
-    share the key and short information to make others better involved in those not
-    'self relative' tasks.\\\n4. Combine Kanban and Scrum together. \nHow do we decide
-    putting one task into Kanban or Scrum?\n- We have both work package PO and TR
-    PO, working together for the task assignment and priority decision.\n- Tasks with
-    high priority, easy to estimate and hard to be removed during 1 sprint will be
-    added in Scrum.\n- Tasks as TRs, Issues, feature verification support, workshop,
-    pre-study ect will be added in Kanban.\nHow does PO balance the Scrum and Kanban
-    work?\n- 2mhr security time for Kanban, could be added in planning meeting according
-    to tasks' priority.\n- If we commit more on Kanban, then we commit less on Scrum
-    and vice versa.\nHow do we run the daily standup meeting?\n- One board, two diagram
-    (burn-down chart for scrum, task effort chart for kanban)\n- Update Scrum and
-    Kanban tasks status, check our speed and decide what to do today. If faster on
-    Scrum, someone could be involved more in Kanban.\n- All done in 15min, list all
-    block issues and make group discussion after the meeting.\n \nWhy do we put sharing
-    tasks in Kanban?\n- In Scrum, sharing is too easy to be removed by inserted tasks,
-    so we didn't put it into scrum because it always left at the end...\n- In Kanban,
-    when someone has no ongoing task, he could put the sharing tasks into Kanban immediately.\n-
-    In Kanban, new sharing task could be created immediately when we fix some issues
-    or finish some pre-study to avoid forgetting it.\n \nHow do we check the result
-    on the sprint end?\n- For Scrum,  we will check how many committed User Stories
-    have pass.\n- For Kanban, we will check how many TR/Issues/Sharing we finished.
-    Pick out the tasks stay in Kanban for a long time for lesson learned.\n"
-  Column span: '2'
-  Position: '2'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Ariel HAN
-  Room of Shanghai: A3F Gemini(A315)
-  Room of Guangzhou BNET: F17 Chengdu
-  Room of Guangzhou BUSS: 6F Mercury
-  Room of Nanjing: F2 Shaolin
-  Room of Seoul: NB Grand conference
-record_13:
-  Title: Shall I Join an Agile Team?
-  Start time: 10/16/2013 14:00
-  Stop time: 10/16/2013 15:00
-  Room of Beijing: Meeting Room 6
-  Speaker Introduction: |-
-    Ralph Zhu:
-    "Joined Ericsson in 2010, worked as developer, Scrum Master, and now the Agile Coach for PDU Packet Core SGSN-MME Shanghai, whose main responsibility is to help the organization to do Lean/Agile transition and coach people."
-    Frank Yang:
-    "I joined Ericsson in 2009 and started as a software developer in SGSN-MME maintenance team. After that, I had been worked as team leader and product owner in SGSN-MME infrastructure program, and also as scrum master in cross-functional team. From April this year, I became a new line manager whose major responsibility is to hire and coach the right people, and help the team to be a high performing team."
-  Abstract: "Ericsson's decision on the agile way of development impose the following
-    requirements on the workforce: Team based scrum way of working, late decisions
-    with possibilities for frequent changes and empowered teams/employees. However
-    what does this mean for the workforce, what should I as a developer in agile team
-    be, and how can I as a manager recruit good developers for the agile team? \nFrom
-    this presentation, you will get the chance to know: \n- What's the change after
-    we introduce Lean/Agile \n- What's the characteristic to be a good developer\n-
-    How to recruit good agile developers "
-  Column span: '2'
-  Position: '3'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Ralph Zhu & Frank Yang
-  Room of Shanghai: E10F Taiwan Island
-  Room of Guangzhou BNET: F17 Xian
-  Room of Guangzhou BUSS: 6F Uranus
-  Room of Nanjing: F4 Persedetial 1
-  Room of Seoul: NB 203
-record_14:
-  Title: Continuous Deployment - To Generate Real Business Value through Lean and
-    Agile Practices
-  Start time: 10/16/2013 14:00
-  Stop time: 10/16/2013 15:00
-  Room of Beijing: Meeting Room 3
-  Speaker Introduction: 'Lennart Allinger, Head of Packet Core China. Packet Core
-    China develops, maintains and supports packet core products for the global market
-    together with PDU sites in Sweden and Spain. Packet Core China has operations
-    in Shanghai and Shenzhen. He has been NDO manager for SGSN-MME between 2006 and
-    2011 and introduced Agile wow in the organization with 30+ cross functional teams
-    in three different sites in different time zones. '
-  Abstract: "PDU Packet Core has six years' experience from Lean and Agile with improved
-    feature velocity, quality and increased market share as result. \n\nNow we move
-    on towards Continuous Deployment. In 2015 PDU Packet Core will deliver new features
-    and corrections from one track directly into customer networks. The software will
-    be automatically deployed into live operation. This is a vision backed up by firm
-    plans that will use Lean and Agile practices to change the way we do business
-    by speeding up end-to-end feature delivery, fasting feedback and improving return
-    on investments (ROI).  \n\nWhich are the main obstacles? How do we intend to overcome
-    those? How far have we come on this journey? Are customers willing to accept the
-    new business model?\n"
-  Column span: '2'
-  Position: '4'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Lennart Allinger
-  Room of Shanghai: A4F Galaxy(A413)
-  Room of Guangzhou BNET: F17 Kunming
-  Room of Guangzhou BUSS: 5F Mars
-  Room of Nanjing: F2 Wudang
-  Room of Seoul: MB A105
-record_15:
-  Title: Elegant Automation Test in Agile
-  Start time: 10/16/2013 14:00
-  Stop time: 10/16/2013 15:00
-  Room of Beijing: Meeting Room 7
-  Speaker Introduction: "I have played different roles -- developer, tester, test
-    leader, system analyzer, scrum master and agile testing coach, and my automation
-    test experience started since 2007 while my agile experience started since 2008.
-    \nDuring the pass 6+ years, I work with the team to keep practicing and improving
-    automation test framework and strategy, to make the automation more elegant and
-    more effective to support the team to deliver high quality product as well as
-    enjoying automation test."
-  Abstract: "Automation test is the key to successful agile development, which frees
-    the team to deliver high-quality code frequently. Automated build, deployment
-    and test scripts ensure reliability as well as allow the team to do its best work
-    at all times. \n \nWhile in the real word, there're always some actual barriers:
-    \n--The code tends to change frequently during development, how can automated
-    tests catch up with it?\n-- The GUI automation test always cost a lot of effort,
-    how can we change it from dark ages to successfully automation in an agile environment?\n--
-    End-to-end tests are particularly tricky to automate, how can we implement it
-    elegantly?\n-- The team has hundreds, even thousands of automated test cases to
-    maintain, if we fail to easily making the changes to existing test, the big suited
-    of automated test cases can turn into headache. How can we avoid this?\n-- Writing
-    automation test for legacy code with few or no tests is a daunting task, how can
-    we complete them while at the same time working for new code?\n-- When iteration
-    doesn't??t proceed smoothly and the team failed to complete the tasks planned,
-    automation test will always be the task don't have time to finish, how can we
-    avoid it?\n \nHow can we overcome these barriers? How can automation test let
-    the team maximize its velocity while maintaining a high standard?\nIn this presentation,
-    we would share some practical experience on:\n-- How to apply agile values, principles
-    and practices to develop automation test strategy in agile development\n-- How
-    to develop an elegant automation framework to support the team's effective automated
-    tests\n"
-  Column span: '2'
-  Position: '5'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Smilings Lu
-  Room of Shanghai: A4F Innovation Room
-  Room of Guangzhou BNET: F16 Hangzhou
-  Room of Guangzhou BUSS: 6F Venus
-  Room of Nanjing: F4 Open area
-  Room of Seoul: MB A106
-record_16:
-  Title: Better Retrospective?!
-  Start time: 10/16/2013 14:00
-  Stop time: 10/16/2013 15:00
-  Room of Beijing: VIP Room 2
-  Speaker Introduction: Bob Jiang, software engineer of DUCI Beijing, Agile Coach
-    of RnD NEA Agile Coaching team. He worked for Ericsson from 2006, focusing on
-    CDMA/GSM core network management OAM system. He loves visualization, facilitation,
-    and agile in life. http://www.bobjiang.com
-  Abstract: "Retrospective is one of Scrum ceremonies, which is held by team at the
-    end of each Sprint. In this meeting normally we will inspect how we work and adapt
-    to new way of working to improve efficiency. In this session I will speak about:
-    \nWhy Retrospective\nBad Smell in Retrospective\nPersonal Retrospective\nTips/Suggestions
-    for Better Retrospective\nToday's Retrospective"
-  Column span: '2'
-  Position: '6'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Bob Jiang
-  Room of Shanghai: A3F Leo(A317)
-  Room of Guangzhou BNET: F16 Nanjing
-  Room of Guangzhou BUSS: 5F Earth
-  Room of Nanjing: F3 Qin
-  Room of Seoul: MB A103
-record_17:
-  Title: Applying Agile to Hardware Development. We Are Not That Different After All!
-  Start time: 10/16/2013 14:00
-  Stop time: 10/16/2013 15:00
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Neil Johnson has been working in ASIC and FPGA development
-    for more than 10 years. \n\nHe currently holds the position of Principal Consultant
-    at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC
-    and FPGA development. \n\nNeil is also co-moderator for AgileSoC.com, a site dedicated
-    to the introduction of Agile development methods to the world of hardware development."
-  Abstract: Agile software development methods have been adapted to and applied in
-    a number of other areas. ASIC/FPGA development, however, with its big bang development
-    and delivery model is an area where agile is strangely absent. Based on the four
-    values of the Agile Manifesto, this talk presents an overview for how agile methods
-    can be applied in hardware development.
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Neil Johnson
-  Room of Shanghai: A3F Innovation Room
-  Room of Guangzhou BNET: F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy
-  Room of Nanjing: F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
-record_18:
-  Title: Tea Break
-  Start time: 10/16/2013 15:00
-  Stop time: 10/16/2013 15:30
-  Room of Beijing: ' - '
-  Speaker Introduction:
-  Abstract: ' - '
-  Column span: '7'
-  Position: '1'
-  Row span: '1'
-  Background color: ' - '
-  Speakers: ' - '
-  Room of Shanghai:
-  Room of Guangzhou BNET:
-  Room of Guangzhou BUSS:
-  Room of Nanjing:
-  Room of Seoul:
-record_19:
-  Title: EEGS 3.0 with Agile (1st Major CDMA Release to Follow Agile Process at Release
-    Level)
-  Start time: 10/16/2013 15:30
-  Stop time: 10/16/2013 16:30
-  Room of Beijing: VIP Room 1
-  Speaker Introduction: Maggie Cai has been working as a release manager in BNET PDU
-    CDMA Radio Access since 2008. She has worked on the release management of CDMA
-    1x releases 16/17/18/19 and CDMA EEGS releases 1.1/2.0/3.0.  She is experienced
-    on project management, process (both Agile and Waterfall), quality, and metrics.
-  Abstract: " Ways to handle a big program\no One XFT allowed to cover multiple features,\no
-    Co-locate resource as much as possible,\no PV within XFT,\no Multi-level Collaboration,\no
-    Various PO roles, and \no OPO forum.\n Cooperation between PDU and PL\no Partial
-    requirements passed from APO (PL) to OPO (PDU) for earlier design start,\no PDU
-    and PL propose features and work together to prioritize them, and\no PDU and PL
-    sync up at release level and feature level\n Continuous Integration (CI)\no Various
-    CI activities (Sanity, Feature CI, CPR and Regression),\no Two levels of CI (Nodal,
-    Release),\no Measure User story % covered in CI, and\no CI improved quality\n
-    Align release and feature\no Release milestone assessment checks feature status\n
-    TG1 requires 50% feature G1, \n TG2 requires 70% feature G1.5, \n TG3 requires
-    80% feature all sprints (except for FA) completion, and \n FC requires 100% feature
-    G2.\n Metrics for program progress\no Use Hansoft to store requirements, User
-    Stories, Sprints, Milestones and etc., and\nDeveloped excel tool to generate metrics
-    based on Hansoft raw data.\n"
-  Column span: '2'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Maggie Cai
-  Room of Shanghai: A4F(A419)
-  Room of Guangzhou BNET: F16 Shenzhen
-  Room of Guangzhou BUSS: 6F Neptune
-  Room of Nanjing: 'F3 Yan '
-  Room of Seoul: MB A101
-record_20:
-  Title: 'CPI Agile: from Scratch to Baked'
-  Start time: 10/16/2013 15:30
-  Stop time: 10/16/2013 16:30
-  Room of Beijing: Meeting Room 5
-  Speaker Introduction: |-
-    Robert Liu: I'm Robert Liu, located in BUSS CGC Guangzhou. I'm the resource coordinator of MSDP program that is fully owned by CGC and composed of 100 people around. I'm also taking the role of CPI SPOC of BUSS CGC.
-    Rocky Zhang: I'm Rocky Zhang, located in DUIB China R&D Operations in Beijing. I'm supporting PDU IP NMS CPI competence, and leading a team of CPI technical writers from the vendor. I'm taking the role of PDU overall CPI Production Coordinator and local CPI Coordinator in PDU IP NMS.
-  Abstract: |
-    As Agile is getting more and more popular nowadays, it reaches every aspect of product development, which requires a corresponding transformation of CPI. Combining and leveraging two PDU CPI transformation journeys, an end-to-end view is provided including at least but not limited to below aspects:
-    1) A call for CPI Agile
-    2) CPI Agile at a glance
-    3) Transforming to CPI Agile, smiles and tears
-    4) Learning lessons all the time
-    5) Challenges ahead
-  Column span: '2'
-  Position: '2'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Robert Liu & Rocky Zhang R
-  Room of Shanghai: A3F Gemini(A315)
-  Room of Guangzhou BNET: F17 Chengdu
-  Room of Guangzhou BUSS: 6F Mercury
-  Room of Nanjing: F2 Shaolin
-  Room of Seoul: NB Grand conference
-record_21:
-  Title: The Power of Being Visible
-  Start time: 10/16/2013 15:30
-  Stop time: 10/16/2013 16:30
-  Room of Beijing: Meeting Room 6
-  Speaker Introduction: My name is Kevin LIN as the  Manager of PIV Beijing BU Modems.
-    I have a 7 year history in Ericsson from I&V manager to Software manager and to
-    Hardware manager and to I&V manager again. But it is not the same I&V manager
-    again after this journey and after being the NDO Agile/Lean driver. Looking forward
-    to exchange ideas with you in the conference.
-  Abstract: |
-    No matter you are running traditional team or scrum team, to motivate team member is always a big challenge of lean managers/Scrum masters. Despite what we usually do to encouraging people taking challenge, is there other way around to build a team that is always asking What We Can Change? Yes, one of the approachs that you can try is making things visible. Including achievement/lesson learned/project status/responsibility.. Everything that can be visible, make them being visible as much as possible.
-
-    From this presentation, we will have a deep dive on two typical scenarios on traditional team operation; newly formed scrum team. Then we can see how team member feel great by advertising/visualizing their achievement. How we can increase the trust between team members by talking/posting about achievement. How we handle failures. And some suggestion you should be careful when you want to go with this approach.
-  Column span: '2'
-  Position: '3'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Kevin Lin
-  Room of Shanghai: E10F Taiwan Island
-  Room of Guangzhou BNET: F17 Xian
-  Room of Guangzhou BUSS: 6F Uranus
-  Room of Nanjing: F4 Persedetial 1
-  Room of Seoul: NB 203
-record_22:
-  Title: Continuous Integration -It Is a Systematic Product
-  Start time: 10/16/2013 15:30
-  Stop time: 10/16/2013 16:30
-  Room of Beijing: Meeting Room 3
-  Speaker Introduction: Kecheng Wang as the manager of CII Product & Performance Management
-    in DURA Nanjing has wide knowledge of product development. Especially on software
-    testing, he always has some deep and profound understanding.
-  Abstract: "Continuous Integration Machine -- a systematically developed product\n\nPDU
-    WCDMA RBS CI has 1.5 years practice from lean and Agile to be able give the fast
-    feedback towards XFT and contribute the SW quality statement towards the SW releasing
-    to market.\n\nAs the journey of CII Agile practice, there was no list of functionality
-    that the WCDMA RBS CI machine should have, there were no real detailed requirements,
-    and no pre-studies existed on how to automate certain test cases that had never
-    been automated. Really we had next to nothing except our own ideas and vision.
-    The software practice of CI was something new to us, so we did not have someone
-    to base our machine development on and learn from. \n\nWhat is continuous integration
-    for us? How do we develop the continuous integration machine? How make our customers
-    (XFT and track management) would have confidence in using and would trust our
-    machine? And do we need and how make a CI machine evaluation plan?\nIn the presentation
-    I will cover the following:\n- What we think continuous integration is, it is
-    a systematically developed product\n- How we make the continuous integration machine
-    and the status of continuous integration of PDU WCDMA RBS\no Roadmap, execution
-    WOW\no CI product KPI (stability, effectiveness, automation ratio, coverage??)\no
-    Doing continuous improvement through monitoring KPIs, FST, stockholders?? requirements\n-
-    Competencies and way of working\n"
-  Column span: '2'
-  Position: '4'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Kecheng Wang
-  Room of Shanghai: A4F Galaxy(A413)
-  Room of Guangzhou BNET: F17 Kunming
-  Room of Guangzhou BUSS: 5F Mars
-  Room of Nanjing: F2 Wudang
-  Room of Seoul: MB A105
-record_23:
-  Title: Quality Control in Agile
-  Start time: 10/16/2013 15:30
-  Stop time: 10/16/2013 16:30
-  Room of Beijing: Meeting Room 7
-  Speaker Introduction: Johan Bengtsson has been working with Software Testing and
-    Agile for 10 years in products like Mobile Positioning, Ericsson Multi Activation,
-    Business Communication Suite and Broadcast over LTE. During this time he has been
-    a part of the transformation of testing towards an Agile way of working and has
-    been driving this change.
-  Abstract: "Abstract description:     Quality control in Agile in BUSS Shanghai \nAgile
-    is implemented long time ago in BUSS shanghai. What we care about is not only
-    the WoW, but the product quality and efficiency. Better quality control is always
-    our focus. Several good practice to share here. \nContent: \n1. Short Quality
-    feedback loop \nAll products in BUSS Shanghai share common CI strategy/guide make
-    our quality insurance work visualized in time. Examples of product adaption for
-    different situation, we continuously learn from others' strong points to offset
-    one's weakness and share environment setup work to be more efficient. \nUseful
-    tools integrated with CI work to control each phase quality. Such as Gerit for
-    code review; Sonar for better monitor and control UT coverage; Heatmap, track
-    FT failed cases as input of later test anatomy and case improvement; Jacoco, another
-    angle of test coverage; Zabbix, performance ST report of system usage. \n\n2.
-    Quality feedback loop by FST (Fault Slip Through), which bring deeper analysis
-    on why and how to improve. \n Through analysis->feedback->deploy, each party of
-    the product insurance (requirement owner, technical writer, designer, tester)
-    keep improving our quality in each area. \n\nLearning of those practices: \nThe
-    first step is make product quality visualization timely, different time loop for
-    different purpose. Not only visible but also stable and automized framework make
-    us focus on product quality itself. \nCI means not only Continuous Integration
-    but also Continuous Improvement. During product development, we use variable kinds
-    of feedback loop to make us take effort on the right direction and right way."
-  Column span: '2'
-  Position: '5'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Johan Bengtsson & Lily Zhang
-  Room of Shanghai: A4F Innovation Room
-  Room of Guangzhou BNET: F16 Hangzhou
-  Room of Guangzhou BUSS: 6F Venus
-  Room of Nanjing: F4 Open area
-  Room of Seoul: MB A106
-record_24:
-  Title: Art in Agile
-  Start time: 10/16/2013 15:30
-  Stop time: 10/16/2013 16:30
-  Room of Beijing: VIP Room 2
-  Speaker Introduction: My name is Clare Bao. I have been in Ericsson for 8 years,
-    and took two years of ScM already. This year,  I was Agile Coach. Another colleague
-    who help to prepare this topic of "Art in Agile" is Benny Zhang, he is ScM. Both
-    of us are coming from MC MCP Shanghai. Our Organization has adapted to Lean and
-    Agile WoW for around four years
-  Abstract: "Art is a method of non-verbal communication tool, through artistic activities
-    to provide a platform for people can freely convey his self-conscious and the
-    subconscious, \nto become the most like a psychological analysis, the most affinity
-    interactive way. \n\nIn Agile WoW, it highly focuses on interactions between people.
-    Therefore, communication becomes more and more important. Art is a way to communicate
-    more transparently,\ndeeply and funnily. During four years journey of Agile, we
-    practiced many art activities in our ceremonies as: \n-Literature \n-Aesthetics
-    \n-Filmology \n-Architecture \nIn this presentation, we will share our good practices
-    all about Art! From these artistic activities, we can hear voice from team member's
-    heart and communicate deeply in the soul. \nMoreover, these artistic activities
-    are quite novel and interesting. Let's say that \"Lean and Agile is not only a
-    theory, we can also fill in them with a lot of fun!\""
-  Column span: '2'
-  Position: '6'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Clare Bao
-  Room of Shanghai: A3F Leo(A317)
-  Room of Guangzhou BNET: F16 Nanjing
-  Room of Guangzhou BUSS: 5F Earth
-  Room of Nanjing: F3 Qin
-  Room of Seoul: MB A103
-record_25:
-  Title: The Power of Retrospective
-  Start time: 10/16/2013 15:30
-  Stop time: 10/16/2013 16:30
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
-    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
-    and numerous articles and is an internationally known presenter on topics related
-    to patterns, retrospectives, influence strategies, agile development, and the
-    change process."
-  Abstract: "Project Retrospectives are an important part of any software development
-    process. \n\nThe Principles Behind the Agile Manifesto state that, \"At regular
-    intervals, the team reflects on how to become more effective, then tunes and adjusts
-    its behavior accordingly.\" \n\nHow can this be done? \n\nBy taking the time to
-    reflect and learn and proactively determine what should be done differently in
-    the next iteration, release, or project. \n\nLinda's presentation will introduce
-    techniques for project retrospectives, whether they are agile or not. The techniques
-    help teams discover what they're doing well so that successful practices can continue
-    and identify what should be done differently to improve performance. Retrospectives
-    are not finger pointing or blaming sessions, but rather a highly effective process
-    in which teams reflect on the past to become more productive in the future. \n\nLinda
-    will share her experiences with leading retrospectives of several kinds for dozens
-    of projects - successful and unsuccessful, small and large, in academia and industry.
-    Her lessons learned can be applied to any project to enable teams and organizations
-    to become learning organizations. \n"
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Linda Rising
-  Room of Shanghai: A3F Innovation Room
-  Room of Guangzhou BNET: F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy
-  Room of Nanjing: F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
-record_26:
-  Title: Portfolio Management in Agile
-  Start time: 10/16/2013 16:30
-  Stop time: 10/16/2013 17:30
-  Room of Beijing: VIP Room 1
-  Speaker Introduction: Hi, I'm Jessica Pan, I'm an advanced project manager in DUIB
-    China. In the upcoming 2013 RNEA Lean and Agile conference, I will share some
-    portfolio management experience I got from FDC NMS. Welcome to join, See U there.
-  Abstract: "Portfolio Management in Agile environment is an interesting and challenging
-    topic. Many factors impact the final decisions:  capacity, competence, strategy,
-    schedule, cost, flexibility, stability, etc., in some extend, it's \"the art of
-    balance\".\n \nWhen a feature is not big enough therefore it doesn't need the
-    whole XFT, how to handle the idle resources? Normally the demands to resource
-    are up and down through the whole feature lifecycle, how to keep the team stable
-    while the resource can still be utilized efficiently? When product line and release
-    PM require a feature commitment at the early stage of a feature, how to balance
-    the flexibility and the commitment? These are the challenges I face everyday.
-    \n \nI would like to use this presentation to share the practice in PDU NMS, and
-    how we handle above challenges in our daily work. The high-level agenda will include:
-    \n- capability management \n- assignment handling and scenario planning \n- fit
-    feature into a release frame \n- A useful tool for portfolio management "
-  Column span: '2'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Jessica Pan
-  Room of Shanghai: A4F(A419)
-  Room of Guangzhou BNET: F16 Shenzhen
-  Room of Guangzhou BUSS: 6F Neptune
-  Room of Nanjing: 'F3 Yan '
-  Room of Seoul: MB A101
-record_27:
-  Title: Different Cooperation Models between Operative Product Owner and Scrum Master
-  Start time: 10/16/2013 16:30
-  Stop time: 10/16/2013 17:30
-  Room of Beijing: Meeting Room 5
-  Speaker Introduction: Will GAO, from Nanjing ENC. Scrum Master and developer of
-    XFT "Green Bay".
-  Abstract: "The cooperation between Operative Product Owner (OPO) and Scrum Master
-    (ScM) is one of the most important factor in agile teams. Since we have large
-    scale product development in PDU WMR, we need more practical cooperation model
-    rather than simply copy from Scrum theory. In this session I would like to share
-    the experiences about several different \"cooperation models\" between OPO and
-    ScM in Nanjing ENC. And have some discussion on pros and cons. Some data will
-    be collected from XFTs in ENC in the form of poll. \n\nContents: \n- Why things
-    are different here? \n- Different background of OPO and ScM (PM, team leader,
-    technical expert, junior engineer, etc. ) \n- Data collected from XFTs \n- Different
-    cooperation models of OPO and ScM \n    - half PM vs. technical expert \n    -
-    half PM vs. team leader (or facilitator) \n    - technical expert vs. technical
-    expert \n    - technical expert vs. team leader \n    - technical expert vs. full
-    time ScM \n    - Idea model in agile theory \n- Comparison, pros and cons in respect
-    of: \n    - cross competence level \n    - team's robustness and dependency \n
-    \   - workload balance \n    - efficiency \n    - motivation on team members \n
-    \   - etc. \n- Discussion and future thinking\n"
-  Column span: '2'
-  Position: '2'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Will Gao
-  Room of Shanghai: A3F Gemini(A315)
-  Room of Guangzhou BNET: F17 Chengdu
-  Room of Guangzhou BUSS: 6F Mercury
-  Room of Nanjing: F2 Shaolin
-  Room of Seoul: NB Grand conference
-record_28:
-  Title: Self Management with Unity of Knowing & Doing
-  Start time: 10/16/2013 16:30
-  Stop time: 10/16/2013 17:30
-  Room of Beijing: Meeting Room 6
-  Speaker Introduction: |
-    Glen has 10+ years of experience in R&D management in Telecom Industry. His main insight comes from integrating the philosophy of Unity of Knowing & Doing with Agile. He has worked in different positions in a large R&D organization: training, lab support, test, tools, development, people/project management and currently he is working as manager, and Agile Coach supporting 200+ people. Glen's current passion is to integrate Unity of Knowing & Doing with Agile continually.
-  Abstract: |+
-    This speech is based on Glen Wang's articles on Scrum Alliance http://www.scrumalliance.org/community/articles?author=gwang16
-    These articles are about the integration of Scrum and the Unity of Knowing & Doing.
-    Outline:
-    The introduction of the Unity of Knowing & Doing philosophy.
-    Six simple models to explain the agile management with the Unity of Knowing & Doing.
-    Conclusion, recap and takeaways.
-    Conclusion:
-    Self-management: know your purpose, focus to do and be always confident.
-    Manage yourself, and then be able to influence others, and change the world.
-
-  Column span: '2'
-  Position: '3'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Glen Wang
-  Room of Shanghai: E10F Taiwan Island
-  Room of Guangzhou BNET: F17 Xian
-  Room of Guangzhou BUSS: 6F Uranus
-  Room of Nanjing: F4 Persedetial 1
-  Room of Seoul: NB 203
-record_29:
-  Title: A Story of Evolution -- CI Journey in NDO SP & Deploy CI upon Legacy & Private
-    Systems
-  Start time: 10/16/2013 16:30
-  Stop time: 10/16/2013 17:30
-  Room of Beijing: Meeting Room 3
-  Speaker Introduction: |-
-    Emily Geng from DUIB China R&D Operations. SCM engineer supporting NDO SP. Activist in many Lean & Agile Communities and Conferences inside and outside Ericsson.
-    Roy Ke, from BNET DUCI CDMA Core. Now I am working on continuous integration for GSM-N.
-  Abstract: "Stories of CI Evolution Journey\n\nThis is a joint presentation from
-    DUIB China R&D Ops and DUCI GZ.\n\nAs we always say, Agile transformation is a
-    journey. It is also a journey to setup a Continuous Integration framework for
-    a project from scratch. \n\nIn DUIB China NDO SP, we started our CI journey in
-    year 2011. When we look back, there are lots of exciting achievements along the
-    road.  DUIB China CI maturity model evaluates CI deployment from 5 dimensions
-    which are building, deploying, testing, reporting and culture. It's a frame of
-    reference for us to self-inspect on \"where we are\" and \"where to go\". Based
-    on the measurement in the model, NDO SP has finished a giant leap from \"BASE\"
-    level to \"INTERMEDIATE\" level in most of the dimensions. In the presentation,
-    we will share our essential train of thought and good practices to our audience.\n\nIn
-    GUCI GZ, we are deploying CI upon a legacy system --GSM-N, which has served TELCO
-    over 40 years. During our way to CI, private system in GSM-N is the biggest impediment.
-    After a bout one year's adventure, now we have achieved LLV building and LLV/LSV
-    verification in our CI platform. Here we'd like to share our experiences on dealing
-    with legacy and private systems, hope it can help teams who are facing same problems.\n"
-  Column span: '2'
-  Position: '4'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Emily Geng & Roy Ke
-  Room of Shanghai: A4F Galaxy(A413)
-  Room of Guangzhou BNET: F17 Kunming
-  Room of Guangzhou BUSS: 5F Mars
-  Room of Nanjing: F2 Wudang
-  Room of Seoul: MB A105
-record_30:
-  Title: How CBA Component (TOF) Development Benefits from Agile
-  Start time: 10/16/2013 16:30
-  Stop time: 10/16/2013 17:30
-  Room of Beijing: Meeting Room 7
-  Speaker Introduction: "Sean Sun:  A 13 years Telecom industry experienced manager
-    with Ph.D background. \nCertified Scrum Master with rich experience in whole software
-    design lifecycle.\nAllen Zhao:\nA 7 years Telecom industry experienced Senior
-    Engineer. \nBNET CBA Common Component TOF Scrum Master. \n"
-  Abstract: "TOF(Transport OAM Framework) is a new CBA Common Component with multiple
-    stakeholders. This presentation will share experiences about how Agile helped
-    TOF through these situations and achieved the desired result. \n1) How Agile Improved
-    TOF Development Efficiency and Delivered What stakeholder Required \na. Minimal
-    marketable scope \nb. R&D team influence customers and assist customers in tailoring
-    technical solutions. \nc. Quick delivery to stakeholders would result in timely
-    feedback \nd. Fast feedback loops to stakeholder's requirement and changes \ne.
-    Ability for XFT to select Sprint duration period \nf. Decrease number of handovers
-    \ng. Early involvement is mandatory. \nh. Continued learning and knowledge sharing
-    \n2) How Agile Enabled TOF Delivery on Time with High Quality (19 TRs for 23000
-    LOC) \na. Small scope for each delivery \nb. End-to-end team responsibility \nc.
-    XFT team was encouraged to do role rotation to enable team competence build-up
-    \nd. Adjusted Code review effort reserved during sprint cycle to improve the code
-    review quality. \ne. High UT cove"
-  Column span: '2'
-  Position: '5'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: ' Sean Sun & Allen Zhao'
-  Room of Shanghai: A4F Innovation Room
-  Room of Guangzhou BNET: F16 Hangzhou
-  Room of Guangzhou BUSS: 6F Venus
-  Room of Nanjing: F4 Open area
-  Room of Seoul: MB A106
-record_31:
-  Title: |-
-    Lean and Agile Clinic for HW Development (Available in Beijing only)
-  Start time: 10/16/2013 16:30
-  Stop time: 10/16/2013 17:30
-  Room of Beijing: VIP Room 2
-  Speaker Introduction: "Neil Johnson has been working in ASIC and FPGA development
-    for more than 10 years. \n\nHe currently holds the position of Principal Consultant
-    at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC
-    and FPGA development. \n\nNeil is also co-moderator for AgileSoC.com, a site dedicated
-    to the introduction of Agile development methods to the world of hardware development."
-  Abstract: Come in with your questions and challenges. Speak to Neil to get inspired with some
-    current good practices and practical advices on your challenges.
-  Column span: '2'
-  Position: '6'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Neil Johnson
-  Room of Shanghai: A3F Leo(A317)
-  Room of Guangzhou BNET: N/A
-  Room of Guangzhou BUSS: N/A
-  Room of Nanjing: N/A
-  Room of Seoul: N/A
-record_32:
-  Title: Exploring User Wish through Mindmapping
-  Start time: 10/16/2013 16:30
-  Stop time: 10/16/2013 17:30
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Kenji Hiranabe is an Agile software development practitioner
-    and consultant in Japan. He thinks of software development as a form of co-operative
-    communication game, and is always searching for better ways to make it more productive,
-    collaborative, and fun. \n\n2008 Gordon Pask Award Recipient for contributions
-    to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of
-    the books including \"Multi-Paradigm Design\", \"C# Primer\", \"Lean Software
-    Development\", \"XP Installed\", \"Agile Project Management\". Also a developer
-    of \"JUDE\" a UML editor software integrated with Mind Mapping, and \"TRICHORD,\"
-    a Kanban-based Agile project information sharing tool. "
-  Abstract: |
-    Gathering requirements and writing good user stories are always challenging. There are no standard processes or notations available to help gather them from the users. Without strong interpersonal communication and facilitation skills, the process can fail, leading towards lack of understanding of what the users really wish. In this talk, I try to show a path to overcome these obstacles by mindmapping.
-    Through the simplicity and serenity of mind mapping, we will explore the"User Wish" - a vague shape of requirements before they are formalized. And turn them into user stories or use cases.  This session includes a demonstration of the user interview using mindmapping techniques.
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Kenji Hiranabe
-  Room of Shanghai: A3F Innovation Room
-  Room of Guangzhou BNET: F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy
-  Room of Nanjing: F4 Presedetnail 2
-  Room of Seoul: NB 302
-record_33:
-  Title: Recap of Day 1
-  Start time: 10/17/2013 9:00
-  Stop time: 10/17/2013 9:30
-  Room of Beijing: ' - '
-  Speaker Introduction:
-  Abstract: ' - '
-  Column span: '7'
-  Position: '1'
-  Row span: '1'
-  Background color: ' - '
-  Speakers: ' -'
-  Room of Shanghai:
-  Room of Guangzhou BNET:
-  Room of Guangzhou BUSS:
-  Room of Nanjing:
-  Room of Seoul:
-record_34:
-  Title: From Efficiency to Innovation
-  Start time: 10/17/2013 9:30
-  Stop time: 10/17/2013 10:30
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Dieter Kaufhold is working within the Chief Process Officer
-    Organization of SAP AG as Head of Lean Center China, based in Shanghai. Born in
-    Germany, he is living in China for 8 years by now --with a record of quite diverse
-    assignments within Solution Management, Support Consultancy, Operations & Delivery
-    Management to finally being dedicated to the realization of the Lean approach
-    within SAP China. \n\nHe is in charge of business process optimization based on
-    Lean & Scrum principles for all SAP locations in China with focus on its development
-    units, also including a comprehensive CI-Program. Recently he has started to extend
-    the Lean approach to other major business areas of SAP China, like the Go to Market
-    and Field organization."
-  Abstract: "At SAP the so called \"Road2Lean\" is defining the transformational change
-    needed to become a more flexible, more productive organization, serving customers
-    through empowering employees and freeing them from waste. \n\nThis presentation
-    is introduction and outlook into what has been done so far and what is still needed
-    to make a global organization like SAP become an agile enterprise on the long
-    run."
-  Column span: '7'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Dieter Kaufhold
-  Room of Shanghai: A3F Innovation Room, A4F Innovation Room, A4F Galaxy
-  Room of Guangzhou BNET: F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy, 6F Venus
-  Room of Nanjing: F4 Persedetial 1, F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
-record_35:
-  Title: Tea Break
-  Start time: 10/17/2013 10:30
-  Stop time: 10/17/2013 10:45
-  Room of Beijing: ' - '
-  Speaker Introduction:
-  Abstract: ' - '
-  Column span: '7'
-  Position: '1'
-  Row span: '1'
-  Background color: ' - '
-  Speakers: ' - '
-  Room of Shanghai:
-  Room of Guangzhou BNET:
-  Room of Guangzhou BUSS:
-  Room of Nanjing:
-  Room of Seoul:
-record_36:
-  Title: Technical People and Businessmen!
-  Start time: 10/17/2013 10:45
-  Stop time: 10/17/2013 11:45
-  Room of Beijing: VIP Room 1
-  Speaker Introduction: Arthur Wen, from DUCI Shanghai, working as Technical Product
-    Manager of UPG (User Profile Gateway) in PDU-UDM. 12-year working experience in
-    Ericsson with different roles (SW engineer, Team Leader, Product Owner and Portfolio
-    Manager).
-  Abstract: |
-    Presentation: Technical person but also businessman
-    PDU people/the engineer are usually considered as technical person, who are not that close to the market and mainly focus on doing things right. But we UPG team makes some changes here. UPG is a very young node in UDM family, which is the enabler for data monetization/big data. Considering survival and grow up in this competitive market, it's extremely important for UPG R&D team to enhance market responsiveness by closely collaborating with customers/region and shortening E2E feedback loop. This presentation will show how the UPG R&D team is active on customer engagement and pre-sales support to upsell UPG as businessman, which also benefits the UPG agile development for requirement clarification, prioritization and business value understanding to do the right thing.
-  Column span: '2'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
+  Title: UDM/UPG
+  Start time: 11/29/2013 11:15
+  Stop time: 11/29/2013 12:00
+  Room: A3F Taurus (18)
+  Abstract: 
+  Column span: '1'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
   Speakers: Arthur Wen
-  Room of Shanghai: A4F(A419)
-  Room of Guangzhou BNET: F16 Shenzhen
-  Room of Guangzhou BUSS: 6F Neptune
-  Room of Nanjing: F3 Yan
-  Room of Seoul: MB 101
-record_37:
-  Title: How Infra and LSV teams Adapt to Agile from Scrum to Kanban
-  Start time: 10/17/2013 10:45
-  Stop time: 10/17/2013 11:45
-  Room of Beijing: Meeting Room 5
-  Speaker Introduction: "My name is Eric Dong, software engineer in NDO SP, PDU IP
-    SYS.\nI'm the Kanban master of Infra team which provides tools and support for
-    continuous integration, test automation and other things that may facilitate people's
-    daily work.\nSean Sun:  A 13 years Telecom industry experienced manager with Ph.D
-    background. Certified Scrum Master with rich experience in whole software design
-    lifecycle. \n"
-  Abstract: "At the beginning of agile journey, we may often face a same problem.
-    \"Are we going to use Scrum or Kanban?\" For the pure XFTs, it is easy for them
-    to choose. But for\nsome teams who play a different role within a R&D organization,
-    it is not easy. LSV team in NDO IPOS and Infrastructure team in NDO SP are two
-    typical examples.\nThey both chose Scrum at the start. They had almost everything
-    needed in a Scrum setup, like Scrum master, planning meeting, retrospective meeting
-    and demo ect.\n\nBut after running for several sprints, they both met obstacles.
-    The high priority tasks kept coming in now and then. The sprint plan was interrupted.
-    They can not \nfinish all the planned tasks to meet the schedule.\n\nThen they
-    started to think about change. And they turned to Kanban. Without time box limited,
-    they can easily handle the incoming urgent tasks and prioritize the backlog\nmore
-    freely. They focused more on the work flow. Team members work more closely and
-    the quality is secured as well.\n"
-  Column span: '2'
-  Position: '2'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Eric Dong & Sean Sun
-  Room of Shanghai: A3F Gemini(A315)
-  Room of Guangzhou BNET: F17 Chengdu
-  Room of Guangzhou BUSS: 5F Galaxy
-  Room of Nanjing: F2 Shaolin
-  Room of Seoul: NB Grand conference
-record_38:
-  Title: Continuous Learning
-  Start time: 10/17/2013 10:45
-  Stop time: 10/17/2013 11:45
-  Room of Beijing: Meeting Room 6
-  Speaker Introduction: |
-    Sharon Li: Line manager and competence driver for organization.
-    Tomix Weng: Scrum Master for one feature development team. I am from CBC Shanghai, acting as a scrum master of one feature development team in PDU Mobile Core. I have been worked for 7 years
-    Both are from DUCI Shanghai, PDU Mobile Core.
-  Abstract: "Lean & Agile principle emphasized learning importance. But how to keep
-    this learning mindset not only refreshing but also able to last for long time
-    under Lean & Agile environment? \n\nIn this presentation, we'd like to share the
-    real practice in CBC Mobile Core Shanghai. Through the whole presentation, we
-    will try to answer the below questions: \nHow to setup continuous learning culture?
-    \n How to encourage team member to learn, practice & share? \nHow to balance continuous
-    learning effort with ongoing assignment? \n What is the challenge to keep the
-    learning atmosphere in a sustainable way? \n\nWe'll talk about this topic from
-    3 difference angles and 1 foundation that connected them through. It'll include
-    both methodology and our real stories. If you want to know more, welcome to join
-    our session! \n"
-  Column span: '2'
-  Position: '3'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: ' Sharon Li & Tomix Weng'
-  Room of Shanghai: E10F Taiwan Island
-  Room of Guangzhou BNET: F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 6F Uranus
-  Room of Nanjing: F4 Presedetnail 2
-  Room of Seoul: NB 302
-record_39:
-  Title: How Infrastructure Shortens Feedback Loop in SGSN-MME
-  Start time: 10/17/2013 10:45
-  Stop time: 10/17/2013 11:45
-  Room of Beijing: Meeting Room 3
-  Speaker Introduction: "My name is Alvin Hu. \nI come from DUIB china, Packet Core
-    Shanghai, SGSN-MME department. \nAnd as a designer, I have been working on SGSN-MME??s
-    infrastructure area for more than two years.\n"
-  Abstract: "In SGSN-MME product, we have around 8000 TTCN test cases and 35000 GTT
-    (a function test tool for SGSN-MME) test cases for function test, normally each
-    test case needs more than 10 seconds to execute. Nowadays we can finish one TTCN
-    regression within 15 minutes and one GTT regression within 1 hour on average.
-    But back to 2009, the figures to finish one TTCN regression and GTT regression
-    were 20 hours and 8 hours. \n\nMy presentation introduces how our infrastructure
-    department helps reduce this regression time and shorten the feedback loop from
-    days to minutes in the past 5 years.  In the presentation, I will show what we
-    have done within infrastructure area, how we use and deploy distributed system,
-    virtualization technology and selective regression method to our regression testing.
-    Distributed system and virtualization technology let us have the capacity to execute
-    more regressions, and selective regression method provides a smart way to reduce
-    regression scope and improve the efficiency. All of these tools and technologies
-    have been integrated in our integration process to support our product's CI deployment.
-    \n"
-  Column span: '2'
-  Position: '4'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Alvin Hu
-  Room of Shanghai: A4F Galaxy(A413)
-  Room of Guangzhou BNET: F17 Kunming
-  Room of Guangzhou BUSS: 5F Mars
-  Room of Nanjing: F2 Wudang
-  Room of Seoul: MB A105
-record_40:
-  Title: Expediting Development With An Incremental Approach To Functional Verification
-  Start time: 10/17/2013 10:45
-  Stop time: 10/17/2013 11:45
-  Room of Beijing: Meeting Room 7
-  Speaker Introduction: "Neil Johnson has been working in ASIC and FPGA development
-    for more than 10 years. \n\nHe currently holds the position of Principal Consultant
-    at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC
-    and FPGA development. \n\nNeil is also co-moderator for AgileSoC.com, a site dedicated
-    to the introduction of Agile development methods to the world of hardware development."
-  Abstract: Since functional verification is (very) rarely done early (or even on
-    time) by anyone (anywhere), late delivery of hardware is the norm. In this session,
-    we look at four characteristics of late delivery that consistently dog functional
-    verification teams, particularly those using constrained random verification.
-    We'll look at practices that can be used to address those characteristics, including
-    TDD, and how they can be used to create a new incremental model for functional
-    verification.
-  Column span: '2'
-  Position: '5'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Neil Johnson
-  Room of Shanghai: N/A
-  Room of Guangzhou BNET: N/A
-  Room of Guangzhou BUSS: N/A
-  Room of Nanjing: N/A
-  Room of Seoul: N/A
-record_41:
-  Title: Quality Management & TL9000 Compliance in Agile WoW
-  Start time: 10/17/2013 10:45
-  Stop time: 10/17/2013 11:45
-  Room of Beijing: VIP Room 2
-  Speaker Introduction: "Changying Sun: \nDUCI CDMA Beijing advanced project manager,
-    working on agile deployment and process improvements from the beginning of 2013\n\nDella
-    Luo: \nCDMA OAM Product Integration/Verification manager before 2013.\n"
-  Abstract: "\nFor DUCI PDU CDMA R&D, when we move from waterfall development model
-    to agile WoW, our previous TL9000 quality management system becomes partly obsolete
-    though it was quite excellent in managing the products quality in waterfall model
-    before. During this transformation, the team gains obvious benefits from Agile
-    WoW such as quick delivery, flexibility, productivity, but people also start to
-    concern that in Agile WoW the processes and documents may be easily sacrificed,
-    hence the quality might be depressed. Especially our major NA customers have a
-    requirement for the suppliers to be TL9000 certified.\nJust like Agile manifesto
-    stresses, \"while we value working software and individual interactions more,
-    there is still value in processes and documents\".  Hence to better leverage the
-    both, we adjusted the old quality management system in a lean approach and defined
-    our Agile WoW with compliancy to TL9000 requirements during our Agile transformation.
-    This presentation will talk about how we run agile in a way that fulfills TL9000
-    requirements on: \nSimplify processes to avoid overhead on processes/documents;
-    \nClarify a minimum set of documents and records to satisfy TL9000 audit and to
-    ensure quality and maintainability of the product.\nSimplified project planning/management
-    and focus on sprint-based delivery.\nMore flexible change management.\nKeep requirement
-    traceability.\nControl of documents and records.\nContinuous improvement.\nImprove
-    collaboration with less handovers, and eliminate micro-management."
-  Column span: '2'
-  Position: '6'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Della Luo & Changying Sun
-  Room of Shanghai: A3F Leo(A317)
-  Room of Guangzhou BNET: F16 Nanjing
-  Room of Guangzhou BUSS: 5F Earth
-  Room of Nanjing: F3 Qin
-  Room of Seoul: MB A103
-record_42:
-  Title: Lean and Agile Clinic (Available in Beijing only)
-  Start time: 10/17/2013 10:45
-  Stop time: 10/17/2013 11:45
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
-    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
-    and numerous articles and is an internationally known presenter on topics related
-    to patterns, retrospectives, influence strategies, agile development, and the
-    change process.\n\n\nEvelyn Tian is the Lean and Agile Coach Lead for APAC within
-    Ericsson. She has been coaching organizations, management teams, development teams
-    and individuals throughout the journey.\n\nShe is Certified Master Coach, specialized
-    in behavior based coaching, and draw pleasure from helping others and companies
-    continuously improve, and generating positive energy.\n\nShe is a member of IEEE
-    Software Advisory Board, a licensed trainer for Management 3.0 and a CSP."
-  Abstract: Come in with your questions and challenges. \n\nSpeak to Linda and Evelyn, to get inspired with some
-    current good practices and practical advices on your challenges.
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Linda Rising & Evelyn Tian
-  Room of Shanghai: N/A
-  Room of Guangzhou BNET: N/A
-  Room of Guangzhou BUSS: N/A
-  Room of Nanjing: N/A
-  Room of Seoul: N/A
-record_43:
-  Title: Lunch
-  Start time: 10/17/2013 11:45
-  Stop time: 10/17/2013 13:00
-  Room of Beijing: ' - '
-  Speaker Introduction:
-  Abstract: ' - '
-  Column span: '7'
-  Position: '1'
-  Row span: '1'
-  Background color: ' - '
-  Speakers: ' - '
-  Room of Shanghai:
-  Room of Guangzhou BNET:
-  Room of Guangzhou BUSS:
-  Room of Nanjing:
-  Room of Seoul:
-record_44:
-  Title: See the Forest and Trees - Optimize the Whole through Integrated View
-  Start time: 10/17/2013 13:00
-  Stop time: 10/17/2013 14:00
-  Room of Beijing: VIP Room 1
-  Speaker Introduction: |
-    I am Lian Chen, from DUCI Shanghai project office.
-    From the middle of 2012, a group of project managers volunteered to establish an efficiency program aiming to improve the efficiency of our own area. Till now, we've learned a lot and surprisingly achieved a lot. Here I am honored to share with you our practical experiences how to approach the dream of being really efficient and owning the best customer perception.
-    Welcome to my topic! I guarantee you will surely get something valuable back to your home organization and apply them to your area.
-  Abstract: "Despite progress that has been made in recent years in Market Customization
-    Program (MCP), further improvements are needed to reduce time-to-market and increase
-    added value to customers. \nMCP Efficiency Program - a voluntary program established
-    mid-2012, targeting to evolve the Mobile Core customization flow -, by visualizing
-    & evaluating the flow from: \nProcess perspective, \nOutcome perspective,  \nIdentify
-    and analyze deviations, \nAND finally locate improvement opportunities! \nWe are
-    excited to share with you: \nHow to organize and run a cross-organization improvement
-    program (from customer order to product delivery, i.e., End to End) based on Lean
-    & Agile principles! \nHow to effectively use the simple data mining, and the Value
-    Stream Mapping method to examine the whole flow! \nSeveral easy analysis methods
-    to detect bottlenecks in the chain! \nHow to break the organization boundary to
-    generate improvement ideas quickly for different areas/phases! \nThe secret in
-    how to combine project management practices with Lean principle to systematically
-    OPTIMIZE THE WHOLE! \nCBC MCP Product Owner Team"
-  Column span: '2'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Lian Chen
-  Room of Shanghai: A4F(A419)
-  Room of Guangzhou BNET: F16 Shenzhen
-  Room of Guangzhou BUSS: 6F Neptune
-  Room of Nanjing: F3 Yan
-  Room of Seoul: MB 101
-record_45:
-  Title: Practice of Scrum of Scrum
-  Start time: 10/17/2013 13:00
-  Stop time: 10/17/2013 14:00
-  Room of Beijing: Meeting Room 5
-  Speaker Introduction: Senior Software Engineer. The release technical leader for
-    WNMS OAM7.
-  Abstract: "How to use Agile practices on large projects? The solution is \"Scrum
-    of Scrums\". \n\nThere is an important project, WNMS7.0, for AT&T in Beijing BNET
-    DUCI CDMA OAM SOLUTION team in 2013. The expected size of this project is about
-    11M SLOC, 50-60 developer/testers. So we use this concept \"Scrum of Scrums\""
-  Column span: '2'
-  Position: '2'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Xiaoyan Wang
-  Room of Shanghai: A3F Gemini(A315)
-  Room of Guangzhou BNET: F17 Chengdu
-  Room of Guangzhou BUSS: 5F Galaxy
-  Room of Nanjing: F2 Shaolin
-  Room of Seoul: NB Grand conference
-record_46:
-  Title: Lead Technical Changes during Agile Deployment
-  Start time: 10/17/2013 13:00
-  Stop time: 10/17/2013 14:00
-  Room of Beijing: Meeting Room 6
-  Speaker Introduction: 'Software Practice Pioneering: Discover the best suitable
-    methods and tools to improve the efficiency of software development (git, CI,
-    Agile, Eclipse, Codekata, cloud, training)'
-  Abstract: |
-    Agile is widely deployed into the company, and mostly the practice of the agile method will be launched first, like iteration, stand-up meeting, story point. While the technical practice which support the agile software development is used to be ignored in the beginning, this will create the barrier for the success agile deployment.
-
-    And also even the technical practice is considered, how to deploy it is also quite challenge, since it differs a lot in different company with different culture.
-
-    This presentation will show my experience on how to lead the technical changes  for software development in the company, it will be based on 3 real cases (refactoring, from clearcase to git and specification by example)
-  Column span: '2'
-  Position: '3'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Larry Cai
-  Room of Shanghai: E10F Taiwan Island
-  Room of Guangzhou BNET: F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 6F Uranus
-  Room of Nanjing: F4 Presedetnail 2
-  Room of Seoul: NB 302
-record_47:
-  Title: 'The Practice of Build Cloud-based CI '
-  Start time: 10/17/2013 13:00
-  Stop time: 10/17/2013 14:00
-  Room of Beijing: Meeting Room 3
-  Speaker Introduction: "Yong Luo, from BUSS BoLTE, Shanghai\n- Long time focus on
-    product  Continuous Integration & Delivery area\n- A OpenStack hacker\n- A team
-    scrum master \nDingjun Zhou, from UDM UPG Shanghai\n- Before driving the MSC CI\n-
-    Current being the UPG CI driver \n- Ruby fans\n"
-  Abstract: "People all know that a successful Lean and Agile deployment can't leave
-    continuous integration and deployment, unfortunately how to build a smart and
-    efficient CI system has always been a difficult issue. Considering the multi-
-    nodes deployment ,multi-model deployment, a large number of package management,
-    short time feedback loop. How to make our CI system smart? In this presentation,
-    we will show you two real cases from shanghai BDC and UDM products. How we use
-    the private cloud , binary repository and other technological means to make CI
-    efficient and smart.\nfocuses on below points:\n- Common CI  trick issues and
-    analysis\n- Good CI efficiency practices\no Configuration management for CI \no
-    Automatic everything\no Binary repository service\no Cloud based infrastructure\n
-    \                 - We are on the way\n"
-  Column span: '2'
-  Position: '4'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Yong Luo & Dingjun Zhou
-  Room of Shanghai: A4F Galaxy(A413)
-  Room of Guangzhou BNET: F17 Kunming
-  Room of Guangzhou BUSS: 5F Mars
-  Room of Nanjing: F2 Wudang
-  Room of Seoul: MB A105
-record_48:
-  Title: TDD on S/W
-  Start time: 10/17/2013 13:00
-  Stop time: 10/17/2013 14:00
-  Room of Beijing: Meeting Room 7
-  Speaker Introduction: |-
-    Jiangbiao Deng:
-    I am a developer working in DUCI.SH EI organization. I have 6 years working in Ericsson. I worked in BSP product. I like programming and enjoy trials of  many software practices to enhance coding quality and efficiency.
-    Lin Cheng:
-    Agile coach in DUCI.SH EI organization. I have worked in Ericsson for 6 years, and 2 years' experience on coaching team and individuals.
-  Abstract: "Test-driven development (TDD is a method of software development in which
-    unit testing is repeatedly done on source code. The concept is to \"get something
-    working now and perfect it later.\" TDD can produce applications of high quality
-    in less time than is possible with older methods. Proper implementation of TDD
-    requires the developers and testers to accurately anticipate how the application
-    and its features will be used in the real world. Because tests are conducted from
-    the very beginning of the design cycle, time and money spent in debugging at later
-    stages is minimized. \n\nIn this workshop, firstly we will introduce TDD's concept
-    and values. Then we would invite you to experience how to use TDD - a small hands-on
-    programming game with TDD method. After your participation, I believe you will
-    definitely know the importance of TDD in programming. Of course, you would probably
-    find out some challenges to use TDD. Do not worry about it. We will guide you
-    to brainstorm how to overcome the limitations in our TDD Journey. \n\nWe believe
-    that there must be certain proper ways to start our TDD journey in our development.
-    We can continue to improve the quality daily and daily via TDD.\n"
-  Column span: '2'
-  Position: '5'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Jiangbiao Deng & Lin Cheng
-  Room of Shanghai: A4F Innovation Room
-  Room of Guangzhou BNET: F17 Hangzhou
-  Room of Guangzhou BUSS: 6F Venus
-  Room of Nanjing: F4 Open area
-  Room of Seoul: MB A106
-record_49:
-  Title: The Amazing Journey of Agile Transition for a Verification Team
-  Start time: 10/17/2013 13:00
-  Stop time: 10/17/2013 14:00
-  Room of Beijing: VIP Room 2
-  Speaker Introduction: "Vincent Zhang, GAPUP team ATF. \nLoves fitness and maybe
-    the strongest ATF in CBC.\n"
-  Abstract: "GAPUP team handles the APZ upgrade test business in AXE.\nA typical verification
-    team with legacy WoW. \nIn 2 years agile transition, 2 POs and 4 ATFs rotated
-    and most team members changed. \nGuess what? Now GAPUP is one of the most mature
-    teams in EI CBC with great team spirit and evolving agile WoW. \n\nRome wasn't
-    built in one day. \nLet's share this amazing journey with you including our struggles
-    and experience.\n\nCompetence: \n-              GAPUP certificate: Ramps up newcomer's
-    competence and increases team's flexibility.\nA 4 weeks buildup plan includes
-    WoW, OJT and group review for newcomer.\n-              Win-win collaboration.\nWorkshops
-    with stakeholders to find mutual interests and smooth the total work flow.\n\nQuality:\n-
-    \             Review checklist. \nGAPUP team design, test and release Upgrade/Implementation
-    Instruction for certain APZ upgrade path.\nReview checklist is introduced for
-    effective and qualified UI/II review. \n-              UI Templates. \nGAPUP UI/II
-    usually contains 90% stable + 10% changeable "
-  Column span: '2'
-  Position: '6'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Vincent Zhang Z
-  Room of Shanghai: A3F Leo(A317)
-  Room of Guangzhou BNET: F16 Nanjing
-  Room of Guangzhou BUSS: 5F Earth
-  Room of Nanjing: F3 Qin
-  Room of Seoul: MB A103
-record_50:
-  Title: Lean and Agile Clinic (Available in Beijing only)
-  Start time: 10/17/2013 13:00
-  Stop time: 10/17/2013 14:00
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Linda Rising is a well-known and well-respected independent
-    consultant who lives in Nashville, Tennessee. \n\nShe has authored four books
-    and numerous articles and is an internationally known presenter on topics related
-    to patterns, retrospectives, influence strategies, agile development, and the
-    change process.\n\n\n\nEvelyn Tian is the Lean and Agile Coach Lead for APAC within
-    Ericsson. She has been coaching organizations, management teams, development teams
-    and individuals throughout the journey.\n\nShe is Certified Master Coach, specialized
-    in behavior based coaching, and draw pleasure from helping others and companies
-    continuously improve, and generating positive energy.\n\nShe is a member of IEEE
-    Software Advisory Board, a licensed trainer for Management 3.0 and a CSP."
-  Abstract: Come in with your questions and challenges. \n\nSpeak to Linda and Evelyn to get inspired with some
-    current good practices and practical advices on your challenges.
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Linda Rising & Evelyn Tian
-  Room of Shanghai: N/A
-  Room of Guangzhou BNET: N/A
-  Room of Guangzhou BUSS: N/A
-  Room of Nanjing: N/A
-  Room of Seoul: N/A
-record_51:
-  Title: Lean Flow in Product Development
-  Start time: 10/17/2013 14:00
-  Stop time: 10/17/2013 15:00
-  Room of Beijing: Meeting Room 5
-  Speaker Introduction: Chester has 10 years of experience of R&D management in Telecom
-    Industry. He has piloted an Agile SW development project in 2003 and Involved
-    PDU WMR Agile transformation as line manager and program manage in past 2 years.
-    His currently role is focusing on improve Lean Flow in ENC R&D for productivity
-    and quality. His main interest is helping organization to reach "just in time".
-    He also actively involve with Nanjing Agile Tour community
-  Abstract: 'Two fallacies in product development: -- High utilization of resources
-    will improve performance  -Does it take into full account the intrinsic variability
-    of development work?  -Does it understand how queues affect economic performance?  --The
-    sooner the project is started, the sooner it will be finished  -Does it lead companies
-    to start more projects than they can vigorously pursue.  -The slower a project
-    progresses, what is the chance for project to stay?   PDU WMR conclusion  - What
-    should we do about Flow?  - How should we treat Cost of Delay?  - How to manage
-    queues?  - What does Flow and Queuing theory help us to increase productivity
-    and feature delivery?   PDU WMR Practice in Flow product development:  - WCDMA
-    has doubled its delivery (number of feature), comfortably release on time. The
-    momentum of productivity increasing is still strong.  - Reducing TR dramatically
-    on both Main and PLM track after 18 month Agile transformation. We are reducing
-    PLM team each year.  - WCDMA is aiming for delivering SW each Sprint to SP instead
-    few release each year in 2014. '
-  Column span: '2'
-  Position: '2'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Chester Xi
-  Room of Shanghai: A4F(A419)
-  Room of Guangzhou BNET: F16 Shenzhen
-  Room of Guangzhou BUSS: 6F Neptune
-  Room of Nanjing: F3 Yan
-  Room of Seoul: MB 101
-record_52:
-  Title: Visualization-A Transparent Window to the Sunshine
-  Start time: 10/17/2013 14:00
-  Stop time: 10/17/2013 15:00
-  Room of Beijing: Meeting Room 6
-  Speaker Introduction: Software design engineer , join the Ericsson after  graduation
-    in January 9th 2012, started to be the scrum master of XFT team since Feb ,2013
-  Abstract: "Visualization is always an important part in agile which has many benefits
-    to the team. Besides the traditional transparency methods, I will share some more
-    visualization methods that we used in our agile practice.\n\nDifferent visualization
-    has different benefit, in the presentation, I will share with you \nHow it leads
-    to a bidirectional transparency between our team and all the stakeholders.\nHow
-    it help the team to manage the feature development.\nHow it help to solve the
-    communication obstacles.\nHow it make the team members to be more proactive in
-    daily work.\nHow it help the team to realize the continuous improvement.\nHow
-    it help to make sure the quality of our product."
-  Column span: '2'
-  Position: '3'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Bingfeng Liu
-  Room of Shanghai: A3F Gemini(A315)
-  Room of Guangzhou BNET: F17 Chengdu
-  Room of Guangzhou BUSS: 5F Galaxy
-  Room of Nanjing: F2 Shaolin
-  Room of Seoul: NB Grand conference
-record_53:
-  Title: Conflict Management
-  Start time: 10/17/2013 14:00
-  Stop time: 10/17/2013 15:00
-  Room of Beijing: Meeting Room 3
-  Speaker Introduction: |
-    Roy Huang is from BNET, DUCI, CBC SHANGHAI project office. He is an agile project manager, at same time as well as a scrum master.
-    He started his Agile journal, 3 years ago. Over the past almost 3 years agile exploration, he has been focusing on coaching and leadership areas in Agile.
-  Abstract: "When you enjoy the great landscape during exploration of Lean & Agile,
-    you could also have some frustration and negative sense at same time.\nConflicts
-    and how to deal with conflicts, could be one of most widely controversial concerns.\nIn
-    this presentation, Speaker will try to answer the essence of Conflict Management
-    in Agile, and his proposition.\n                Meanwhile, you could find some
-    interesting answer in different angles for below questions. \n What are the conflicts?\nAre
-    conflicts positive or negative to Agile?\n What particular kinds of conflict (with
-    real cases) are in Agile? \nHow to handle the conflicts in Agile?\n What are conflict
-    management strategies?\n"
-  Column span: '2'
-  Position: '4'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Roy Huang
-  Room of Shanghai: E10F Taiwan Island
-  Room of Guangzhou BNET: F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 6F Uranus
-  Room of Nanjing: F4 Presedetnail 2
-  Room of Seoul: NB 302
-record_54:
-  Title: Continuous Integration & Testing System in MSDP
-  Start time: 10/17/2013 14:00
-  Stop time: 10/17/2013 15:00
-  Room of Beijing: Meeting Room 7
-  Speaker Introduction: I'm Miao Zhu, joined in Ericsson in 2006 and worked as SCM
-    in past 7 years. I started to join Agile team in 2009, mainly focus on product
-    release and continuous integration system setup/maintenance. Now I'm working in
-    MSDP release team, driving the continuous integration improvement in MSDP program.
-  Abstract: "MSDP Continuous Integration and Testing system in BUSS CoE Service Enablement\nA
-    full Multiservice Delivery Platform (MSDP) package is integrated by 300+ components/modules,
-    which are developed by ~100 engineers. In order to make everything integrated
-    in time and keep the product quality always visualized, Continuous Integration
-    (CI) is well developed and managed in MSDP to ensure everything goes smoothly
-    and refreshed frequently. \n\nCI setup in MSDP includes the functionalities to
-    automatically and continuously do: \n- Timely component building, unit testing
-    and code reviewing ; \n- Hourly product package integrating, deploying and system
-    testing; \n- Nightly formal package delivering; \n- Daily performance testing;
-    \n- Weekly duration testing; \n\nSmart, clear and well organized CI systems are
-    the key to make above jobs working smoothly, especially when the branch and job
-    numbers are big (6 CI systems in MSDP and 100+ jobs in each CI system).  High
-    efficient CI setup, good quality control and useful Jenkins plugins make MSDP
-    CI in an efficient way.\n\nFrom environment setting, product building, deploying,
-    testing and reporting perspective, MSDP CI is mostly in Advanced level. Let's
-    improve together!\n"
-  Column span: '2'
-  Position: '5'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Miao Zhu
-  Room of Shanghai: A4F Galaxy(A413)
-  Room of Guangzhou BNET: F17 Kunming
-  Room of Guangzhou BUSS: 5F Mars
-  Room of Nanjing: F2 Wudang
-  Room of Seoul: MB A105
-record_55:
-  Title: TDD on S/W
-  Start time: 10/17/2013 14:00
-  Stop time: 10/17/2013 15:00
-  Room of Beijing: VIP Room 2
-  Speaker Introduction: |
-    Jiangbiao Deng:
-    I am a developer working in DUCI.SH EI organization. I have 6 years working in Ericsson. I worked in BSP product.
-    I like programming and enjoy trials of  many software practices to enhance coding quality and efficiency.
-
-    Lin Cheng, agile coach in DUCI.SH EI organization. I have worked in Ericsson for 6 years, and 2 years' experience on coaching team and individuals.
-  Abstract: 'Test-driven development (TDD is a method of software development in which
-    unit testing is repeatedly done on source code. The concept is to "get something
-    working now and perfect it later." TDD can produce applications of high quality
-    in less time than is possible with older methods. Proper implementation of TDD
-    requires the developers and testers to accurately anticipate how the application
-    and its features will be used in the real world. Because tests are conducted from
-    the very beginning of the design cycle, time and money spent in debugging at later
-    stages is minimized. '
-  Column span: '2'
-  Position: '6'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Jiangbiao Deng & Lin Cheng
-  Room of Shanghai: A4F Innovation Room
-  Room of Guangzhou BNET: F17 Hangzhou
-  Room of Guangzhou BUSS: 6F Venus
-  Room of Nanjing: F4 Open area
-  Room of Seoul: MB A106
-record_56:
-  Title: Practice to Make Team Work Happily with Agile/Kanban
-  Start time: 10/17/2013 14:00
-  Stop time: 10/17/2013 15:00
-  Room of Beijing: Ballroom B
-  Speaker Introduction: I am Aaron Yu from CBC Test Tools Rnd Center for nearly 6
-    years, currently work as the KANBAN master of the maintenance team.
-  Abstract: "At the beginning of our agile evolution, almost all of our team members
-    had negative attitude. To be, or not to be, that is a question. Many teams might
-    have the similar past. But now we are all happy with Agile & Kanban. Do you want
-    to know why? \nIn this presentation, I will show how we solved the problems happened
-    in the evolution. There is no any agile theoretical propaganda, but several real
-    stories.\n"
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Aaron Yu
-  Room of Shanghai: A3F Leo(A317)
-  Room of Guangzhou BNET: F16 Nanjing
-  Room of Guangzhou BUSS: 5F Earth
-  Room of Nanjing: F3 Qin
-  Room of Seoul: MB A103
-record_57:
-  Title: Lean and Agile Clinic for HW Development (Available in Beijing only)
-  Start time: 10/17/2013 14:00
-  Stop time: 10/17/2013 15:00
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Neil Johnson has been working in ASIC and FPGA development
-    for more than 10 years. \n\nHe currently holds the position of Principal Consultant
-    at XtremeEDA Corp, a design services firm specializing in all aspects of ASIC
-    and FPGA development. \n\nNeil is also co-moderator for AgileSoC.com, a site dedicated
-    to the introduction of Agile development methods to the world of hardware development."
-  Abstract: Come in with your questions and challenges. Speak to Neil to get inspired with some
-    current good practices and practical advices on your challenges
-  Column span: '2'
-  Position: '7'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Neil Johnson
-  Room of Shanghai: N/A
-  Room of Guangzhou BNET: N/A
-  Room of Guangzhou BUSS: N/A
-  Room of Nanjing: N/A
-  Room of Seoul: N/A
-record_58:
-  Title: Tea Breaks
-  Start time: 10/17/2013 15:00
-  Stop time: 10/17/2013 15:30
-  Room of Beijing: ' - '
-  Speaker Introduction:
-  Abstract: ' - '
-  Column span: '7'
-  Position: '1'
-  Row span: '1'
-  Background color: ' - '
-  Speakers: ' - '
-  Room of Shanghai:
-  Room of Guangzhou BNET:
-  Room of Guangzhou BUSS:
-  Room of Nanjing:
-  Room of Seoul:
-record_59:
-  Title: Drinking Lean from the Source
-  Start time: 10/17/2013 15:30
-  Stop time: 10/17/2013 16:40
-  Room of Beijing: Ballroom B
-  Speaker Introduction: "Kenji Hiranabe is an Agile software development practitioner
-    and consultant in Japan. He thinks of software development as a form of co-operative
-    communication game, and is always searching for better ways to make it more productive,
-    collaborative, and fun. \n\n2008 Gordon Pask Award Recipient for contributions
-    to Agile practice. CEO of Change Vision Inc., and Japanese (co-)translator of
-    the books including \"Multi-Paradigm Design\", \"C# Primer\", \"Lean Software
-    Development\", \"XP Installed\", \"Agile Project Management\". Also a developer
-    of \"JUDE\" a UML editor software integrated with Mind Mapping, and \"TRICHORD,\"
-    a Kanban-based Agile project information sharing tool. \n"
+  Speaker introduction: 
+record_7:
+  Title: Heterogeneous Network
+  Start time: 11/29/2013 10:30
+  Stop time: 11/29/2013 11:15
+  Room: A4F Galaxy (38)
+  Abstract: 
+  Column span: '1'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Paul??s team
+  Speaker introduction: 
+record_8:
+  Title: WiFi Integration
+  Start time: 11/29/2013 11:15
+  Stop time: 11/29/2013 12:00
+  Room: A4F Galaxy (38)
+  Abstract: 
+  Column span: '1'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Judy Gan & Peter Chen
+  Speaker introduction: 
+record_9:
+  Title: Lunch Break
+  Start time: 11/29/2013 12:00
+  Stop time: 11/29/2013 13:00
+  Room: '-'
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_10:
+  Title: Demo
+  Start time: 11/29/2013 13:00
+  Stop time: 11/29/2013 13:00
+  Room: 
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_11:
+  Title: Ericsson LTE Broadcasting
+  Start time: 11/29/2013 13:15
+  Stop time: 11/29/2013 14:00
+  Room: E3F Tai Mountain (20)
+  Abstract: Ericsson LTE Broadcast enables new revenue models for premium media content
+    offering exceptional user experience while efficiently utilizing available LTE
+    spectrum and operators?? network resources??
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Shaheer Jamal & Benjamin Li
+  Speaker introduction: 
+record_12:
+  Title: VoLTE on TD-LTE
+  Start time: 11/29/2013 13:00
+  Stop time: 11/29/2013 13:20
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_13:
+  Title: LTE/Wifi integration by Real Time traffic steering
+  Start time: 11/29/2013 13:20
+  Stop time: 11/29/2013 13:40
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_14:
+  Title: WiFi/3gpp integration by ANDSF
+  Start time: 11/29/2013 13:40
+  Stop time: 11/29/2013 14:00
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_15:
+  Title: Smart MBB
+  Start time: 11/29/2013 14:00
+  Stop time: 11/29/2013 14:20
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_16:
+  Title: TDD/FDD interworking
+  Start time: 11/29/2013 14:20
+  Stop time: 11/29/2013 14:40
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_17:
+  Title: 'NLOS Microwave @ 23 GHz  '
+  Start time: 11/29/2013 14:40
+  Stop time: 11/29/2013 15:00
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_18:
+  Title: Multi Screen TV Portal
+  Start time: 11/29/2013 15:00
+  Stop time: 11/29/2013 15:20
+  Room: Wild-Center
   Abstract: |-
-    Agile concepts are connected to Lean concepts by Mary and Tom Poppendieck via the three Lean Software Development books, but to see the original concepts from the source(TPS) makes your understanding much clearer and more executable. And, you'll experience a lot of Aha moments through this session.
-
-    I'll share the roots of Lean concepts including Kaizen (Continuous Improvement), Gemba (Go See), Muda-Dori (Waste Elimination), WIP limitation, Pull production system, and "People" as the center of the process via a Japanese video showing a factory reconstruction to Lean.
-  Column span: '7'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Kenji Hiranabe
-  Room of Shanghai: A3F Innovation Room, A4F Innovation Room, A4F Galaxy
-  Room of Guangzhou BNET: F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy, 6F Venus
-  Room of Nanjing: F4 Persedetial 1, F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
-record_60:
-  Title: Closing
-  Start time: 10/17/2013 16:40
-  Stop time: 10/17/2013 17:30
-  Room of Beijing: Ballroom B
-  Speaker Introduction:
-  Abstract:
-  Column span: '7'
-  Position: '1'
-  Row span: '2'
-  Background color: ' - '
-  Speakers: Peter Lundin
-  Room of Shanghai: A3F Innovation Room, A4F Innovation Room, A4F Galaxy
-  Room of Guangzhou BNET: F16 Shenzhen, F17 Kunming, F15 Wuhan(Live)
-  Room of Guangzhou BUSS: 5F Galaxy, 6F Venus
-  Room of Nanjing: F4 Persedetial 1, F4 Presedetnail 2
-  Room of Seoul: MB Grand Ballroom
+    Basic Functionality
+    -Easy access to content
+    -A unified television environment
+    -One stop shop
+    -A complete ecosystem
+    -A streamlined consumer experience
+    Benefits to Customer
+    -One Solution: Any content, any network, any device, value-added services
+    -Enhance the viewing experience through the 2nd screen without disturbing the main TV experience
+    -Drive operator revenue and improved user experience through mobile broadband: -Optimize video delivery over LTE
+    If any special needs to implement/deploy the function
+    -This is a lightweight and standalone demo version of a complete End 2 End solution
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Dongyong Du
+  Speaker introduction: 
+record_19:
+  Title: Game On Demand
+  Start time: 11/29/2013 15:20
+  Stop time: 11/29/2013 15:40
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Shaheer Jamal
+  Speaker introduction: 
+record_20:
+  Title: Info on demand & eye ball tracking
+  Start time: 11/29/2013 15:20
+  Stop time: 11/29/2013 16:00
+  Room: Wild-Center
+  Abstract: |-
+    Basic Functionality
+    -Enables consumers to obtain additional information about the visual elements presented on the screen via a rich set of meta-data presented in a user-friendly way. -Enable consumers to share and discover similar visual elements in other content, or to purchase merchandising products related to those visual elements.
+    Benefits to Customer
+    -Encourage media consumption thru discovery and sharing of similar content.
+    -Additional revenue channels in terms of content discovery, advertisement and cross selling of goods and content.
+    -Increasing advertising values by providing hard data on consumer??s interested visual elements
+    -Increase advertising values by pin-point of consumer attention (eye-tracker extension required)
+    If any special needs to implement/deploy the function
+    -About 2m distance from the eye-tracker for optimal operation of eye-tracker extension.
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 
+  Speaker introduction: 
+record_21:
+  Title: Customer Care and Connected Car (UPG)
+  Start time: 11/29/2013 16:00
+  Stop time: 11/29/2013 16:20
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Arthur Wen
+  Speaker introduction: 
+record_22:
+  Title: 'HD video conference across multi-terminals via MBB(LTE/HSPA) '
+  Start time: 11/29/2013 16:20
+  Stop time: 11/29/2013 16:40
+  Room: Wild-Center
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: James Zhang
+  Speaker introduction: 
+record_23:
+  Title: WiFi indoor Positioning
+  Start time: 11/29/2013 14:00
+  Stop time: 11/29/2013 14:20
+  Room: E4F Coffee Area
+  Abstract: "Basic Functionality\n-Provide WiFi based indoor positioning functionality.
+    Client side (end-user) can request own location information in indoor environment
+    on-demand, while server side (operator) can record these location information.
+    \nBenefits to Customer\n-Service enabler of LBS solution in indoor environment,
+    complementary to the outdoor positioning system.\n-Providing value added service
+    to end-user, and other vertical chain (e.g. Mall, Airport, Office) based on the
+    location data.\nIf any special needs to implement/deploy the function\n-WiFi Access
+    Point Information. (Optimized WiFi APs deployment for positioning)\n-Collect and
+    maintain the WiFi fingerprinting data in the target area to enhance accuracy."
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Edison Shu
+  Speaker introduction: 
+record_24:
+  Title: 'M2M music band/weibo interaction/parking '
+  Start time: 11/29/2013 14:30
+  Stop time: 11/29/2013 15:00
+  Room: E4F Coffee Area
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Clare Bao
+  Speaker introduction: 
+record_25:
+  Title: Signalling Optimization in EPC
+  Start time: 11/29/2013 15:00
+  Stop time: 11/29/2013 15:30
+  Room: A3F Gemini (18)
+  Abstract: "Basic Functionality\n-Service based Paging\n-UE Signaling Control of
+    misbehaving terminals \nBenefits to Customer\n-Save up to 85% paging messages,
+    capacity which can be used for other purposes.\n-Distinguish and handle ??bad
+    signaling?? and prioritize ??good?? signaling.\n-How much network load protection
+    that can be provided by EPC, including EPC itself and also eNB\nIf any special
+    needs to implement/deploy the function\n-Existing functionality in the SGSN-MME"
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: 'Robert Qu & Lasse Olsson '
+  Speaker introduction: 
+record_26:
+  Title: Geo Redundancy in MME pool
+  Start time: 11/29/2013 15:30
+  Stop time: 11/29/2013 16:00
+  Room: A3F Gemini (18)
+  Abstract: "Basic Functionality\n-Is the functionality where UE information is replicated
+    and ??stored else where?? in a pool environment\n-Allows an outage of one or many
+    MMEs without major service impact on end users. \nBenefits to Customer\n-Virtually
+    no service impact on end users in outage scenarios and assures extremely high
+    availability of service to business partners.\n-Secures operational income and
+    avoids negative market perception.\n -Use of sub-RANs saves transmission costs,
+    since an eNodeB can select a nearby located MME. \nIf any special needs to implement/deploy
+    the function\n-SGW shall support NTSR(Network Triggered Service Restoration) or
+    keep bearer resource for a period of time when connected MME is not available\n-PGW
+    shall keep bearer resource for a period of time when connected SGW is not available"
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Amy Li & Wei Zhang
+  Speaker introduction: 
+record_27:
+  Title: Ericsson Cloud Management
+  Start time: 11/29/2013 16:00
+  Stop time: 11/29/2013 16:20
+  Room: A3F Gemini (18)
+  Abstract: 
+  Column span: '3'
+  Position: 
+  Created at: 
+  Updated at: 
+  Row span: 
+  Background color: 
+  Speakers: Howard Wang
+  Speaker introduction: 
