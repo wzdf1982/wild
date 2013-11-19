@@ -41,7 +41,7 @@ Hetnet,11/29/2013 12:45,11/29/2013 13:00,,,1,,,,,#FFC000,,,category
 Innovation,11/29/2013 12:45,11/29/2013 13:00,,,1,,,,,#E26B0A,,,category
 Service evolution ,11/29/2013 12:45,11/29/2013 13:00,,,1,,,,,#00B0F0,,,category
 Service Aware RAN Features,11/29/2013 13:00,11/29/2013 13:20,Wild-Center,"At the WILD Center, We can show you proof of concept implementations of Optimized Scheduled Delivery of media content to users and Radio Friendly Pacing with RAN interaction",1,,,,,#FFC000,Eric Hansander,,presentation
-WiFi/3gpp integration by ANDSF and Real Time traffic steering,11/29/2013 13:20,11/29/2013 14:00,Wild-Center,"ANDSF (Access Network Decision Selection Function) is a 3GPP standard solution, which provides inner real time-user policy for Ericsson RAN including operator managed Wi-Fi access, as well as outer control loop for non-Ericsson RAN and unmanaged Wi-Fi. Ericsson RAFC (Radio Access, Frequency and Cell selection function) uses real-time measurements of radio conditions for each UE, as well as information about cell load, network congestion levels and service characteristics, to make a better decision about when to steer UEs from one access technology to another.",1,,,,,#FFC000,Eric Hansander & Vanessa Song,,presentation
+WiFi/3gpp integration by ANDSF and Real Time traffic steering,11/29/2013 13:20,11/29/2013 13:50,Wild-Center,"ANDSF (Access Network Decision Selection Function) is a 3GPP standard solution, which provides inner real time-user policy for Ericsson RAN including operator managed Wi-Fi access, as well as outer control loop for non-Ericsson RAN and unmanaged Wi-Fi. Ericsson RAFC (Radio Access, Frequency and Cell selection function) uses real-time measurements of radio conditions for each UE, as well as information about cell load, network congestion levels and service characteristics, to make a better decision about when to steer UEs from one access technology to another.",1,,,,,#FFC000,Eric Hansander & Vanessa Song,,presentation
 Ericsson LTE Broadcasting,11/29/2013 13:00,11/29/2013 14:00,E3F Tai Mountain (20),Ericsson LTE Broadcast enables new revenue models for premium media content offering exceptional user experience while efficiently utilizing available LTE spectrum and operators?? network resources??,1,1,,,2,#00B0F0,Shaheer Jamal & Benjamin Li,,presentation
 VoLTE on TD-LTE,11/29/2013 14:00,11/29/2013 14:20,Wild-Center,"At WILD-C, we bring you a Live VoLTE session between two subscribers over TD-LTE. The demo is carried out in collaboration with VoLTE Competence Center (VCC), Korea keeping the demo equipped with latest features as they are developed.",1,,,,,#FFC000,Yumei Wu,,presentation
 WiFi indoor Positioning,11/29/2013 14:00,11/29/2013 14:20,E4F Coffee Area,"Basic Functionality
@@ -66,7 +66,7 @@ Benefit to customer:
 -Shinning point
 -More revenue",1,,,,2,#E26B0A,Clare Bao,,presentation
 VoLTE aaS,11/29/2013 15:00,11/29/2013 15:20,A3F Gemini (18),,1,,,,,#92D050,James Zhang,,presentation
-Ericsson Cloud Management,11/29/2013 15:20,11/29/2013 16:00,A3F Gemini (18),"Basic Functionality
+Ericsson Cloud Management,11/29/2013 15:20,11/29/2013 15:40,A3F Gemini (18),"Basic Functionality
 -This demo shows the end-to-end cloud services management capability of the Ericsson cloud management solution. Demonstration will show the following capabilities: 
 -Flow-through provisioning of Cloud Services, with particular focus on IaaS (Infrastructure as a service) offerings
 -Catalog driven provisioning, with a flexible product catalog that aids the rapid creation of new cloud services and offers

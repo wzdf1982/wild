@@ -1,4 +1,4 @@
-- unless ['category_type', 'category'].include?(group.first.activity_type) or ['20','40'].include? group.first.start_time.strftime("%H:%M")[3,4]
+- unless ['category_type', 'category'].include?(group.first.activity_type) or ['13:20','14:20','14:30','14:40','15:20','15:40','16:20'].include? group.first.start_time.strftime("%H:%M")
   = group.first.start_time.strftime("%H:%M")
 - if group.first.title == 'Keynote'
   = group.first.start_time.strftime("%H:%M")

@@ -30,7 +30,6 @@ class SchedulesController < ApplicationController
 
   def unregister
     @activity = Activity.find params[:id]
-    puts has_sub_session?
 
     if has_sub_session?
       whole_sessions_in_hour.each { |act| act.users.destroy current_user_instance }
@@ -41,34 +40,23 @@ class SchedulesController < ApplicationController
     render :show
   end
 
-  private
-    def relative_activity
-      @relative_activity ||= begin
-        if ['20', '40'].include? @activity.start_time.strftime("%M")
-          begin_time = @activity.start_time.change(min: 0)
-          finish_time = @activity.start_time.change(min: 0) + 1.hour
-          Activity.where(start_time: (begin_time...finish_time), background_color: @activity.background_color)
-        end
-      end
-    end
-
-    def min_is_00_20_40?
-      ['00','20','40'].include? @activity.start_time.strftime("%M")
-    end
-
     def has_sub_session?
       ! whole_sessions_in_hour.select { |session| ['20', '40'].include? session.start_time.strftime("%M") }.empty?
     end
+    helper_method :has_sub_session?
 
     def begin_time
       @activity.start_time.change(min: 0)
     end
+    helper_method :begin_time
 
     def finish_time
       @activity.start_time.change(min: 0) + 1.hour
     end
+    helper_method :finish_time
 
     def whole_sessions_in_hour
       @whole_sessions_in_hour ||= Activity.where(start_time: (begin_time...finish_time), background_color: @activity.background_color)
     end
+    helper_method :whole_sessions_in_hour
 end

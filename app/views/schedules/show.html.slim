@@ -53,9 +53,21 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
                                           | Unregister
 
                                     - else
-                                      a data-mini="true" data-role="button" data-theme="b" href="#{register_schedule_path(@activity)}"
-                                        font color="#ffffff"
-                                          | Register
+                                      - if has_sub_session?
+                                        a data-mini="true" data-role="button" data-theme="b" href="#{register_schedule_path(@activity)}"
+                                          font color="#ffffff"
+                                            | Register the whole session
+                                        span style="float:left;padding: 5px 5px;font-weight: 400"
+                                          | Session duration:
+                                          = begin_time.strftime("%H:%M")
+                                          | -
+                                          = whole_sessions_in_hour.last.stop_time.strftime("%H:%M")
+                                      - else
+                                        a data-mini="true" data-role="button" data-theme="b" href="#{register_schedule_path(@activity)}"
+                                          font color="#ffffff"
+                                            | Register
+                                      span style="float:left;padding: 5px 5px;font-weight: 400"
+                                        | Register Deadline: 11-27 24:00
 
 
                     tr

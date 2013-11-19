@@ -10,7 +10,6 @@ gem 'jbuilder', '~> 1.2'
 gem "devise"
 gem 'rails_admin'
 gem 'actionpack-page_caching'
-gem 'friendly_id', github: 'norman/friendly_id', branch: 'master'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

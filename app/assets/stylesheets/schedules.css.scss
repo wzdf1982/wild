@@ -2,7 +2,6 @@ table#schedules {
   width: 100%;
   height: 100%;
   background-color: #ececec;
-  margin-top: 10px;
   max-width: 960px;
   margin: 10px auto;
 
@@ -26,6 +25,7 @@ table#schedules {
 
   .activity {
     th {
+      width: 15px;
       vertical-align: top;
       padding: 1px 1px 0 0;
       line-height: 16px;
@@ -40,8 +40,8 @@ table#schedules {
 
     .category {
       text-align: center;
-      margin: 3px 5px 0px 0;
-      padding: 2px 0 0 0px;
+      margin: 3px 5px 0 0;
+      padding: 2px 0 0 0;
       height: 100%;
       overflow-y: hidden;
       box-shadow: 1px 1px 3px #666666;
@@ -59,6 +59,7 @@ table#schedules {
       font-size: 12px;
       font-weight: 600;
     }
+
     .keynote {
       margin-bottom: 5px;
       box-shadow: 1px 1px 3px #666666;
@@ -71,11 +72,17 @@ table#schedules {
         display: block;
         background-color: rgb(102, 185, 255);
 
+        i {
+          a {
+            color: #ececec;
+          }
+        }
+
         a {
           display: block;
           font-weight: bold;
-          text-shadow: none;
           color: #fff;
+          text-shadow: none;
           margin: 0 auto;
           text-decoration:none;
         }
@@ -84,12 +91,31 @@ table#schedules {
   }
 }
 
+#time, #session {
+    th {
+      width: 15px;
+      vertical-align: top;
+      padding: 1px 1px 0 0;
+      line-height: 25px;
+      font-size: 12px;
+      color: #666666;
+    }
+
+    td {
+      vertical-align: middle;
+  }
+}
+
+td {
+ height: 100%;
+}
 .track {
   display: block;
   margin: 3px 5px 3px 0;
   padding: 2px 0 0 2px;
   background-color: rgb(255,153,0);
   height: 100%;
+  min-height: 56px;
   overflow-y: hidden;
   box-shadow: 1px 1px 3px #666666;
   a {
@@ -97,15 +123,15 @@ table#schedules {
     text-decoration:none;
     color: #fff !important;
     text-shadow: none;
-    line-height: 14px;
-    font-size: 10px;
+    line-height: 16px;
+    font-size: 12px;
     height: 100%;
   }
 }
 
 .break {
   display: block;
-  text-align: left;
+  text-align: center;
   background-color: #666666;
   color: #fff;
   text-shadow:none;
@@ -117,4 +143,5 @@ table#schedules {
   margin: 3px 0;
 }
 
+.ui-page {background:#ececec;height:auto !important;}
 

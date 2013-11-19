@@ -321,7 +321,7 @@ record_18:
 record_19:
   Title: WiFi/3gpp integration by ANDSF and Real Time traffic steering
   Start time: 11/29/2013 13:20
-  Stop time: 11/29/2013 14:00
+  Stop time: 11/29/2013 13:50
   Room: Wild-Center
   Abstract: ANDSF (Access Network Decision Selection Function) is a 3GPP standard
     solution, which provides inner real time-user policy for Ericsson RAN including
@@ -470,7 +470,7 @@ record_26:
 record_27:
   Title: Ericsson Cloud Management
   Start time: 11/29/2013 15:20
-  Stop time: 11/29/2013 16:00
+  Stop time: 11/29/2013 15:40
   Room: A3F Gemini (18)
   Abstract: "Basic Functionality\n-This demo shows the end-to-end cloud services management
     capability of the Ericsson cloud management solution. Demonstration will show
