@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131027020354) do
+ActiveRecord::Schema.define(version: 20131118084126) do
 
   create_table "activities", force: true do |t|
     t.string   "title"
@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(version: 20131027020354) do
     t.string   "background_color"
     t.text     "speakers"
     t.text     "speaker_introduction"
+    t.integer  "off_set"
+    t.string   "activity_type"
   end
 
   create_table "admins", force: true do |t|
@@ -56,6 +58,13 @@ ActiveRecord::Schema.define(version: 20131027020354) do
     t.text     "content"
     t.integer  "user_id"
     t.integer  "activity_id"
+  end
+
+  create_table "appointments", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "activity_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "feedbacks", force: true do |t|

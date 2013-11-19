@@ -2,7 +2,7 @@ AgileConf::Application.routes.draw do
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
-  root "home#index"
+  root "schedules#index"
 
   get 'login' => 'home#login', as: 'login'
   post 'register' => 'home#register'
@@ -20,7 +20,13 @@ AgileConf::Application.routes.draw do
     end
   end
 
-  resources :schedules
+  resources :schedules do
+    member do
+      get 'register'
+      get 'unregister'
+    end
+  end
+
   resources :feedbacks
   resources :responses
 end

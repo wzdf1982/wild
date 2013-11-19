@@ -2,39 +2,47 @@ div id='header'
   = render partial: 'shared/header', locals: {title: 'Schedule', home: false}
 
 table id='schedules'
-  - date, i = '', 0
 
   - for group in @groups do
-    - if date != group.first.start_time.to_date
-      - date = group.first.start_time.to_date
-      - i = i + 1
-
-      tr class="days"
-        td colspan= "#{@max_column_span + 1}"
-          span
-            = 'Day ' + i.to_s + '  ' + date.strftime("%Y-%m-%d")
 
     tr class='activity'
       th
-        = group.first.start_time.strftime("%H:%M")
-      - for active in group do
-        - if active.column_span == @max_column_span
-          - if !active.speakers.blank?
-            td colspan= @max_column_span
-              div class="keynote"
-                span
-                  = link_to active.title, schedule_path(active), :class => 'activity_link'
-                span
-                  = link_to active.speakers, schedule_path(active), :class => 'activity_link'
+        = render partial: 'date_time', locals: { group: group }
 
+      - for activity in group do
+        - case activity.activity_type
+        - when 'keynote'
+          td colspan= @max_column_span
+            div class="keynote"
+              span style="background: #{activity.background_color}"
+                = link_to activity.title, schedule_path(activity), :class => 'activity_link'
+              span style="background: #{activity.background_color}"
+                = link_to activity.speakers, schedule_path(activity), :class => 'activity_link'
 
-          - elsif active.speakers.blank? && active.room.blank?
-            td colspan= @max_column_span
-              div class="break"
-                span
-                  = active.title
-        - else
-          td
-            div class="track"
-              = link_to active.title, schedule_path(active), :class => 'activity_link'
+        - when 'category_type'
+          td colspan= activity.column_span
+            div class="type"
+              span
+                = activity.title
+
+        - when 'category'
+          td colspan= activity.column_span
+            div class="category"
+              span style="background: #{activity.background_color}"
+                = activity.title
+
+        - when 'break'
+          td colspan= activity.column_span
+            div class="break"
+              span style="background: #{activity.background_color}"
+                = activity.title
+
+        - when 'presentation'
+          - if activity.off_set?
+            - for _ in activity.off_set.times do
+              td
+
+          td colspan= activity.column_span rowspan= activity.row_span
+            div class="track" style="background: #{activity.background_color}"
+              = link_to activity.title, schedule_path(activity), :class => 'activity_link'
 

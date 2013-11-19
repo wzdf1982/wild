@@ -2,6 +2,9 @@ table#schedules {
   width: 100%;
   height: 100%;
   background-color: #ececec;
+  margin-top: 10px;
+  max-width: 960px;
+  margin: 10px auto;
 
   .days {
     td {
@@ -23,19 +26,39 @@ table#schedules {
 
   .activity {
     th {
-      width: 3%;
       vertical-align: top;
       padding: 1px 1px 0 0;
       line-height: 16px;
       font-size: 12px;
       color: #666666;
     }
-    
+
     td {
       vertical-align: top;
-      width: 10%
+      width: 33.3%;
     }
 
+    .category {
+      text-align: center;
+      margin: 3px 5px 0px 0;
+      padding: 2px 0 0 0px;
+      height: 100%;
+      overflow-y: hidden;
+      box-shadow: 1px 1px 3px #666666;
+
+      span {
+        line-height: 18px;
+        display: block;
+        height: 100%;
+        color: #fff;
+      }
+    }
+
+    .type {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+    }
     .keynote {
       margin-bottom: 5px;
       box-shadow: 1px 1px 3px #666666;
@@ -47,7 +70,7 @@ table#schedules {
         line-height: 18px;
         display: block;
         background-color: rgb(102, 185, 255);
-        
+
         a {
           display: block;
           font-weight: bold;
@@ -66,13 +89,13 @@ table#schedules {
   margin: 3px 5px 3px 0;
   padding: 2px 0 0 2px;
   background-color: rgb(255,153,0);
-  height: 75px;
+  height: 100%;
   overflow-y: hidden;
   box-shadow: 1px 1px 3px #666666;
   a {
     display: block;
     text-decoration:none;
-    color: #fff !important; 
+    color: #fff !important;
     text-shadow: none;
     line-height: 14px;
     font-size: 10px;

@@ -8,14 +8,15 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
             table id="bg_top_banner" border="0" cellpadding="0" cellspacing="0" height="55" width="100%"
               tr
                 td align="left" valign="middle" width="35%"
-                  a.ui-btn-left data-ajax="true" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="javascript:history.back();"
+                  a.ui-btn-left data-ajax="true" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="/"
                     | Back
                 td align="center" valign="middle" width="30%"
                   span style="color: #000000;font-size: 15px;"
-                    strong Mini Seminar
+                    strong  Information
                 td align="right" valign="middle" width="35%"
-                  a.ui-btn-right data-ajax="true" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="/"
-                    | Home
+                  - if user_name
+                    a.ui-btn-right data-ajax="true" data-iconshadow="false" data-mini="true" data-role="button" data-shadow="false" data-theme="c" href="/logout"
+                      | Logout
         tr
           td height="100%" valign="top"
             table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
@@ -32,50 +33,60 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
                               table border="0" cellpadding="5" cellspacing="5" width="100%"
                                 tr
                                   td align="left"
-                                    strong = @active.title
+                                    strong = @activity.title
                                 tr
                                   td align="left"
-                                    = @active.start_time.strftime("%Y-%m-%d %H:%M") + @active.stop_time.strftime("-%H:%M")                                    
+                                    = @activity.start_time.strftime("%Y-%m-%d %H:%M") + @activity.stop_time.strftime("-%H:%M")
 
 
                             td valign="top" width="30%"
                               table border="0" cellpadding="5" cellspacing="5" width="100%"
                                 tr
                                   td align="right"
-                                    a data-ajax="true" data-mini="true" data-role="button" data-theme="b" href="#{feedback_path(@active)}"
-                                      font color="#ffffff"
-                                        | Feedback
-                                        
-                                                                
+                                    - if @activity.users.include? current_user_instance
+                                      a class="ui-disabled" data-ajax="true" data-mini="true" data-role="button" data-theme="b" href="#{register_schedule_path(@activity)}"
+                                        font color="#ffffff"
+                                          | Register
+
+                                      a data-ajax="true" data-mini="true" data-role="button" data-theme="b" href="#{unregister_schedule_path(@activity)}"
+                                        font color="#ffffff"
+                                          | Unregister
+
+                                    - else
+                                      a data-mini="true" data-role="button" data-theme="b" href="#{register_schedule_path(@activity)}"
+                                        font color="#ffffff"
+                                          | Register
+
+
                     tr
                       td valign="top" width="100%"
                         table border="0" cellpadding="5" cellspacing="5" width="90%"
                           tr
                             td align="left"
-                              - if @active.room
-                                - @active.room.split("\n").each do |room|
+                              - if @activity.room
+                                - @activity.room.split("\n").each do |room|
                                   = room.sub('Room of', 'Venue in')
                                   br/
-                                  br/                                      
-                                        
+                                  br/
+
                     tr
                       td colspan="2"
                         hr size="2"
-                    tr                       
+                    tr
                       td align="center" colspan="" width="100%"
                         table border="0" cellpadding="5" cellspacing="5" width="100%"
                           tr
                             td height="100%" valign="top" width="30%"
                               | Speaker(s)
                             td align="left" valign="middle" width="70%"
-                              - @active.speakers.split("\n").each do |speaker|
+                              - @activity.speakers.split("\n").each do |speaker|
                                 = speaker
-                                br/                        
+                                br/
                           tr
-                            td height="100%" valign="top" width="30%"                        
+                            td height="100%" valign="top" width="30%"
 	                          td align="left" colspan="2"
-	                            - if @active.speaker_introduction
-		                            - @active.speaker_introduction.split("\n").each do |intro|
+	                            - if @activity.speaker_introduction
+		                            - @activity.speaker_introduction.split("\n").each do |intro|
 		                              = intro
 		                              br/
                     tr
@@ -86,11 +97,11 @@ table bgcolor="#ececec" border="0" cellpadding="0" cellspacing="0" height="100%"
                         table border="0" cellpadding="5" cellspacing="5" width="100%"
                           tr
                             td align="left" colspan="2"
-                              - if @active.abstract
+                              - if @activity.abstract
                                 | Abstract:
                                 br/
                                 br/
-                                - @active.abstract.split("\n").each do |line|
+                                - @activity.abstract.split("\n").each do |line|
                                   = line
                                   br/
                                   br/
