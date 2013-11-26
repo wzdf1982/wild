@@ -2,7 +2,7 @@ AgileConf::Application.routes.draw do
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
-  root "schedules#index"
+  root "home#index"
 
   get 'login' => 'home#login', as: 'login'
   post 'register' => 'home#register'

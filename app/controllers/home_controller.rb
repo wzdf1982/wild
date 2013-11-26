@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   #skip_before_action :require_login, only: [:login, :register]
-  before_action :require_login, except: [:login, :register]
 
   layout 'mobile'
 
