@@ -3,7 +3,7 @@ class FeedbacksController < ApplicationController
 
   layout 'mobile'
   def index
-    @activities = Activity.where(" column_span = 2" ).order("start_time asc, position asc")
+    @activities = Activity.where("room not null").order("start_time asc, position asc")
   end
 
   def show

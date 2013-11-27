@@ -21,9 +21,8 @@ namespace :agile do
   task :create_feedback => :environment do
 
     QUESTIONS = [
-      '1. What’s your key learning from this session?',
-      '2. What advice do you have to the speaker?',
-      '3. Other comments?'
+      '2.Do you have any comments on the session (clarity, speaker, usefulness etc.)?',
+      '3.What other suggestions for Technology & Innovation do yamlou have?'
     ]
 
     activities = Activity.where("speakers != ''")

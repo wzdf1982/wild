@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131118084126) do
+ActiveRecord::Schema.define(version: 20131127051342) do
 
   create_table "activities", force: true do |t|
     t.string   "title"
@@ -51,13 +51,15 @@ ActiveRecord::Schema.define(version: 20131118084126) do
 
   create_table "answers", force: true do |t|
     t.string   "name"
-    t.boolean  "selected",    limit: 255
+    t.boolean  "selected",       limit: 255
     t.integer  "question_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "content"
     t.integer  "user_id"
     t.integer  "activity_id"
+    t.string   "answer_type"
+    t.integer  "response_index"
   end
 
   create_table "appointments", force: true do |t|
