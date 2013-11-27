@@ -44,5 +44,13 @@ table id='schedules'
 
           td colspan= activity.column_span rowspan= activity.row_span
             div class="track" style="background: #{activity.background_color}"
-              = link_to activity.title, schedule_path(activity), :class => 'activity_link'
-
+              table border="0" cellpadding="2" cellspacing="1" onclick="window.parent.location.href='#{schedule_path(activity)}';" onmouseout="this.style.cursor='default';" onmouseover="this.style.cursor='pointer';" style="width:100%; height: 100%"
+                  tr
+                    td title = activity.title valign="top"
+                      span style="line-height:18px;color:#ffffff;font-weight:bold;text-shadow:none;"
+                        = activity.title
+                  tr
+                    td title = activity.room valign="top"
+                      span style="line-height:18px;color:#ffffff;font-weight:bold;text-shadow:none;"
+                        i
+                          = activity.room

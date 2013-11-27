@@ -3,4 +3,6 @@ class Question < ActiveRecord::Base
 
   has_many :answers
   has_many :responses, :through => :answers
+
+  serialize :default_answers
 end

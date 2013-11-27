@@ -21,15 +21,17 @@ namespace :agile do
   task :create_feedback => :environment do
 
     QUESTIONS = [
-      '2.Do you have any comments on the session (clarity, speaker, usefulness etc.)?',
-      '3.What other suggestions for Technology & Innovation do yamlou have?'
+      ['1.What is your overall impression of the content of this sessionession?', ['Very valuable', 'Valuable', 'Somewhat valuable', 'Not valuable']],
+      ['2.Do you have any comments on the session (clarity, speaker, usefulness etc.)?', nil],
+      ['3.What other suggestions for Technology & Innovation do yamlou have?',  nil]
     ]
 
     activities = Activity.where("speakers != ''")
 
     activities.each do |activity|
       QUESTIONS.each do |question|
-        q = Question.new(title: question)
+        title, answers = question
+        q = Question.new(title: title,  default_answers: answers )
         activity.questions << q
       end
     end
@@ -46,7 +48,7 @@ namespace :agile do
      File.open("#{Rails.root}/tmp/result.csv", 'w') do |f|
 
        Answer.all.each do |answer|
-         f.write("%s,%s,%s\n" % [answer.question.activity.title, answer.question.title, answer.content]) 
+         f.write("%s,%s,%s\n" % [answer.question.activity.title, answer.question.title, answer.content])
       end
      end
   end
