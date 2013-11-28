@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user_instance
 
   def store_location
-    if request.get? && request.fullpath !~ /\/login/
+    if request.get? && request.fullpath !~ /\/login/ && request.fullpath !~ /feedbacks\/\d+/
       session[:previous_url] = request.fullpath
     end
   end
@@ -36,7 +36,7 @@ class ApplicationController < ActionController::Base
   private
 
   def logged_in?
-    !!session[:user]
+    !!user_name
   end
 
   def require_login

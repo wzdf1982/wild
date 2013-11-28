@@ -39,6 +39,6 @@ class FeedbacksController < ApplicationController
       end
     end
 
-    redirect_to schedule_path(answer.question.activity)
+    redirect_back_or schedule_path(answer.question.activity)
   end
 end
