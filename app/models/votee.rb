@@ -2,14 +2,20 @@ class Votee < ActiveRecord::Base
 	acts_as_votable
 
 	def enabled?
-		self.id == self.class.enabled_id
+		self.id == EnabledVotee.take.votee_id
 	end
 
 	def self.enabled_id=(id)
-		$enabled_id = id ? id.to_s : id
+		a = EnabledVotee.take 
+		if a 
+			a.update(votee_id: id)
+			a.save
+		else
+			EnabledVotee.create(votee_id: id)
+		end
 	end
 
 	def self.enabled_id
-		$enabled_id && $enabled_id.to_i
+		EnabledVotee.take && EnabledVotee.take.votee_id.to_i
 	end
 end

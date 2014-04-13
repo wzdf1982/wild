@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140409030850) do
+ActiveRecord::Schema.define(version: 20140413155707) do
 
   create_table "activities", force: true do |t|
     t.string   "title"
@@ -63,6 +63,12 @@ ActiveRecord::Schema.define(version: 20140409030850) do
   create_table "appointments", force: true do |t|
     t.integer  "user_id"
     t.integer  "activity_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "enabled_votees", force: true do |t|
+    t.integer  "votee_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

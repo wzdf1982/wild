@@ -1,7 +1,5 @@
 AgileConf::Application.routes.draw do
-  get "lottery/index"
-  get "votee/index"
-  get "votee/create"
+
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
@@ -10,6 +8,7 @@ AgileConf::Application.routes.draw do
   get 'login'     => 'home#login', as: 'login'
   post 'register' => 'home#register'
   get 'logout'    => 'home#logout'
+  get 'lottery'   => 'lottery#index'
 
   resources :informations, only: [:index, :show]
 
