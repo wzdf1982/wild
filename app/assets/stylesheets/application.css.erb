@@ -82,22 +82,7 @@ form {
 }
 
 #bg_top_banner {
-	z-index: 1000;
-	position: fixed;
-	width: 100%;
-
-	background: #CFCECE;
-	color: #333;
-	font-weight: 700;
-	text-shadow: 0 1px 0 #eee;
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#CFCECE));
-	background-image: -webkit-linear-gradient(#FFF,#CFCECE);
-	background-image: -moz-linear-gradient(#FFF,#CFCECE);
-	background-image: -ms-linear-gradient(#FFF,#CFCECE);
-	background-image: -o-linear-gradient(#FFF,#CFCECE);
-	background-image: linear-gradient(#FFF,#CFCECE);
-	background-image: linear-gradient(#FFF,#CFCECE);
-
+	 background: url(<%= asset_data_uri 'bgTopBanner.png' %>)
 }
 
 #bg_item {

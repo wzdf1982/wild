@@ -1,7 +1,6 @@
 class VotesController < ApplicationController
   layout 'mobile'
 
-
   def index
   	if Votee.enabled_id
   		@votee = Votee.find(Votee.enabled_id)

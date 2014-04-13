@@ -17,6 +17,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+  gem 'sqlite3'
+end
+
 gem 'acts_as_votable', '~> 0.8.0'
 gem "font-awesome-rails", '~> 4.0.0'
 
