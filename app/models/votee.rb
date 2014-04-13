@@ -2,7 +2,7 @@ class Votee < ActiveRecord::Base
 	acts_as_votable
 
 	def enabled?
-		self.id == EnabledVotee.take.votee_id
+		EnabledVotee.take && self.id == EnabledVotee.take.votee_id
 	end
 
 	def self.enabled_id=(id)
@@ -16,6 +16,6 @@ class Votee < ActiveRecord::Base
 	end
 
 	def self.enabled_id
-		EnabledVotee.take && EnabledVotee.take.votee_id.to_i
+		EnabledVotee.take && EnabledVotee.take.votee_id
 	end
 end
