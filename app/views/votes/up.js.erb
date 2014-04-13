@@ -1,0 +1,11 @@
+$('.likeable > i').addClass('animated shake').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass('animated shake');
+});
+
+<% case @action %>
+<% when 'un_vote_up' %>
+	$('.likeable > i').removeClass('fa-up')
+<% when 'vote_up' %>
+	$('.likeable > i').addClass('fa-up')	
+	$('.unlikeable > i').removeClass('fa-down')	
+<% end %>

@@ -1,0 +1,31 @@
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Enable/Disable</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @votees.each do |votee| %>
+      <tr>
+        <td><%= votee.title %></td>
+        <td>
+          <% if votee.enabled? %>
+            <%= link_to "Disable", { action: "toggle", id: votee.id }, remote: true, data: { 'ajax' => false, 'id' => votee.id} %>
+          <% else %>
+            <%= link_to "Enable", { action: "toggle", id: votee.id }, remote: true, data: { 'ajax' => false, 'id' => votee.id} %>
+           <% end %>
+        </td>
+        <td>
+          <%= link_to 'Destroy', votee, :data => { :confirm => 'Are you sure?' }, :method => :delete %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<% if Votee.enabled_id %>
+  <%= pie_chart Votee.find(Votee.enabled_id).votes.group(:vote_flag).count %>
+<% end %>

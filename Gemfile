@@ -20,7 +20,9 @@ group :development do
   gem 'sqlite3'
 end
 
-group :production do
-  gem 'mysql2'
-end
+gem 'acts_as_votable', '~> 0.8.0'
+gem "font-awesome-rails", '~> 4.0.0'
 
+
+gem 'simple_form', '~> 3.0.0'
+gem "chartkick"

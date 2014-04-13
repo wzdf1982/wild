@@ -11,28 +11,6 @@
 // about supported directives.
 //
 //= require jquery-1.8.3.min
-//= require jquery.mobile-1.2.1.min
-//= require_tree .
+//= require jquery_ujs
 
-
-var ready = function(){
-  $("#UserCode").bind("focus", function(){
-    var iUserCode=$("#UserCode").val();
-    if(iUserCode.toUpperCase()=='Ericsson Corporate ID'.toUpperCase())
-      {
-        $("#UserCode").val("") ;
-      }
-      var o=document.getElementById("UserCode");
-      o.style.color='#666666';
-  })
-  $("#UserCode").bind("blur", function(){
-    var iUserCode=$("#UserCode").val();
-    if(iUserCode=='')
-      {
-        $("#UserCode").val('Ericsson Corporate ID');
-      }
-      var o=document.getElementById("UserCode");
-      o.style.color='#c8c8c8';
-  })
-}
 

@@ -1,0 +1,10 @@
+div id='title'
+  - if @votee && @votee.title
+    h2 = @votee.title.capitalize
+
+div id='action'
+  div class="buttons"
+    = link_to up_vote_path(@votee), class: "likeable", remote: true, data: { 'ajax' => false } do 
+      = fa_icon "hand-o-up 4 #{@up ? 'up' : ''}"
+    = link_to down_vote_path(@votee), class: "unlikeable", remote: true, data: { 'ajax' => false } do 
+      = fa_icon "hand-o-down 4  #{@down ? 'down' : ''}"

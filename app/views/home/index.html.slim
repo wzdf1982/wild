@@ -6,10 +6,11 @@ table bgcolor="#ececec" height="100%" width="100%"
       table align="center" width="90%" height="70%"
         tr
           td align="center" width="50%"
-            a data-ajax="true" href="schedules"
-              = image_tag("menuSchedule.png", :width => "110")
-            br Schedule
-          td align="center" width="50%"
-            a data-ajax="true" href="feedbacks"
-              = image_tag("menuFeedback.png", :width => "110")
-            br Feedbacks
+            a data-ajax="true" href="votes"
+              = image_tag("menuQuestion.png", :width => "110")
+            br Vote
+          - if current_user_instance.is? :administrator
+            td align="center" width="50%"
+              a data-ajax="true" href="votees"
+                = image_tag("menuFeedback.png", :width => "110")
+              br Questions
