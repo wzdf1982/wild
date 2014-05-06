@@ -1,7 +1,6 @@
 class FeedbacksController < ApplicationController
   before_action :require_login, except: [:index, :statistic]
 
-  layout 'mobile'
   def index
     @activities = Activity.where("room not null").order("start_time asc, position asc")
   end
