@@ -4,14 +4,14 @@ class User < ActiveRecord::Base
     has_many :appointments
     has_many :activities, through: :appointments
 
-    validates :name, format: { with: /\A[a-zA-Z]{5,8}\z/, message: "only a validate Ericsson user id" }
+    # validates :name, format: { with: /\A[a-zA-Z]{5,8}\z/, message: "only a validate Ericsson user id" }
     
     acts_as_voter
     
     ROLES = %w[administrator voter]
 
-    before_save do
-      self.name = name.upcase
+    def self.new_guest
+        new { |u| u.guest = true }
     end
 
     def roles=(roles)

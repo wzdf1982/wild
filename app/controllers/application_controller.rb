@@ -9,20 +9,6 @@ class ApplicationController < ActionController::Base
     session[:user] if session[:user]
   end
 
-  def user_name
-    User.find(current_user).name
-  rescue
-    nil
-  end
-  helper_method :user_name
-
-  def current_user_instance
-    User.find(current_user)
-  rescue
-    nil
-  end
-  helper_method :current_user_instance
-
   def store_location
     if request.get? && request.fullpath !~ /\/login/ && request.fullpath !~ /feedbacks\/\d+/
       session[:previous_url] = request.fullpath
@@ -37,13 +23,15 @@ class ApplicationController < ActionController::Base
   private
 
   def logged_in?
-    !!user_name
+    !!current_user
   end
 
   def require_login
     unless logged_in?
-      flash[:error] = "You must be logged in to access this section"
-      redirect_to login_url
+      user = User.new_guest
+      if user.save
+        session[:user] = user.id
+      end
     end
   end
 end

@@ -1,0 +1,154 @@
+table#schedules {
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+  max-width: 960px;
+  margin: 10px auto;
+
+  .days {
+    td {
+      span {
+        display: block;
+        background-color: #dddbdb;
+        padding: 4px 0 4px 2rem;
+        line-height: 16px;
+        font-size: 12px;
+        color: #666666;
+        font-weight: bold;
+        margin: 10px 1px;
+        border-top: 1px solid #d0cfcf;
+        border-bottom: 1px solid #d0cfcf;
+      }
+    }
+
+  }
+
+  .activity {
+    th {
+      width: 15px;
+      vertical-align: top;
+      padding: 1px 1px 0 0;
+      line-height: 16px;
+      font-size: 12px;
+      color: #666666;
+    }
+
+    td {
+      vertical-align: top;
+      width: 33.3%;
+    }
+
+    .category {
+      text-align: center;
+      margin: 3px 5px 0 0;
+      padding: 2px 0 0 0;
+      height: 100%;
+      overflow-y: hidden;
+      box-shadow: 1px 1px 3px #666666;
+
+      span {
+        line-height: 18px;
+        display: block;
+        height: 100%;
+        color: #fff;
+        text-shadow: none;
+        font-weight: 400;
+      }
+    }
+
+    .type {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .keynote {
+      margin-bottom: 5px;
+      box-shadow: 1px 1px 3px #666666;
+      text-align: center;
+      vertical-align: top;
+
+
+      span {
+        line-height: 18px;
+        display: block;
+        background-color: rgb(102, 185, 255);
+
+        i {
+          a {
+            color: #ececec;
+          }
+        }
+
+        a {
+          display: block;
+          font-weight: bold;
+          color: #fff;
+          text-shadow: none;
+          margin: 0 auto;
+          text-decoration:none;
+        }
+      }
+    }
+  }
+}
+
+#time, #session {
+    th {
+      width: 15px;
+      vertical-align: top;
+      padding: 1px 1px 0 0;
+      line-height: 25px;
+      font-size: 12px;
+      color: #666666;
+    }
+
+    td {
+      vertical-align: middle;
+  }
+}
+
+.track {
+  display: block;
+  margin: 3px 5px 3px 0;
+  padding: 2px 0 0 2px;
+  background-color: rgb(255,153,0);
+  height: 100%;
+  min-height: 56px;
+  overflow-y: hidden;
+  position: relative;
+  box-shadow: 1px 1px 3px #666666;
+  a {
+    display: block;
+    text-decoration:none;
+    color: #fff !important;
+    text-shadow: none;
+    line-height: 16px;
+    font-size: 12px;
+  }
+}
+
+.break {
+  display: block;
+  text-align: center;
+  background-color: #666666;
+  color: #fff;
+  text-shadow:none;
+
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 12px;
+  padding: 1px 0 1px 2px;
+  margin: 3px 0;
+}
+
+.activity_room {
+  font-weight: 300;
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  font-color: #ececec;
+  font-size: 12px;
+  text-shadow: 0 0px 0 #ececec;
+}
+

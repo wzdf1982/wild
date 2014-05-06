@@ -5,9 +5,6 @@ AgileConf::Application.routes.draw do
 
   root "home#index"
 
-  get 'login'     => 'home#login', as: 'login'
-  post 'register' => 'home#register'
-  get 'logout'    => 'home#logout'
   get 'lottery'   => 'lottery#index'
 
   resources :informations, only: [:index, :show]
@@ -29,7 +26,12 @@ AgileConf::Application.routes.draw do
     end
   end
 
-  resources :feedbacks
+  resources :feedbacks do
+    collection do
+      get 'statistic'
+    end
+  end
+  
   resources :responses
   resources :votees do
     member do

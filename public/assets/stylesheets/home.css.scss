@@ -1,0 +1,52 @@
+#color_line {
+ height: 4px;
+}
+
+#bg_top_banner {
+ height: 48px;
+ display: table;
+ width: 100%;
+}
+
+#center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+  span {
+    color: #000000;
+    font-size: 15px;
+  }
+}
+
+#left {
+  display: table-cell;
+  vertical-align: middle;
+  width: 30%;
+}
+
+#right {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  width: 30%;
+}
+
+table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+
+  td {
+    padding: 0;
+  }
+}
+
+#buttons {
+  margin: auto ;
+}
+
+#title {
+  max-width: 100%; 
+  height: auto;
+}

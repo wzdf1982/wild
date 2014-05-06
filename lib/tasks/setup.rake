@@ -21,9 +21,10 @@ namespace :agile do
   task :create_feedback => :environment do
 
     QUESTIONS = [
-      ['1.What is your overall impression of the content of this sessionession?', ['Very valuable', 'Valuable', 'Somewhat valuable', 'Not valuable']],
-      ['2.Do you have any comments on the session (clarity, speaker, usefulness etc.)?', nil],
-      ['3.What other suggestions for Technology & Innovation do yamlou have?',  nil]
+      ["1. How would you rate today's experience at Ericsson WILD Center?", ['1', '2', '3', '4','5']],
+      ['2. How relevant was the presentation content to your business?', ['1', '2', '3', '4','5']],
+      ['3. How relevant were the technical demos to your business?',  ['1', '2', '3', '4','5']],
+      ['4. How likely are you to recommend your colleagues/business associates to visit WILD Center?',  ['1', '2', '3', '4','5']]
     ]
 
     activities = Activity.where("speakers != ''")

@@ -1,5 +1,5 @@
 class FeedbacksController < ApplicationController
-  before_action :require_login, except: [:index]
+  before_action :require_login, except: [:index, :statistic]
 
   layout 'mobile'
   def index
@@ -13,7 +13,12 @@ class FeedbacksController < ApplicationController
     @activity.answers.each do |answer|
       @answers[answer.question.id] = answer if answer.user_id == current_user
     end
+  end
 
+  def statistic
+    @activity = Activity.includes(:questions => :answers).take
+
+    # render json: @activity.answers
   end
 
   def create

@@ -1,0 +1,75 @@
+// Place all the styles related to the vote controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#vote {
+	height: 80%;
+  background-color: #ececec;
+
+	#title {
+	  margin: 0 auto;
+	  height: 30%;
+	  text-align: center;
+	}
+}
+
+.rating{
+  unicode-bidi:bidi-override;
+  direction:rtl;
+  font-size:30px;
+  text-align:center;
+}
+.rating span.star{
+  font-family:FontAwesome;
+  font-weight:normal;
+  font-style:normal;
+  display:inline-block;
+}
+.rating span.star:hover{
+  cursor:pointer
+}
+.rating span.star:before{
+  content:"\f006";
+  padding-right:5px;
+  color:#F81414;
+}
+.rating span.star:hover:before,.rating span.star:hover~span.star:before{
+  content:"\f005";
+  color:#e3cf7a;
+}
+
+#action {
+  display: block;
+  width: 100%;
+  margin-top: 60px;
+
+}
+.buttons{
+  text-align: center;
+}
+
+.buttons i {
+  color: #828282;
+}
+
+.buttons i.fa-up {
+  color: red;
+}
+
+.buttons i.fa-down {
+  color: #2489ce;
+}
+
+.likeable {
+  padding-right: 50px;
+}
+
+.unlikeable {
+  padding-left: 50px;
+}
+
+.fa-2{font-size:2em}
+.fa-3{font-size:4em}
+.fa-4{font-size:7em}
+.fa-5{font-size:12em}
+.fa-6{font-size:20em}

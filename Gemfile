@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 1.2'
 gem "devise"
 gem 'rails_admin'
 gem 'actionpack-page_caching'
-gem 'mysql2'
+# gem 'mysql2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

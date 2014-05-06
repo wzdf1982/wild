@@ -18,10 +18,10 @@ div data-role="content" data-theme="c"
         - answer = @answers[question.id]
         - if answer
           - if question.default_answers.present?
-            - sequences = ['a', 'b', 'c', 'd']
+            - sequences = ['a', 'b', 'c', 'd', 'e']
             - for d_answer in question.default_answers
               - version = sequences.pop
-              - if question.default_answers.include? answer[:content]
+              - if d_answer == answer[:content]
                 input type="radio" name="answers[#{question.id}]" id="answers-#{question.id}-#{version}" value= d_answer checked="checked"
               - else
                 input type="radio" name="answers[#{question.id}]" id="answers-#{question.id}-#{version}" value= d_answer
@@ -31,7 +31,7 @@ div data-role="content" data-theme="c"
             = text_area_tag "answers[#{question.id}]", answer[:content]
         - else
           - if question.default_answers.present?
-            - sequences = ['a', 'b', 'c', 'd']
+            - sequences = ['a', 'b', 'c', 'd', 'e']
             - for d_answer in question.default_answers
               - version = sequences.pop
               input type="radio" name="answers[#{question.id}]" id="answers-#{question.id}-#{version}" value= d_answer

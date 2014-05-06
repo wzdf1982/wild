@@ -1,0 +1,60 @@
+// Place all the styles related to the information controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//
+
+#info_items {
+  margin-top: 10px;
+  list-style:none;
+  padding: 0;
+  text-shadow: 0 1px 0 #fff;
+  color: #0354a0;
+  font-size: 17px;
+}
+
+.info_item {
+  display: block;
+  margin: 0;
+  position: relative;
+  overflow: visible;
+  text-align: left;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: gray;
+  background: url(<%= asset_data_uri 'bgItem.png' %>);
+  height: 50px;
+
+  .info_title {
+    font-family: "Source Sans Pro", Helvetica, Verdana, sans-serif;
+
+  a {
+      display: block;
+      padding: 0.7em 15px;
+      padding-right: 85px;
+      padding-left: 1.6em;
+      text-decoration: none;
+    }
+  }
+
+  .arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    margin-top: -9px;
+  }
+}
+
+#content {
+  width: 95%;
+  margin: 10px auto;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      line-height: 16px;
+      font-size: 12px;
+    }
+  }
+}

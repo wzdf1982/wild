@@ -22,7 +22,6 @@
 
 	function ramdonIt() {
 		result = Math.round( Math.random() * candidates.length + .5 ) - 1;
-  	console.log(candidates[result]);
 		flicker.html(candidates[result]);
 		t = setTimeout("startLottery()", 100);
 	}
