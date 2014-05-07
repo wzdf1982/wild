@@ -1,9 +1,16 @@
 table bgcolor="#ececec" height="100%" width="100%"
   tr
     = render 'header'
+  - if flash[:notice]
+    tr class="flash_notice"
+      td class="notice"
+        = flash[:notice]
   tr
     td height="100%" valign="middle"
-      table align="center" width="90%" height="70%"
+      table align="center" width="90%" height="80%"
+        tr
+          td align="center" width="50%"
+            = image_tag('TitleNew.jpg', id: 'title')              
         tr
           td align="center" width="50%"
             a data-ajax="true" href= feedback_path(@activity)

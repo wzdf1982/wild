@@ -47,3 +47,10 @@ function refreshPage() {
     }
   );
 }
+
+$( function() {
+  if( $(".flash_notice").size() > 0 )
+  {
+    setTimeout(function() { $(".flash_notice").slideUp("slow").remove();}, 3000);
+  }
+});

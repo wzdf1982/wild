@@ -42,7 +42,8 @@ class FeedbacksController < ApplicationController
         answer.save
       end
     end
-
+    
+    flash[:notice] = "Thanks for your voting!"
     redirect_back_or schedule_path(answer.question.activity)
   end
 end
