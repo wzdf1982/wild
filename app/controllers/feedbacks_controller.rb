@@ -15,7 +15,7 @@ class FeedbacksController < ApplicationController
   end
 
   def statistic
-    @activity = Activity.includes(:questions => :answers).take
+    @activity = Activity.includes(:questions => :answers).last
 
     # render json: @activity.answers
   end
